@@ -1,0 +1,5 @@
+@media only screen and (max-width: 360px) and (min-height: 640px){
+    #home,.bg{height: 130vh;}
+    #nossaempresa{height: 200vh;}
+    .button1{width: 80vw;}
+}

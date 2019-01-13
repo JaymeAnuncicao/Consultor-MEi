@@ -1,0 +1,76 @@
+
+.navbar{
+    height: 15vh;
+    font-size: 3vh;
+}
+.bg-darkblue{
+    background-color: rgba(0,0,139,1)
+}
+.bg{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.text{
+    margin-bottom: 10vh;
+    color: darkblue;
+}
+.marge{
+    margin-top: 15%;
+}
+.margem{
+    margin-top: 30%;
+}
+.button {
+    background-color: darkblue; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    border-radius: 5px;
+    width: 50vh;
+    margin-bottom: 5%;   
+}
+/* ------ LINHA SPAN---- */
+span {
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+}
+span::after {
+    content: "";
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    width: 100%;
+    height: 0.5vh;
+    background-color: darkblue;
+}
+.afas{
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+#afas{
+    margin-left: 5%;
+}
+/*------ AJEITANDO O ACCORDION----- */
+.acorde{
+    margin-left: 35%; 
+    margin-top:-45vh;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.accordion{
+    width: 130vh;
+}
+.fas{
+    margin-top: 3%;
+}

@@ -1,0 +1,74 @@
+/* cor da navbar:rgb(4,30,65); */
+/* cor da seleção:rgb(1,130,202); */
+
+/* ------------------------NAVBAR:INICIO------------------------------ */
+.navbar{height: 12vh;font-size: 3vh;}
+.bg-darkblue{background-color: #041e41;}
+.bg-darkblue-light{background-color: rgba(4,30,65,0.4);}
+.bg{height: 100%;background-color: rgba(0, 0, 0, 0.5);}
+ul {height: 12vh;}
+.move{width: 22vw;}
+.efect:hover{background-color: #0182ca !important;background-size: 100px;}
+#navLogo{opacity: 0;}
+/* --------------------------------NAVBAR:FIM------------------------- */
+
+/* ------------------------------HOME:INICIO------------------------------------ */
+#home{height: 100vh; background-image: url('../media/img/img-home.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
+.texto{color:rgb(4,30,65);}
+.marge{height: 15vh;}
+.margem{margin-top: 12%;}
+.button {background-color: rgb(0, 61, 118);border: none;color: white;padding: 0px;text-align: center;text-decoration: none;display: inline-block;font-size: 40px;margin: 4px 2px;cursor: pointer;}
+
+.button1 {border-radius: 5px;width: 23vw;height: 10vh;}
+/* --------------------------------HOME:FIM--------------------------------------------- */
+
+
+/* ---------------NOSSA EMPRESA:INICIO----------- */
+#nossaempresa{ height: 70vh;}
+.ipsum{font-size: 30px;}
+/* ---------------NOSSA EMPRESA:FIM----------- */
+
+
+/* --------------FUNCIONALIDADES : INICIO----------- */
+#funcionalidades{height: 90vh;}
+hr{border: none;}
+.func{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-right: -0.5vw;}
+.func1{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-left: -0.5vw;}
+.linha2{background-color: rgb(241, 207, 54);height: 5px;width: 10%;}
+.button2{font-size: 16px;width: 30vw;height: 7vh;border-radius: 6px;}
+.iphone{border-radius: 30px;}
+.anchors{height: 1px;}
+/* --------------FUNCIONALIDADES : FIM----------- */
+
+
+/*--------------------------------CARTÃO MEi:INICIO-------------------- */
+#cartao{background-color: rgb(246, 250, 255);height: 70vh;}
+/*--------------------------------CARTÃO MEi:FIM------------------------*/
+
+
+
+/*-------------- NOTICIAS----------- */
+#noticias{height: 50vh;background-color: rgb(246, 250, 255);}
+.desce{margin-bottom: -10vh;}
+.linha{background-color: rgb(4,30,65);height: 3px;margin-top: -1vh;margin-bottom: 5vh;width: 10%;}
+#news{ height: 25vh;}
+.backg{background-color:white;height: 25vh;}
+.carousel-control-next-icon{background-image: url('../Media/img/right.png');height: 5vh;width: 2.5vw;}
+.carousel-control-prev-icon{background-image: url('../Media/img/left.png');height: 5vh;width: 2.5vw;}
+.carousel-indicators .active{background-color: rgb(1,130,202);}
+.carousel-indicators li{height: 10px;width: 10px;border-radius: 50%;background-color: rgb(204, 204, 204);}
+
+/*----------------------------MODAL------------------*/
+.input1{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 20vw; height: 6.5vh;padding-left: 10px; }
+.input{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 10vw; height: 6.5vh;padding-left: 10px;}
+
+
+/*---------------------------- CONTATOS:  INCIO------------------- */
+#contatos{height: 85vh; background-image: url('../Media/img/img-contatos.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
+.conta1{border: 1px solid ;border-radius: 4px;border-color:rgb(4, 30, 65); width: 30vw; height: 6.5vh;padding-left: 10px;}
+.conta{border: 1px solid ;border-radius: 4px;border-color:rgb(2, 24, 53); width: 12vw; height: 6.5vh;padding-left: 10px;}
+#cemail{width: 16.6vw;}
+textarea {width: 30vw;height: 150px;padding: 12px 20px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;background-color: #f8f8f8;resize: none;}
+.termos{color: white;}
+#footer{background-color:rgb(0, 61, 118); }
+.blank{height: 1vh;background-color: white;}
