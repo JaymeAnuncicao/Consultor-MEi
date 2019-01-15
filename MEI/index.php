@@ -1,4 +1,3 @@
-
 <?php
     session_start();
     $_SESSION['usuario'] = '';
@@ -86,7 +85,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-----TITLE---->
-    <title>MEI</title>
+    <title>Consultoria MEI</title>
     <!-------FONTS------>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-----PLUGINS CSS---->
@@ -95,6 +94,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="css/linearicons.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
@@ -103,13 +103,13 @@
 <body>
     <!---------------------NAVBAR-------------->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue fixed-top" id="Navbar">
+        <nav class="navbar navbar-expand-lg  fixed-top" id="Navbar">
             <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="navLogo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ml-5 navtam">
+                <ul class="navbar-nav ml-5 ">
                     <li class="nav-item active efect ">
                         <a class="nav-link nav-item text-white mt-3 " href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -145,9 +145,9 @@
     
     <!----------------------HOME-------------------->
     <section id="home" class="container-fluid">
-        <div class="row bg">
-            <div class="col-md-12 text-center text-white margem">
-                <img src="Media/img/logo_new.png" width="300" height="300" id="homeLogo">
+        <div class="row bg-luz">
+            <div class="col-md-12 text-center margem">
+                <img src="Media/img/logo.png" width="300" height="300" id="homeLogo">
                 <h1 class="mt-5">A melhor resposta sua micro ou pequena empresa</h1>
                 <h4 class="mt-3">Você tem dúvidas? Nós respondemos</h4>
                 <a href="#"><button class="button button1 mt-5 hvr-grow">SAIBA MAIS</button></a>
@@ -160,9 +160,9 @@
     <!--------------------------------------NOSSA EMPRESA:INICIO----------------------------------------------------------------->
 
     <section id="nossaempresa" class="container-fluid">
-        <div class="row container-fluid justify-content-center">
+        <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
-                <h1 class="texto ">Aprenda mais sobre a</h1>
+                <h2 class="texto ">Aprenda mais sobre a</h2>
                 <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo</p>
             </div>
             <div class="col-md-6 mt-5 ml-5">
@@ -175,7 +175,7 @@
     <div class="anchors" id="anchorfunction"></div>                
     <!-----------------------------FUNCINALIDADES:INICIO--------------------------->
     <section id="funcionalidades" class="container-fluid">
-        <h1 class="texto text-center">FUNCIONALIDADES</h1>
+        <h3 class="texto text-center">FUNCIONALIDADES</h1>
         <hr noshade class="linha2  text-center">
      
         <div class="row justify-content-center ">
@@ -183,30 +183,30 @@
             <div class="col-md-4 text-right ">
                 <div class="row justify-content-end">   
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 1</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 1</h5></a>
                         <hr noshade class="func">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 2</h5></a>
-                        <hr noshade class="func">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 2</h5></a>
+                        <hr noshade class="func ">
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 3</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 3</h5></a>
                         <hr noshade class="func">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 4</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 4</h5></a>
                         <hr noshade class="func">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
             </div>
@@ -220,30 +220,30 @@
             <div class="col-md-4 ">
                 <div class="row">
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 5</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 5</h5></a>
                         <hr noshade class="func1">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 6</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 6</h5></a>
                         <hr noshade class="func1">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 7</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 7</h5></a>
                         <hr noshade class="func1">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto">Funcionalidade 8</h5></a>
+                        <a href="#"><h5 class="texto ajust">Funcionalidade 8</h5></a>
                         <hr noshade class="func1">
-                        <p>Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,91 @@
         </div>
     </section>
     <!-----------------------------FUNCINALIDADES:FIM--------------------------->
-    
+    <div class="anchors" id="anchorplanos"></div>
+
+    <!----------------------------PLANOS:INICIO--------------------------------->
+    <section class="price-area " id="planos">
+				<div class="container">
+					<div class="row section-gap">
+						<div class="col-lg-3 col-md-6 single-price">
+							<div class="top-part">
+								<h1 class="package-no">01</h1>
+								<h4>Econômico</h4>
+								<p class="mt-10 mody">Individual</p>
+							</div>
+							<div class="package-list text-center">
+								<ul>
+									<li class="text-mody">Secure Online Transfer</li>
+									<li class="text-mody">Unlimited Styles for interface</li>
+									<li class="text-mody">Reliable Customer Service</li>
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h1>R$ 199.00</h1>
+								<a class="price-btn text-uppercase" href="#">Compre agora</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 single-price">
+							<div class="top-part">
+								<h1 class="package-no">02</h1>
+								<h4>Business</h4>
+								<p class="mt-10 mody">Individual</p>
+							</div>
+							<div class="package-list">
+								<ul>
+									<li class="text-mody">Secure Online Transfer</li>
+									<li class="text-mody">Unlimited Styles for interface</li>
+									<li class="text-mody">Reliable Customer Service</li>
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h1>R$ 299.00</h1>
+								<a class="price-btn text-uppercase" href="#">Compre agora</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 single-price">
+							<div class="top-part">
+								<h1 class="package-no">03</h1>
+								<h4>Premium</h4>
+								<p class="mt-10 mody">Individual</p>
+							</div>
+							<div class="package-list">
+								<ul>
+									<li class="text-mody">Secure Online Transfer</li>
+									<li class="text-mody">Unlimited Styles for interface</li>
+									<li class="text-mody">Reliable Customer Service</li>
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h1>R$ 399.00</h1>
+								<a class="price-btn text-uppercase" href="#">Compre agora</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 single-price">
+							<div class="top-part">
+								<h1 class="package-no">04</h1>
+								<h4>Exclusivo</h4>
+								<p class="mt-10 mody ">Individual</p>
+							</div>
+							<div class="package-list">
+								<ul>
+									<li class="text-mody ">Secure Online Transfer</li>
+									<li class="text-mody">Unlimited Styles for interface</li>
+									<li class="text-mody">Reliable Customer Service</li>
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h1>R$ 499.00</h1>
+								<a class="price-btn text-uppercase" href="#">Compre agora</a>
+							</div>
+						</div>																		
+					</div>
+				</div>	
+			</section>
+    <!----------------------------PLANOS:FIM------------------------------------>
+
+
+
     <div class="anchors" id="anchorcard"></div>
     <!----------------------------------CARTÃO MEi:INICIO---------------------->
     <section id="cartao" class="container-fluid">
@@ -274,6 +358,61 @@
         </div>
     </section>
     <!----------------------------------CARTÃO MEi:FIM-------------------------->
+    <!---------------------------------DEPOIMENTOS: INICIO---------------------->
+    <!-- Start testimonial Area -->
+    <section class="testimonial-area section-gap">
+		        <div class="container">
+		            <div class="row d-flex justify-content-center">
+		                <div class="menu-content pb-70 col-lg-8">
+		                    <div class="title  text-center">
+                                <h1 class=" texto">Depoimentos</h1>
+                                <hr noshade class="linha mb-5  text-center">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="row">
+		                <div class="active-testimonial">
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src="Media/img/user1.png" alt="">
+		                        </div>
+		                        <div class="desc">
+		                            <p>
+		                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.		     
+		                            </p>
+		                            <h4>Cristiana Oliveira</h4>
+		                            <p>Lorem ipsum dorlor</p>
+		                        </div>
+		                    </div>
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src="Media/img/user2.png" alt="">
+		                        </div>
+		                        <div class="desc">
+		                            <p>
+		                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		                            </p>
+		                            <h4>Felipe Carvalho</h4>
+		                            <p>Lorem ipsum dorlor</p>
+		                        </div>
+		                    </div>
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src="Media/img/user3.png" alt="">
+		                        </div>
+		                        <div class="desc">
+		                            <p>
+		                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		                            </p>
+		                            <h4>Carlos Ferreira</h4>
+		                            <p>Lorem ipsum dorlor</p>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+    <!---------------------------------DEPOIMENTOS: FIM---------------------->
 
     <div class="anchors" id="anchornews"></div>                
 
@@ -299,7 +438,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" alt="">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -317,7 +456,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" alt="">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -341,7 +480,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" alt="">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -359,7 +498,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" alt="">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -383,7 +522,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -401,7 +540,7 @@
                                 <div class="col-md-4 backg ml-5">
                                     <div class="row">
                                         <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" alt="">
+                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
                                         </div>
                                         <div class="mt-3 col-md-4 ml-3">
                                         <?php
@@ -439,14 +578,14 @@
     <section id="contatos" class="container-fluid">
         <div class="row bg  align-itens-center">
             <div class="row justify-content-center container-fluid">
-            <div class="col-12 col-sm-4 mt-5">
-                <h1 class="text-white mt-5 mb-5">Entre em contato conosco</h1>
-                <form action="" method="post">
+            <div class="col-12 col-sm-4 mt-5 sendemail">
+                <h2 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
+                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                     <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1 texto" placeholder="Nome">                            
-                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-3 conta texto" id="cemail"placeholder="E-email">
+                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta texto" id="cemail"placeholder="E-email">
                     <input type="text" name="telefone" class="z-depth-1  mb-3 conta texto" placeholder="Telefone">
                     <input type="text" name="motivo" class="z-depth-1  mb-3 conta1 texto" placeholder="Motivo do contato">
-                    <textarea name="mensagem" placeholder="Mensagem..." id="" cols="30" rows="10"></textarea>
+                    <textarea name="mensagem" placeholder="Mensagem..." id="mensage" cols="30" rows="10"></textarea>
                         
                 </form>    
                 <div class="row justify-content-center">
@@ -455,7 +594,7 @@
             </div>
             </div>
             <div class="row justify-content-end container-fluid ">
-            <h5 class="text-white text-right">Links Úteis: <a href="#" class="termos"><i class="fas fa-paste"></i>Termos de uso</a>  <a href="#" class="termos"class="termos"><i class="far fa-folder-open"></i>Politica de privacidade</a></h6>
+                <h6 class="text-white text-right uso">Links Úteis: <a href="#" class="termos"><i class="fas fa-paste"></i>Termos de uso</a>  <a href="#" class="termos"class="termos"><i class="far fa-folder-open"></i>Politica de privacidade</a></h6>
             </div>
         </div>
     </section>                                            
@@ -463,7 +602,7 @@
     <footer id="footer" class="container-fluid">
         
         <div class="row justify-content-center text-white">
-            <h4>Desenvolvido por Praxis - Empresa Junior. 2018.Todos os direitos</h2>
+            <h4 class="creditos">Desenvolvido por Praxis - Empresa Junior. 2018.Todos os direitos</h2>
         </div>
      </footer>
    <!--------------------CONTATOS:FIM--------------------------------> 
@@ -525,15 +664,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
-
-
-<?php
-
-  
-
-
-
-?>

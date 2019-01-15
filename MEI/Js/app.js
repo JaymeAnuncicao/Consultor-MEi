@@ -23,11 +23,17 @@ $(window).scroll(function(){
 		$("#ourenterprise").css("background-color", "#041e41");
 	}
 	// SCROLLSPY--FUNCIONALIDADES
-	if(scroll+( $('nav').innerHeight()) > $("#anchorfunction").offset().top && scroll < $("#anchorcard").offset().top-( $('nav').innerHeight())){
+	if(scroll+( $('nav').innerHeight()) > $("#anchorfunction").offset().top && scroll < $("#anchorplanos").offset().top-( $('nav').innerHeight())){
 		$("#functions").css("background-color", "#0182ca");
 	}else{
 		$("#functions").css("background-color", "#041e41");
 	}
+	// SCROLL--PLANOS
+	if(scroll+( $('nav').innerHeight()) > $("#anchorplanos").offset().top && scroll < $("#anchorcard").offset().top-( $('nav').innerHeight())){
+		$("#plans").css("background-color", "#0182ca");
+	}else{
+		$("#plans").css("background-color", "#041e41");
+	}	
 	// SCROLLSPY--NOTICIAS
 	if(scroll+( $('nav').innerHeight()) > $("#anchornews").offset().top && scroll < $("#anchorcontatos").offset().top-( $('nav').innerHeight())){
 		$("#notice").css("background-color", "#0182ca");
@@ -47,3 +53,62 @@ $(window).scroll(function(){
 $(window).scroll(function(){
 	$("#navLogo").css("opacity", 0 + $(window).scrollTop() / 200);
 });
+
+ //------- Owl Carusel  js --------//  
+
+ $('.active-review-carusel').owlCarousel({
+	items:1,
+	loop:true,
+	autoplay:true,
+	autoplayHoverPause: true,        
+	margin:30,
+	dots: true
+});
+
+ $('.active-testimonial').owlCarousel({
+		items: 2,
+		loop: true,
+		margin: 30,
+		autoplayHoverPause: true,
+		dots: true,
+		autoplay: true,
+		nav: true,
+		navText: ["<span class='lnr lnr-arrow-up'></span>", "<span class='lnr lnr-arrow-down'></span>"],
+		responsive: {
+			0: {
+				items: 1
+			},
+			480: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+			}
+		}
+	});
+
+
+
+$('.active-brand-carusel').owlCarousel({
+	items: 5,
+	loop: true,
+	autoplayHoverPause: true,
+	autoplay: true,
+	responsive: {
+		0: {
+			items: 1
+		},
+		455: {
+			items: 2
+		},            
+		768: {
+			items: 3,
+		},
+		991: {
+			items: 4,
+		},
+		1024: {
+			items: 5,
+		}
+	}
+}); 
