@@ -92,6 +92,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="css/teste.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/hover-min.css">
     <link rel="stylesheet" type="text/css" href="css/linearicons.css">
@@ -157,21 +158,21 @@
     <div class="marge"  id="anchorempresa"></div>
     <div class="marge" id="enterprise"></div>
 
-    <!--------------------------------------NOSSA EMPRESA:INICIO----------------------------------------------------------------->
-
+    <!--------------------------------------NOSSA EMPRESA:INICIO------------------------------------------------>
     <section id="nossaempresa" class="container-fluid">
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
                 <h2 class="texto ">Aprenda mais sobre a</h2>
                 <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo</p>
             </div>
-            <div class="col-md-6 mt-5 ml-5">
-                <iframe class="embed-responsive embed-responsive-21by9" height="415"  src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-md-6 ">
+                <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
     <div class="anchor"><hr noshade></div>
-    <!--------------------------------------NOSSA EMPRESA:FIM----------------------------------------------------------------->
+    <!--------------------------------------NOSSA EMPRESA:FIM----------------------------------------------->
+
     <div class="anchors" id="anchorfunction"></div>                
     <!-----------------------------FUNCINALIDADES:INICIO--------------------------->
     <section id="funcionalidades" class="container-fluid">
@@ -342,25 +343,26 @@
     <div class="anchors" id="anchorcard"></div>
     <!----------------------------------CARTÃO MEi:INICIO---------------------->
     <section id="cartao" class="container-fluid">
-        <div class="row  justify-content-around align-items-end">
+        <div class="row  justify-content-around  align-items-end">
             <div class="col-md-4 mt-5">
                 <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" alt="" width="350" height="200"></div>
-                <div class="row text-justify mt-4">
+                <div class="row text-justify mt-4 ">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="row justify-content-center"><img src="Media/img/faq-icon.png" alt="" width="350" height="200"></div>
-                <div class="row text-justify mt-4">
+                <div class="row text-justify mt-4 ">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
                 </div>
             </div>
         </div>
     </section>
     <!----------------------------------CARTÃO MEi:FIM-------------------------->
+
     <!---------------------------------DEPOIMENTOS: INICIO---------------------->
     <!-- Start testimonial Area -->
-    <section class="testimonial-area section-gap">
+    <section class="testimonial-area section-gap container-fluid">
 		        <div class="container">
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content pb-70 col-lg-8">
@@ -416,160 +418,128 @@
 
     <div class="anchors" id="anchornews"></div>                
 
-    <!-------------------NOTICIAS:INICIO---------------------->
+
     <section id="noticias" class="container-fluid">
-        <div class="row">
-            <div class="col text-center">
-                <h1 class="texto">Noticias</h1>
-                <hr noshade class="linha float-center">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content mt-5 col-lg-8">
+                <div class="title  text-center">
+                    <h1 class="texto">Noticias</h1>
+                    <hr noshade class="linha mb-5  text-center">
+                </div>
             </div>
-        </div> 
-        <div id="news">
-                <div id="carouselExampleIndicators" class="carousel slide ml-5 " data-ride="carousel">
-                    <ol class="carousel-indicators desce">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row justify-content-center">
-                            <!------------------PRIMEIRO PAR DE NOTICIAS:INCIO---------------->
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!------------------PRIMEIRO PAR DE NOTICIAS:FIM---------------->
-                            </div>
+        </div>
+        <div class="row">
+            <div class=" container">
+                <div class="active-news">
+                    <div class="single-news item d-flex flex-row">
+                        <div class="col-md-6 d-flex thumblr">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" >
                         </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                            <!------------------SEGUNDO PAR DE NOTICIAS:INCIO---------------->
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!------------------SEGUNDO PAR DE NOTICIAS:FIM---------------->
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                            <!------------------TERCEIRO PAR DE NOTICIAS:INICIO---------------->
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 backg ml-5">
-                                    <div class="row">
-                                        <div class="mt-3 col-md-4 mr-5">
-                                            <img src="Media/img/slide1.jpg" width="220" height="150" class="img-news">
-                                        </div>
-                                        <div class="mt-3 col-md-4 ml-3">
-                                        <?php
-                                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                            $id=$user['id'];
-                                            if(isset($user['titulo'])){
-                                                echo('<p class="text-danger">'.ucfirst($user['assunto']). '</p>');  
-                                                echo('<p>'.ucfirst($user['titulo']). '</p>');
-                                            }else{echo('Sem noticia.');}
-                                        ?>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!------------------TERCEIRO PAR DE NOTICIAS:FIM---------------->
-                            </div>
+                        <div class="col-md-6 desc-news">
+                            <!-- <h4>Seu dinheiro</h4>
+                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
                         </div>
                     </div>
-                    <a class="carousel-control-prev mr-5" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="single-news item d-flex flex-row">
+                        <div class="thumblr col-md-6 d-flex">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                        </div>
+                        <div class="desc-news col-md-6">
+                                <!-- <h4>Seu dinheiro</h4>
+                                <h6>Site mostra as melhores consultoras do ano</h6> -->
+                                <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
+                        </div>
+                    </div>
+                    <div class="single-news item d-flex flex-row">
+                        <div class="thumblr col-md-6 d-flex">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <!-- <h4>Seu dinheiro</h4>
+                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
+                        </div>
+                    </div>
+                    <div class="single-news item d-flex flex-row">
+                        <div class="thumblr col-md-6 d-flex">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <!-- <h4>Seu dinheiro</h4>
+                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
+                        </div>
+                    </div>
+                    <div class="single-news item d-flex flex-row">
+                        <div class="thumblr col-md-6 d-flex">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <!-- <h4>Seu dinheiro</h4>
+                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
+                        </div>
+                    </div>
+                    <div class="single-news item d-flex flex-row">
+                        <div class="thumblr col-md-6 d-flex">
+                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <!-- <h4>Seu dinheiro</h4>
+                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            <?php
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                if(isset($user['titulo'])){
+                                    echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
+                                    echo('<h6>'.ucfirst($user['titulo']). '</h6>');
+                                }else{echo('Sem noticia.');}
+                            ?>
+                        </div>
+                    </div>
                 </div>
+            </div>
         </div>
+        
     </section>
+    <!-------------------NOTICIAS:INICIO---------------------->
+    
     <!--------------------NOTICIAS:FIM-------------------------------->
 
     <div class="anchors" id="anchorcontatos"></div>
@@ -578,9 +548,9 @@
     <section id="contatos" class="container-fluid">
         <div class="row bg  align-itens-center">
             <div class="row justify-content-center container-fluid">
-            <div class="col-12 col-sm-4 mt-5 sendemail">
+            <div class="col-12 col-md-4 mt-5 sendemail">
                 <h2 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
-                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="sendmail">
                     <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1 texto" placeholder="Nome">                            
                     <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta texto" id="cemail"placeholder="E-email">
                     <input type="text" name="telefone" class="z-depth-1  mb-3 conta texto" placeholder="Telefone">

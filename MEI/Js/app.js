@@ -112,3 +112,46 @@ $('.active-brand-carusel').owlCarousel({
 		}
 	}
 }); 
+
+
+// $('.active-news').owlCarousel({
+// 	items: 2,
+//     loop:true,
+//     margin:300,
+//     autoplayHoverPause: true,
+// 	dots: true,
+// 	autoplay: true,
+// 	nav: true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// })
+$('.active-news').owlCarousel({
+	items: 2,
+	loop: true,
+	margin: 30,
+	autoplayHoverPause: true,
+	dots: true,
+	autoplay: true,
+	nav: true,
+	navText: ["<span class='lnr lnr-arrow-up'></span>", "<span class='lnr lnr-arrow-down'></span>"],
+	responsive: {
+		0: {
+			items: 1
+		},
+		480: {
+			items: 1,
+		},
+		768: {
+			items: 2,
+		}
+	}
+});
