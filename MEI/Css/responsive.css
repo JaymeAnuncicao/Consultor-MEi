@@ -9,6 +9,44 @@
     .conta{width: 26vh;}
     .marge{height: 7.5vh;}
 }
+/* -------IPHONE 5/SE----- */
+@media only screen and (max-width: 320px) and (min-height: 568px){
+    #home{height: 160vh;}
+    .iphone{display: none;}
+    .bg{height: 100%;}
+    .button1{width: 80vw;}
+    .margem{margin-top: 25%;}
+    #nossaempresa{height: 230vh;}
+    .iframe{width: 80vw;height: 50vh !important;margin: 0;}
+    .alin{text-align: center;}
+    #funcionalidades{height: 260vh !important;}
+    .ajust{text-align: center;}
+    .func{margin-left: 23vw;width: 50%;}
+    .func1{margin-left: 23vw;width: 50%;}
+    .button2{width: 80vw;}
+    .linha2{width: 50%;}
+    #cartao{height: 230vh !important;}
+    .text-modi{padding: 0px 30px;}
+    #img-faq{margin-top: 5vh;width: 80vw;}
+    #img-card{width: 80vw;}
+    .testimonial-area{height: 100vh !important;}
+    #noticias{height: 85vh !important;}
+    .img-news   {display: none !important;}
+    #news{margin-left: -15vw;}
+    .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
+    .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
+    /* .img-news{height: 15vh;margin-left: 5vw;} */
+    .backg{height: 30vh;}
+    #contatos{height: 120vh;}
+    .btn-contat{width: 80vw;}
+    .conta1{width: 80vw;}
+    .conta{width: 34.5vw;}
+    #cemail{width: 43vw;}
+    #mensage{width: 80vw;}
+    .creditos{text-align: center;}
+    .uso{width: 100%;}
+    .sendemail{margin-left: 10vw;}
+}
 /*---------GALAXY S5------ */
 @media only screen and (max-width: 360px) and (min-height: 640px){
     #home{height: 130vh;}
@@ -95,7 +133,10 @@
     .button2{width: 70vw;}
     .linha2{width: 50%;}
     #cartao{height: 180vh;}
+    .text-modi{padding: 0px 30px;}
+    #img-faq{margin-top: 5vh;}
     #noticias{height: 85vh;}
+    .img-news{display: none !important;}
     #news{margin-left: -15vw;}
     .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
     .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
@@ -108,4 +149,16 @@
     .creditos{text-align: center;}
     .uso{width: 100%;}
     .sendemail{margin-left: 10vw;}
+}
+/* ----------PIXEL XL--------- */
+@media only screen and (max-width: 411px) and (min-height: 823px){
+    .margem{margin-top: 30%;}
+    #home{height: 110vh;}
+    #funcionalidades{height: 150vh;}
+    #cartao{height: 150vh;}
+    .conta1{width: 80vw;}
+    .conta{width: 33vw;}
+    #cemail{width: 45vw;}
+    .sendemail{margin-left: 13vw;}
+    #contatos{height: 100vh;}
 }

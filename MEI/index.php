@@ -14,7 +14,7 @@
     if(isset($_POST['nomeEmpresa'],$_POST['nomeResponsavel'], $_POST['email'],$_POST['senha'],$_POST['estado'],$_POST['CNPJ'],$_POST['CNAE'])){
         $nomeEmpresa=$_POST['nomeEmpresa'];
         $nomeResponsavel=$_POST['nomeResponsavel'];
-        $email=$_POST['email'];
+        $email=$_POST['email']; 
         $senha=sha1($_POST['senha']);
         $estado=$_POST['estado'];
         $CNPJ=$_POST['CNPJ'];
@@ -345,14 +345,14 @@
     <section id="cartao" class="container-fluid">
         <div class="row  justify-content-around  align-items-end">
             <div class="col-md-4 mt-5">
-                <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" alt="" width="350" height="200"></div>
-                <div class="row text-justify mt-4 ">
+                <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" alt="" id="img-card" width="350" height="200"></div>
+                <div class="row text-justify mt-4 text-modi">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row justify-content-center"><img src="Media/img/faq-icon.png" alt="" width="350" height="200"></div>
-                <div class="row text-justify mt-4 ">
+                <div class="row justify-content-center"><img src="Media/img/faq-icon.png" id="img-faq" width="350" height="200"></div>
+                <div class="row text-justify mt-4 text-modi">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
                 </div>
             </div>
@@ -572,7 +572,7 @@
     <footer id="footer" class="container-fluid">
         
         <div class="row justify-content-center text-white">
-            <h6 class="creditos">© Desenvolvido por Praxis - Empresa Jr.2018.Todos os direitos reservados</h2>
+            <h6 class="creditos">© Desenvolvido por Praxis - Empresa Jr.2018.Todos os direitos reservados</h6>
         </div>
      </footer>
    <!--------------------CONTATOS:FIM--------------------------------> 
