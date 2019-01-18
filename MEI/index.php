@@ -110,7 +110,7 @@
                 <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ml-5 ">
+                <ul class="navbar-nav ml-3 ">
                     <li class="nav-item active efect ">
                         <a class="nav-link nav-item text-white mt-3 " href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -118,7 +118,7 @@
                         <a class="nav-link text-white mt-3" href="#enterprise">Nossa Empresa</a>
                     </li>
                     <li class="nav-item efect" id="functions">
-                        <a class="nav-link text-white mt-3" href="#funcionalidades">Funcinalidades</a>
+                        <a class="nav-link text-white mt-3" href="#funcionalidades">Funcionalidades</a>
                     </li>
                     <li class="nav-item efect" id="plans">
                         <a class="nav-link text-white mt-3" href="#planos">Planos</a>
@@ -163,7 +163,7 @@
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
                 <h2 class="texto ">Aprenda mais sobre a</h2>
-                <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo</p>
+                <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor similique eius nihil dolorem voluptas facilis accusamus quasi nemo animi id esse enim, facere fugiat reiciendis consequuntur nisi. Blanditiis, repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorum at fuga, ipsam numquam libero fugit quibusdam. </p>
             </div>
             <div class="col-md-6 ">
                 <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -214,7 +214,7 @@
         <!----------------------------BLOCO 1:FIM------------------------>
 
         <!----------------------------IMG-IPHONE:INICIO------------------------>
-            <div class="col-md-4 text-center "><img src="Media/img/iphone.jpg" alt=""></div>
+            <div class="col-md-4 text-center iphone"><img src="Media/img/iphone.jpg" alt=""></div>
         <!----------------------------IMG-IPHONE:FIM------------------------>
         
         <!--------------------------BLOCO 2:INICIO------------------------------>
@@ -433,7 +433,7 @@
                 <div class="active-news">
                     <div class="single-news item d-flex flex-row">
                         <div class="col-md-6 d-flex thumblr">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" >
+                            <img class="img-fluid img-news " src="Media/img/img-home.jpg" >
                         </div>
                         <div class="col-md-6 desc-news">
                             <!-- <h4>Seu dinheiro</h4>
@@ -450,7 +450,7 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
                                 <!-- <h4>Seu dinheiro</h4>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
                             <!-- <h4>Seu dinheiro</h4>
@@ -484,7 +484,7 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
                             <!-- <h4>Seu dinheiro</h4>
@@ -501,7 +501,7 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
                             <!-- <h4>Seu dinheiro</h4>
@@ -518,7 +518,7 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid" src="Media/img/img-home.jpg" width="300" height="150">
+                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
                             <!-- <h4>Seu dinheiro</h4>
@@ -572,7 +572,7 @@
     <footer id="footer" class="container-fluid">
         
         <div class="row justify-content-center text-white">
-            <h4 class="creditos">Desenvolvido por Praxis - Empresa Junior. 2018.Todos os direitos</h2>
+            <h6 class="creditos">© Desenvolvido por Praxis - Empresa Jr.2018.Todos os direitos reservados</h2>
         </div>
      </footer>
    <!--------------------CONTATOS:FIM--------------------------------> 

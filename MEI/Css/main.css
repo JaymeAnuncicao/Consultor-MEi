@@ -56,7 +56,7 @@ body {
   position: relative;
 }
 
-/* ol, ul {
+ol, ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -570,7 +570,7 @@ td, th {
 
 .text-black {
   color: #000;
-} */
+}
 
 .transition {
   -webkit-transition: all 0.3s ease 0s;

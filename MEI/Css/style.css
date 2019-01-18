@@ -25,7 +25,7 @@ ul {height: 12vh;}
 
 /* ---------------NOSSA EMPRESA:INICIO----------- */
 #nossaempresa{ height: 70vh;}
-.ipsum{font-size: 30px;}
+.ipsum{font-size: 20px;}
 .iframe{width: 50vw;height: 60vh;margin-top: 5vh;margin-left: 5vw;}
 /* ---------------NOSSA EMPRESA:FIM----------- */
 
@@ -86,13 +86,13 @@ hr{border: none;}
 .testimonial-area .lnr-arrow-up:hover, .testimonial-area .lnr-arrow-down:hover {background: #8490ff;color: #fff;}
 
 .single-testimonial {background-color: #fff;padding: 25px 30px 12px 30px;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
-.single-testimonial:hover {cursor: pointer;}
+.single-testimonial:hover {}
   
 .single-testimonial .thumb {margin-right: 30px;}
   
 .single-testimonial h4 {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;margin-bottom: 5px;}
   
-.single-testimonial:hover h4 {color: #8490ff;cursor: pointer;}
+.single-testimonial:hover h4 {color: #8490ff;}
    
 /* -----------DEPOIMENTOS: FIM---------- */
 

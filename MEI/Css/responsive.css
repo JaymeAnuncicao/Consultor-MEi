@@ -12,14 +12,14 @@
 /*---------GALAXY S5------ */
 @media only screen and (max-width: 360px) and (min-height: 640px){
     #home{height: 130vh;}
-    .navbar{height: 15vh !important;}
+    .iphone{display: none;}
     .bg{height: 100%;}
     .button1{width: 80vw;}
     .margem{margin-top: 25%;}
     #nossaempresa{height: 180vh;}
     .iframe{width: 80vw;height: 50vh !important;margin: 0;}
     .alin{text-align: center;}
-    #funcionalidades{height: 280vh !important;}
+    #funcionalidades{height: 220vh !important;}
     .ajust{text-align: center;}
     .func{margin-left: 23vw;width: 50%;}
     .func1{margin-left: 23vw;width: 50%;}
@@ -28,22 +28,23 @@
     #cartao{height: 180vh !important;}
     .testimonial-area{height: 100vh !important;}
     #noticias{height: 85vh !important;}
+    .img-news   {display: none !important;}
     #news{margin-left: -15vw;}
     .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
     .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
-    .img-news{height: 15vh;margin-left: 5vw;}
+    /* .img-news{height: 15vh;margin-left: 5vw;} */
     .backg{height: 30vh;}
     #contatos{height: 110vh;}
     .conta1{width: 80vw;}
-    .conta{width: 50vw;}
-    #cemail{width: 31vw;}
+    .conta{width: 35vw;}
+    #cemail{width: 43vw;}
     #mensage{width: 80vw;}
     .creditos{text-align: center;}
     .uso{width: 100%;}
     .sendemail{margin-left: 10vw;}
 }
 /*-------DEITADO------ */
-@media only screen and (max-width: 640px) and (min-height: 360px){
+/* @media only screen and (max-width: 640px) and (min-height: 360px){
     #home{height: 230vh;}
     .navbar{height: 20vh;}
     .bg{height: 100%;}
@@ -72,20 +73,22 @@
     .uso{width: 100%;}
     .sendemail{align-self: center;margin-left: 10vw;}
     #sendmail{align-self: center;margin-left: 3vw;}
-}
+} */
 
 /*---------GALAXY S5------ */
 
 
 /* -----PIXEL 2---- */
 @media only screen and (max-width: 411px) and (min-height: 731px){
-    #home{height: 130vh;}
+    #home{height: 120vh;}
     .bg{height: 100%;}
     .button1{width: 80vw;}
     .margem{margin-top: 25%;}
-    #nossaempresa{height: 200vh;}
+    #nossaempresa{height: 150vh;}
+    .iframe{width: 80vw;height: 50vh !important;margin: 0;}
     .alin{text-align: center;margin-left: 1vh;}
-    #funcionalidades{height: 280vh;}
+    #funcionalidades{height: 170vh;}
+    .iphone{display: none;}
     .ajust{text-align: center;}
     .func{margin-left: 23vw;width: 50%;}
     .func1{margin-left: 23vw;width: 50%;}
