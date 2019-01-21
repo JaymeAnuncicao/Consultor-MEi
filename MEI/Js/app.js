@@ -70,13 +70,13 @@ $(window).scroll(function(){
 		loop: true,
 		margin: 30,
 		autoplayHoverPause: true,
-		dots: true,
+		dots: false,
 		autoplay: true,
 		nav: true,
 		navText: ["<span class='lnr lnr-arrow-up'></span>", "<span class='lnr lnr-arrow-down'></span>"],
 		responsive: {
 			0: {
-				items: 1
+				items: 1,
 			},
 			480: {
 				items: 1,

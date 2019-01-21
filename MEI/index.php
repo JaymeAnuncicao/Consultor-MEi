@@ -1,7 +1,7 @@
 <?php
     session_start();
     $_SESSION['usuario'] = '';
-    $_SESSION['email'] = '';
+    $_SESSION['email'] = ''; 
     $_SESSION['senha'] = '';
     $_SESSION['authenticateUser']= false;
     $_SESSION['authenticateADM']= false;
@@ -98,8 +98,8 @@
     <link rel="stylesheet" type="text/css" href="css/linearicons.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
 </head>
 <body>
     <!---------------------NAVBAR-------------->
@@ -224,7 +224,7 @@
             <div class="col-md-4 ">
                 <div class="row">
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 5</h5></a>
+                        <a href=""><h5 class="texto ajust">Funcionalidade 5</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
@@ -545,18 +545,18 @@
     <section id="contatos" class="container-fluid">
         <div class="row bg  align-itens-center">
             <div class="row justify-content-center container-fluid">
-            <div class="col-12 col-md-4 mt-5 sendemail">
-                <h2 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
+            <div class="col-12 col-md-6 col-lg-4 col-sm-12 mt-5 sendemail">
+                <h3 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
                 <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="sendmail" class="text-center">
-                    <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1 texto" placeholder="Nome">                            
-                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta texto" id="cemail"placeholder="E-email">
-                    <input type="text" name="telefone" class="z-depth-1  mb-3 conta texto" placeholder="Telefone">
-                    <input type="text" name="motivo" class="z-depth-1  mb-3 conta1 texto" placeholder="Motivo do contato">
+                    <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1  texto" placeholder="Nome">                            
+                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta  texto" id="cemail"placeholder="E-email">
+                    <input type="text" name="telefone" class="z-depth-1  mb-3 conta  texto" placeholder="Telefone">
+                    <input type="text" name="motivo" class="z-depth-1  mb-3 conta1  texto" placeholder="Motivo do contato">
                     <textarea name="mensagem" placeholder="Mensagem..." id="mensage" cols="30" rows="10"></textarea>
                         
                 </form>    
                 <div class="row justify-content-center">
-                    <input type="submit" value="Enviar" class="btn btn-success btn-lg col-3 mt-2 ">
+                    <input type="submit" value="Enviar" class="btn btn-success btn-lg col-3 col-sm-4 mt-2 ">
                 </div>                      
             </div>
             </div>
