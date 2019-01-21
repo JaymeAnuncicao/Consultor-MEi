@@ -113,6 +113,7 @@ $('.active-brand-carusel').owlCarousel({
 	}
 }); 
 
+
 $('.active-news').owlCarousel({
 	items: 2,
 	loop: true,
@@ -121,7 +122,7 @@ $('.active-news').owlCarousel({
 	dots: true,
 	autoplay: true,
 	nav: true,
-	navText: ["<span class='lnr lnr-arrow-up'></span>", "<span class='lnr lnr-arrow-down'></span>"],
+	navText: ["<span class='lnr lnr-arrow-left'></span>", "<span class='lnr lnr-arrow-right'></span>"],
 	responsive: {
 		0: {
 			items: 1

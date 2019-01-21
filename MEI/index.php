@@ -98,8 +98,8 @@
     <link rel="stylesheet" type="text/css" href="css/linearicons.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"> -->
 </head>
 <body>
     <!---------------------NAVBAR-------------->
@@ -124,13 +124,16 @@
                         <a class="nav-link text-white mt-3" href="#planos">Planos</a>
                     </li>
                     <li class="nav-item efect" id="notice">
-                        <a class="nav-link text-white mt-3" href="#noticias">Noticias</a>
+                        <a class="nav-link text-white mt-3" href="#noticias">Notícias</a>
                     </li>
                     <li class="nav-item efect">
                         <a class="nav-link text-white mt-3" href="FAQ.php">FAQ</a>
                     </li>
                     <li class="nav-item efect" id="contacts">
                         <a class="nav-link text-white mt-3" href="#contatos">Contatos</a>
+                    </li>
+                    <li class="nav-item efect">
+                        <a class="nav-link text-white mt-3" href="#">Blog</a>
                     </li>
                     <li class="nav-item move"></li>
                     <li class="nav-item efect ">
@@ -163,7 +166,7 @@
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
                 <h2 class="texto ">Aprenda mais sobre a</h2>
-                <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor similique eius nihil dolorem voluptas facilis accusamus quasi nemo animi id esse enim, facere fugiat reiciendis consequuntur nisi. Blanditiis, repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorum at fuga, ipsam numquam libero fugit quibusdam. </p>
+                <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor similique eius nihil dolorem voluptas facilis accusamus quasi nemo animi id esse enim, facere fugiat reiciendis consequuntur nisi. Blanditiis, repellendus.</p>
             </div>
             <div class="col-md-6 ">
                 <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -423,7 +426,7 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content mt-5 col-lg-8">
                 <div class="title  text-center">
-                    <h1 class="texto">Noticias</h1>
+                    <h1 class="texto">Notícias</h1>
                     <hr noshade class="linha mb-5  text-center">
                 </div>
             </div>
@@ -436,8 +439,7 @@
                             <img class="img-fluid img-news " src="Media/img/img-home.jpg" >
                         </div>
                         <div class="col-md-6 desc-news">
-                            <!-- <h4>Seu dinheiro</h4>
-                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            
                             <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -453,8 +455,7 @@
                             <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
-                                <!-- <h4>Seu dinheiro</h4>
-                                <h6>Site mostra as melhores consultoras do ano</h6> -->
+        
                                 <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -470,8 +471,7 @@
                             <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
-                            <!-- <h4>Seu dinheiro</h4>
-                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            
                             <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -487,8 +487,7 @@
                             <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
-                            <!-- <h4>Seu dinheiro</h4>
-                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            
                             <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -504,8 +503,7 @@
                             <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
-                            <!-- <h4>Seu dinheiro</h4>
-                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            
                             <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -521,8 +519,7 @@
                             <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
                         </div>
                         <div class="desc-news col-md-6">
-                            <!-- <h4>Seu dinheiro</h4>
-                            <h6>Site mostra as melhores consultoras do ano</h6> -->
+                            
                             <?php
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
@@ -550,7 +547,7 @@
             <div class="row justify-content-center container-fluid">
             <div class="col-12 col-md-4 mt-5 sendemail">
                 <h2 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
-                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="sendmail">
+                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="sendmail" class="text-center">
                     <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1 texto" placeholder="Nome">                            
                     <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta texto" id="cemail"placeholder="E-email">
                     <input type="text" name="telefone" class="z-depth-1  mb-3 conta texto" placeholder="Telefone">
@@ -582,10 +579,10 @@
         <div class="modal-dialog" role="document"> 
             <div class="modal-content">
                 <div class="row">
-                    <div class="col-md-8 col-sm-4 text-right ml-4">
-                        <h1 class="modal-title texto  mb-3 ml-5 mt-4" id="exampleModalCenterTitle">CADASTRO</h1>
+                    <div class="col-md-8 col-sm-4 text-right">
+                        <h1 class="modal-title texto  mb-3 title-margin" id="exampleModalCenterTitle">CADASTRO</h1>
                     </div>
-                    <div class="col-md-3 col-sm-4 mt-1 ml-1">
+                    <div class="col-md-3 col-sm-4 mt-1 ml-1 exit-margin">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -609,10 +606,10 @@
 <!--------------------MODAL-LOGIN:INICIO------------------->
     <div class="modal fade bd-example-modal-sm" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content modal-login">
                 <div class="row">
                     <div class="col-md-7 col-sm-4 text-right ml-4">
-                        <h1 class="modal-title texto mt-3 mb-5 ml-5" id="exampleModalCenterTitle">LOGIN</h1>
+                        <h1 class="modal-title texto mt-3 login-margin" id="exampleModalCenterTitle">LOGIN</h1>
                     </div>
                     <div class="col-md-2 ml-5 mt-1">
                         <button type="button" class="close ml-5" data-dismiss="modal" aria-label="Close">

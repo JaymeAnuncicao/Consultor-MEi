@@ -13,19 +13,19 @@ ul {height: 12vh;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
 /* ------------------------------HOME:INICIO------------------------------------ */
-#home{height: 100vh; background-image: url('../media/img/img-home.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
+#home{height: 100%; background-image: url('../media/img/img-home.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
 .texto{color:rgb(4,30,65);}
 .marge{height: 15vh;}
 .margem{margin-top: 12%;}
 .button {background-color: rgb(0, 61, 118);border: none;color: white;padding: 0px;text-align: center;text-decoration: none;display: inline-block;font-size: 40px;margin: 4px 2px;cursor: pointer;}
 
-.button1 {border-radius: 5px;width: 23vw;height: 10vh;}
+.button1 {border-radius: 5px;width: 23vw;height: 10vh;margin-bottom: 5vh;}
 /* --------------------------------HOME:FIM--------------------------------------------- */
 
 
 /* ---------------NOSSA EMPRESA:INICIO----------- */
 #nossaempresa{ height: 70vh;}
-.ipsum{font-size: 20px;}
+.ipsum{font-size: 30px;}
 .iframe{width: 50vw;height: 60vh;margin-top: 5vh;margin-left: 5vw;}
 /* ---------------NOSSA EMPRESA:FIM----------- */
 
@@ -86,25 +86,25 @@ hr{border: none;}
 .testimonial-area .lnr-arrow-up:hover, .testimonial-area .lnr-arrow-down:hover {background: #8490ff;color: #fff;}
 
 .single-testimonial {background-color: #fff;padding: 25px 30px 12px 30px;-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
-.single-testimonial:hover {}
+.single-testimonial:hover {cursor: pointer;}
   
 .single-testimonial .thumb {margin-right: 30px;}
   
 .single-testimonial h4 {-webkit-transition: all 0.3s ease 0s;-moz-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;margin-bottom: 5px;}
   
-.single-testimonial:hover h4 {color: #8490ff;}
+.single-testimonial:hover h4 {color: #8490ff;cursor: pointer;}
    
 /* -----------DEPOIMENTOS: FIM---------- */
 
 
 /*--------------------------------CARTÃO MEi:INICIO-------------------- */
-#cartao{background-color: rgb(246, 250, 255);height: 70vh;}
+#cartao{background-color: #f9f9ff;height: 70vh;}
 /*--------------------------------CARTÃO MEi:FIM------------------------*/
 
 
 
 /*-------------- NOTICIAS----------- */
-#noticias{height: 80vh;background-color: rgb(246, 250, 255);}
+#noticias{height: 80vh;background-color: #f9f9ff;}
 .desce{margin-bottom: -10vh;}
 .linha{background-color: rgb(4,30,65);height: 4px;margin-top: -1vh;margin-bottom: 5vh;width: 10%;}
 #news{ height: 25vh;}
@@ -117,8 +117,9 @@ hr{border: none;}
 /*----------------------------MODAL------------------*/
 .input1{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 20vw; height: 6.5vh;padding-left: 10px; }
 .input{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 10vw; height: 6.5vh;padding-left: 10px;}
-
-
+.modal-login{height: 70vh;width: 25vw;margin-left: 3vw;}
+.title-margin{margin-left: 9vw;margin-top: 3vh;}
+.login-margin{margin-top: 5vh !important;margin-left: 7vw;}
 /*---------------------------- CONTATOS:  INCIO------------------- */
 #contatos{height: 85vh; background-image: url('../Media/img/img-contatos.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
 .conta1{border: 1px solid ;border-radius: 4px;border-color:rgb(4, 30, 65); width: 30vw; height: 6.5vh;padding-left: 10px;}
