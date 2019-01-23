@@ -104,7 +104,7 @@
 <body>
     <!---------------------NAVBAR-------------->
     <header>
-        <nav class="navbar navbar-expand-lg  fixed-top" id="Navbar">
+        <nav class="navbar navbar-expand-lg   fixed-top" id="Navbar">
             <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="navLogo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
@@ -133,7 +133,7 @@
                         <a class="nav-link text-white mt-3" href="#contatos">Contatos</a>
                     </li>
                     <li class="nav-item efect">
-                        <a class="nav-link text-white mt-3" href="#">Blog</a>
+                        <a class="nav-link text-white mt-3" href="https://code.visualstudio.com/docs/?dv=win64user">Blog</a>
                     </li>
                     <li class="nav-item move"></li>
                     <li class="nav-item efect ">
@@ -187,7 +187,7 @@
             <div class="col-md-4 text-right ">
                 <div class="row justify-content-end">   
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 1</h5></a>
+                        <a href="funcionalidades.php"><h5 class="texto ajust">Funcionalidade 1</h5></a>
                         <hr noshade class="func">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
@@ -346,7 +346,7 @@
     <div class="anchors" id="anchorcard"></div>
     <!----------------------------------CARTÃO MEi:INICIO---------------------->
     <section id="cartao" class="container-fluid">
-        <div class="row  justify-content-around  align-items-end">
+        <div class="row  justify-content-around container-fluid align-items-end">
             <div class="col-md-4 mt-5">
                 <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" alt="" id="img-card" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">

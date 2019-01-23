@@ -1,3 +1,10 @@
+/* GALAXY S5: 100% */
+/* PIXEL 2: 100% */
+/* PIXEL 2XL: 75% */
+/* IPHONE 5/SE: 90% */
+/* IPHONE 6/7/8: 100%*/
+/* IPHONE 6/7/8 PLUS: 100%*/
+/* IPHONE X: 100%*/
 @media only screen and (max-width: 1400px){
     #navbarNav{margin-left: -2vw;}
     #homeLogo{margin-bottom: -3%}
@@ -10,7 +17,115 @@
     .conta{width: 26vh;}
     .marge{height: 7.5vh;}
 }
-/*------------IPHONE 6/7/8 PLUS DEITADO------- */
+/* -------IPAD PRO--- */
+@media only screen and (max-width: 1024px) and (max-height: 1366px){
+    .move{display: none;}
+    #home{height: 100%;}
+    .iphone{display: none;}
+    .navbar{height: 12vh;}
+    .bg{height: 100%;}
+    .button1{width: 60vw;height: 10vh;}
+    .margem{margin-top: 25%;}
+    #nossaempresa{height: 100%;}
+    .ipsum{padding: 0 0;}
+    .iframe{width: 50vw;height: 50vh;margin-left: 3vw;margin-top: 18vh;}
+    .alin{text-align: center;}
+    #funcionalidades{height: 100%;}
+    .text-modi{padding: 0px 30px;}
+    .ajust{text-align: justify;}
+    .func{margin-left: 3vw;width: 50%;}
+    .func1{margin-left: 3vw;width: 50%;}
+    .button2{width: 70vw;height: 5vh;}
+    .bottom-part{margin-top: 10vh;}
+    .linha2{width: 50%;}
+    #cartao{height: 100%;}
+    .text-modi{padding: 0 0;}
+    .testimonial-area{height: 100%;}
+    #noticias{height: 100%;}
+    .backg{height: 30vh;}
+    #contatos{height: 100%;}
+    .conta1{width: 29vw;height: 5vh;}
+    .conta{width: 16vw;height: 5vh;}
+    #cemail{width: 12vw;}
+    #mensage{width: 29vw;}
+    .creditos{text-align: center;}
+    .uso{width: 100%;margin-top: 5vh;margin-bottom: 5vh;}
+    .sendemail{align-self: center;}
+    #sendmail{align-self: center;}
+}
+/* -------IPAD DEITADO--- */
+@media only screen and (max-width: 1024px) and (max-height: 768px){
+    .move{display: none;}
+    #home{height: 100%;}
+    .iphone{display: none;}
+    .navbar{height: 12vh;}
+    .bg{height: 100%;}
+    .button1{width: 60vw;height: 10vh;}
+    .margem{margin-top: 25%;}
+    #nossaempresa{height: 100%;}
+    .ipsum{padding: 0 0;}
+    .iframe{width: 50vw;height: 50vh;margin-left: 3vw;margin-top: 18vh;}
+    .alin{text-align: center;}
+    #funcionalidades{height: 100%;}
+    .text-modi{padding: 0px 30px;}
+    .ajust{text-align: justify;}
+    .func{margin-left: 3vw;width: 50%;}
+    .func1{margin-left: 3vw;width: 50%;}
+    .button2{width: 70vw;height: 5vh;}
+    .bottom-part{margin-top: 10vh;}
+    .linha2{width: 50%;}
+    #cartao{height: 100%;}
+    .text-modi{padding: 0 0;}
+    .testimonial-area{height: 100%;}
+    #noticias{height: 100%;}
+    .backg{height: 30vh;}
+    #contatos{height: 100%;}
+    .conta1{width: 29vw;height: 5vh;}
+    .conta{width: 16vw;height: 5vh;}
+    #cemail{width: 12vw;}
+    #mensage{width: 29vw;}
+    .creditos{text-align: center;}
+    .uso{width: 100%;margin-top: 5vh;margin-bottom: 5vh;}
+    .sendemail{align-self: center;}
+    #sendmail{align-self: center;}
+}
+/* -------IPAD--- */
+@media only screen and (max-width: 768px) and (max-height: 1024px){
+    #home{height: 100%;}
+    .iphone{display: none;}
+    .navbar{height: 12vh;}
+    .bg{height: 100%;}
+    .button1{width: 60vw;height: 10vh;}
+    .margem{margin-top: 25%;}
+    #nossaempresa{height: 100%;}
+    .ipsum{padding: 0 0;}
+    .iframe{width: 50vw;height: 50vh;margin-left: 3vw;margin-top: 18vh;}
+    .alin{text-align: center;}
+    #funcionalidades{height: 100%;}
+    .text-modi{padding: 0px 30px;}
+    .ajust{text-align: justify;}
+    .func{margin-left: 3vw;width: 50%;}
+    .func1{margin-left: 3vw;width: 50%;}
+    .button2{width: 70vw;height: 5vh;}
+    .bottom-part{margin-top: 10vh;}
+    .linha2{width: 50%;}
+    #cartao{height: 100%;}
+    .text-modi{padding: 0 0;}
+    .testimonial-area{height: 100%;}
+    #noticias{height: 100%;}
+    .backg{height: 30vh;}
+    #contatos{height: 100%;}
+    .conta1{width: 40vw;height: 5vh;}
+    .conta{width: 20vw;height: 5vh;}
+    #cemail{width: 19vw;}
+    #mensage{width: 40vw;}
+    .creditos{text-align: center;}
+    .uso{width: 100%;margin-top: 5vh;margin-bottom: 5vh;}
+    .sendemail{align-self: center;}
+    #sendmail{align-self: center;}
+    .img-news   {display: none !important;}
+}
+/*------------IPHONE X DEITADO------- */
 @media only screen and (max-width: 812px) and (max-height: 375px){
     #home{height: 100%;}
     .iphone{display: none;}
@@ -19,8 +134,8 @@
     .button1{width: 80vw;height: 15vh;}
     .margem{margin-top: 25%;}
     #nossaempresa{height: 100%;}
-    .ipsum{padding: 80px 10px 80px 10px;}
-    .iframe{width: 10vw;height: 10vh;margin-left: 3vw;}
+    .ipsum{}
+    .iframe{width: 10vw;height: 10vh;margin-left: 3vw;margin-top: 18vh;}
     .alin{text-align: center;}
     #funcionalidades{height: 100%;}
     .text-modi{padding: 0px 30px;}
@@ -30,10 +145,10 @@
     .button2{width: 70vw;height: 10vh;}
     .bottom-part{margin-top: 10vh;}
     .linha2{width: 50%;}
-    #cartao{height: 250vh;}
-    #img-faq{margin-top: 5vh;}
+    #cartao{height: 100%;}
+    .text-modi{padding: 0 0;}
     .testimonial-area{height: 150vh;}
-    #noticias{height: 105vh;}
+    #noticias{height: 100%;}
     .backg{height: 30vh;}
     #contatos{height: 100%;}
     .conta1{width: 40vw;height: 10vh;}
@@ -85,40 +200,41 @@
 /*------------IPHONE 6/7/8 PLUS DEITADO------- */
 
 /*------------PIXEL 2XL DEITADO------- */
-@media only screen and (max-width: 731px) and (max-height: 411px){
+@media only screen and (max-width: 823px) and (max-height: 411px){
     #home{height: 100%;}
     .iphone{display: none;}
     .navbar{height: 20vh;}
     .bg{height: 100%;}
-    .button1{width: 80vw;height: 20vh;}
+    .button1{width: 60vw;height: 15vh;}
     .margem{margin-top: 25%;}
     #nossaempresa{height: 100%;}
-    .ipsum{margin-left: 3vw;}
-    .iframe{width: 80vw;height: 80vh;margin-left: 3vw;}
+    .ipsum{margin-left: 0;font-size: 15px;}
+    .iframe{width: 50vw;height: 100vh;margin-left: 3vw;}
     .alin{text-align: center;}
     #funcionalidades{height: 100%;}
-    .text-modi{padding: 0px 30px;}
-    .ajust{text-align: center;}
-    .func{margin-left: 23vw;width: 50%;}
-    .func1{margin-left: 23vw;width: 50%;}
+    .ajust{text-align: justify;}
+    .func{margin-left: 3vw;width: 50%;}
+    .func1{margin-left: 3vw;width: 50%;}
     .button2{width: 70vw;height: 10vh;}
     .bottom-part{margin-top: 10vh;}
     .linha2{width: 50%;}
-    #cartao{height: 250vh;}
+    #cartao{height: 100%;padding: 20px 0px;}
+    .single-news{height: 50vh;}
+    .thumblr{display: none;}
     #img-faq{margin-top: 5vh;}
     .testimonial-area{height: 150vh;}
-    #noticias{height: 105vh;}
+    #noticias{height: 100%;}
     .backg{height: 30vh;}
-    #contatos{height: 210vh;}
-    .conta1{width: 80vw;height: 10vh;}
-    .conta{width: 40vw;height: 10vh;}
-    #cemail{width: 39vw;}
-    #mensage{width: 80vw;}
+    #contatos{height: 100%;}
+    .conta1{width: 44vw;height: 10vh;}
+    .conta{width: 23vw;height: 10vh;}
+    #cemail{width: 20vw;}
+    #mensage{width: 44vw;}
     .creditos{text-align: center;}
-    .uso{width: 100%;}
-    .sendemail{align-self: center;margin-left: 2vw;}
-    #sendmail{align-self: center;margin-left: 3vw;}
-    .img-news   {display: none !important;}
+    .uso{width: 100%;margin-bottom: 2vh;margin-top: 2vh;}
+    .sendemail{align-self: center;}
+    #sendmail{align-self: center;}
+    .img-news{display: none !important;}
 }
 /*------------PIXEL 2XL DEITADO------- */
 
@@ -143,9 +259,11 @@
     .bottom-part{margin-top: 10vh;}
     .linha2{width: 50%;}
     #cartao{height: 250vh;}
-    #img-faq{margin-top: 5vh;}
+    .text-modi{padding: 0px 0px;margin-left: 5vw;}
+    #img-faq{margin-top: 5vh;width: 60vw;margin-left: 10vw;}
+    #img-card{width: 60vw;margin-left: 10vw;}
     .testimonial-area{height: 150vh;}
-    #noticias{height: 105vh;}
+    #noticias{height: 100%;}
     .backg{height: 30vh;}
     #contatos{height: 210vh;}
     .conta1{width: 80vw;height: 10vh;}
@@ -183,7 +301,7 @@
     #cartao{height: 250vh;}
     #img-faq{margin-top: 5vh;}
     .testimonial-area{height: 150vh;}
-    #noticias{height: 105vh;}
+    #noticias{height: 100%;}
     .backg{height: 30vh;}
     #contatos{height: 210vh;}
     .conta1{width: 80vw;height: 10vh;}
@@ -245,7 +363,7 @@
     .button1{width: 80vw;}
     .margem{margin-top: 25%;}
     #nossaempresa{height: 250vh;}
-    .iframe{width: 80vw;height: 50vh !important;margin: 0;}
+    .iframe{width: 80vw;height: 50vh !important;margin-left: -1vw !important;}
     .alin{text-align: center;margin-left: 0vh;}
     #funcionalidades{height: 170vh;}
     .iphone{display: none;}
@@ -255,8 +373,9 @@
     .button2{width: 70vw;}
     .linha2{width: 50%;}
     #cartao{height: 180vh;}
-    .text-modi{padding: 0px 30px;}
-    #img-faq{margin-top: 5vh;}
+    .text-modi{padding: 0px 0px;margin-left: 5vw;}
+    #img-faq{margin-top: 5vh;width: 80vw;margin-left: 10vw;}
+    #img-card{width: 80vw;margin-left: 10vw;}
     #noticias{height: 85vh;}
     .img-news{display: none !important;}
     #news{margin-left: -15vw;}
@@ -294,8 +413,9 @@
     .iphone{display: none;}
     .img-news {display: none !important;}
     #cartao{height: 100%;}
-    .text-modi{padding: 0px 20px;}
-    #img-faq{margin-top: 5vh;}
+    .text-modi{padding: 0px 0px;margin-left: 5vw;}
+    #img-faq{margin-top: 5vh;width: 80vw;margin-left: 10vw;}
+    #img-card{width: 80vw;margin-left: 10vw;}
     #noticias{height: 100%;}
     .testimonial-area{height: 100%;}
     .conta1{width: 80vw;}
@@ -327,16 +447,13 @@
     .button2{width: 80vw;}
     .linha2{width: 50%;}
     #cartao{height: 100% !important;}
-    .text-modi{padding: 0px 30px;margin-bottom: 5vh;}
-    #img-faq{margin-top: 5vh;width: 80vw;}
-    #img-card{width: 80vw;}
+    .text-modi{padding: 0px 0px;margin-left: 5vw;}
+    #img-faq{margin-top: 5vh;width: 60vw;margin-left: 10vw;}
+    #img-card{width: 60vw;margin-left: 10vw;}
     .testimonial-area{height: 80vh !important;}
     #noticias{height: 100% !important;}
     .img-news   {display: none !important;}
     #news{margin-left: -15vw;}
-    .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
-    .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
-    /* .img-news{height: 15vh;margin-left: 5vw;} */
     .backg{height: 30vh;}
     #contatos{height: 100%;}
     .btn-contat{width: 80vw;}
@@ -418,14 +535,13 @@
     .button2{width: 80vw;}
     .linha2{width: 50%;}
     #cartao{height: 100% !important;}
-    .text-modi{padding: 0px 30px;margin-bottom: 5vh;}
+    .text-modi{padding: 0px 10px;margin-bottom: 5vh;}
     #img-faq{margin-top: 5vh;width: 80vw;}
     #img-card{width: 80vw;}
     .testimonial-area{height: 100%;}
     #noticias{height: 100% !important;}
-    .img-news   {display: none !important;}
+    .img-news{display: none !important;}
     #news{margin-left: -15vw;}
-    /* .img-news{height: 15vh;margin-left: 5vw;} */
     .backg{height: 30vh;}
     #contatos{height: 100%;}
     .btn-contat{width: 80vw;}
@@ -460,17 +576,14 @@
     .func1{margin-left: 23vw;width: 50%;}
     .button2{width: 70vw;}
     .linha2{width: 50%;}
-    #cartao{height: 180vh !important;}
-    .text-modi{padding: 0px 30px;}
+    #cartao{height: 100%;}
+    .text-modi{padding: 0px 10px;}
     #img-faq{margin-top: 5vh;width: 85vw;}
     #img-card{width: 85vw;}
     .testimonial-area{height: 100vh !important;}
     #noticias{height: 85vh !important;}
-    .img-news   {display: none !important;}
+    .img-news {display: none !important;}
     #news{margin-left: -15vw;}
-    .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
-    .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
-    /* .img-news{height: 15vh;margin-left: 5vw;} */
     .backg{height: 30vh;}
     #contatos{height: 110vh;}
     .conta1{width: 80vw;}
@@ -491,12 +604,13 @@
 /* -------IPHONE 5/SE----- */
 @media only screen and (max-width: 320px) and (max-height: 568px){
     #home{height: 100%;}
+    #navLogo{width: 15vw;height: 8vh;}
     .iphone{display: none;}
     .bg{height: 100%;}
     .button1{width: 80vw; margin-bottom: 3vh;}
     .margem{margin-top: 25%;}
     #nossaempresa{height: 100%;}
-    .iframe{width: 80vw;height: 50vh !important;margin-bottom: 3vh;margin-left: -3vw;}
+    .iframe{width: 80vw;height: 50vh !important;margin-bottom: 3vh;margin-left: -3vw !important;}
     .alin{text-align: center;}
     #funcionalidades{height: 100%;}
     .ajust{text-align: center;}
@@ -504,17 +618,14 @@
     .func1{margin-left: 23vw;width: 50%;}
     .button2{width: 80vw;}
     .linha2{width: 50%;}
-    #cartao{height: 230vh !important;}
-    .text-modi{padding: 0px 30px;}
-    #img-faq{margin-top: 5vh;width: 80vw;}
-    #img-card{width: 80vw;}
+    #cartao{height: 100% !important;}
+    .text-modi{padding: 0px 0px;margin-left: 5vw;}
+    #img-faq{margin-top: 5vh;width: 80vw;margin-left: 10vw;}
+    #img-card{width: 80vw;margin-left: 10vw;}
     .testimonial-area{height: 100vh !important;}
     #noticias{height: 85vh !important;}
     .img-news   {display: none !important;}
     #news{margin-left: -15vw;}
-    .carousel-control-next-icon{margin-left: 1vw;width: 7vw;height: 5vh;}
-    .carousel-control-prev-icon{margin-right: 1vw;width: 7vw;height: 5vh;}
-    /* .img-news{height: 15vh;margin-left: 5vw;} */
     .backg{height: 30vh;}
     #contatos{height: 100%;}
     .btn-contat{width: 80vw;}

@@ -4,7 +4,7 @@
 // Animar o scroll atÃ© o alvo
 
 // Scroll suave para link interno
-$(' nav a[href^="#"], #home a, #funcionalidades a').click(function(e){
+$(' nav a[href^="#"]').click(function(e){
 	e.preventDefault();
 	var id = $(this).attr('href'),
 			menuHeight = $('nav').innerHeight(),

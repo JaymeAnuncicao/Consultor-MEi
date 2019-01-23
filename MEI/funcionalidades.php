@@ -32,25 +32,25 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-3 ">
                     <li class="nav-item active efect ">
-                        <a class="nav-link nav-item text-white mt-3 " href="index.php/#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-item text-white mt-3 " href="index.php#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item efect"  id="ourenterprise">
-                        <a class="nav-link text-white mt-3" href="../#enterprise">Nossa Empresa</a>
+                        <a class="nav-link text-white mt-3" href="index.php#enterprise">Nossa Empresa</a>
                     </li>
                     <li class="nav-item efect" id="functions">
-                        <a class="nav-link text-white mt-3" href="index.php/#funcion">Funcionalidades</a>
+                        <a class="nav-link text-white mt-3" href="index.php#funcion">Funcionalidades</a>
                     </li>
                     <li class="nav-item efect" id="plans">
-                        <a class="nav-link text-white mt-3" href="index.php/#planos">Planos</a>
+                        <a class="nav-link text-white mt-3" href="index.php#planos">Planos</a>
                     </li>
                     <li class="nav-item efect" id="notice">
-                        <a class="nav-link text-white mt-3" href="index.php/#noticias">Notícias</a>
+                        <a class="nav-link text-white mt-3" href="index.php#noticias">Notícias</a>
                     </li>
                     <li class="nav-item efect">
-                        <a class="nav-link text-white mt-3" href="index.php/FAQ.php">FAQ</a>
+                        <a class="nav-link text-white mt-3" href="#">FAQ</a>
                     </li>
                     <li class="nav-item efect" id="contacts">
-                        <a class="nav-link text-white mt-3" href="index.php/#contatos">Contatos</a>
+                        <a class="nav-link text-white mt-3" href="index.php#contatos">Contatos</a>
                     </li>
                     <li class="nav-item efect">
                         <a class="nav-link text-white mt-3" href="#">Blog</a>
