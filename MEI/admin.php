@@ -11,9 +11,10 @@
         $assunto = $_POST['assunto'];
         $myid = $_POST['numero'];
         $titulo = $_POST['titulo'];
+        $imagem = $_POST['img-url'];
 
         $conec = db_connect();
-        $sql = "UPDATE noticias SET assunto = '$assunto' ,titulo  = '$titulo' WHERE id = '$myid' ;";
+        $sql = "UPDATE noticias SET assunto = '$assunto' ,titulo  = '$titulo' ,imagem='$imagem' WHERE id = '$myid' ;";
         $stmt = $conec->prepare($sql);
         $stmt->execute(); 
     }
@@ -50,7 +51,6 @@
 </head>
 <body>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        <input type="text" name="assunto" placeholder="Assunto">
         <select name="numero" id="">
             <option value="6">1</option>
             <option value="5">2</option>
@@ -59,7 +59,9 @@
             <option value="2">5</option>
             <option value="1">6</option>
         </select>
+        <input type="text" name="assunto" placeholder="Assunto">
         <textarea name="titulo" id="" cols="30" rows="10" placeholder="Titulo"></textarea>
+        <input type="text" name="img-url" placeholder="Link da imagem">
         <input type="submit" value="Atualizar" class="btn btn-success btn-lg col-2 mt-5">
     </form>
 

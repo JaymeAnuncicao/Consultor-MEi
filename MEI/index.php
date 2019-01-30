@@ -8,7 +8,7 @@
 
     require_once 'PHP/init.php';
     $conex = db_connect();
-    $query1= "SELECT id,assunto,titulo FROM noticias ORDER BY id DESC LIMIT 6;";
+    $query1= "SELECT id,assunto,titulo,imagem FROM noticias ORDER BY id DESC LIMIT 7;";
     $stmt= $conex->prepare($query1);
     $stmt->execute();
     if(isset($_POST['nomeEmpresa'],$_POST['nomeResponsavel'], $_POST['email'],$_POST['senha'],$_POST['estado'],$_POST['CNPJ'],$_POST['CNAE'])){
@@ -87,6 +87,7 @@
     <!-----TITLE---->
     <title>Consultoria MEI</title>
     <!-------FONTS------>
+    <link rel="icon" href="Media/img/logo-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-----PLUGINS CSS---->
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
@@ -133,7 +134,7 @@
                         <a class="nav-link text-white mt-3" href="#contatos">Contatos</a>
                     </li>
                     <li class="nav-item efect">
-                        <a class="nav-link text-white mt-3" href="https://code.visualstudio.com/docs/?dv=win64user">Blog</a>
+                        <a class="nav-link text-white mt-3" href="https://praxisjr.com.br/">Blog</a>
                     </li>
                     <li class="nav-item move"></li>
                     <li class="nav-item efect ">
@@ -436,13 +437,17 @@
                 <div class="active-news">
                     <div class="single-news item d-flex flex-row">
                         <div class="col-md-6 d-flex thumblr">
-                            <img class="img-fluid img-news " src="Media/img/img-home.jpg" >
+                           <?php 
+                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                                $id=$user['id'];
+                                $url = $user['imagem'];
+                                if(isset($user['imagem'])){
+                                    echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                                }else{echo('Sem imagem');}
+                           ?>
                         </div>
                         <div class="col-md-6 desc-news">
-                            
                             <?php
-                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                $id=$user['id'];
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');
@@ -452,13 +457,17 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
+                        <?php 
+                            $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                            $id=$user['id'];
+                            $url = $user['imagem'];
+                            if(isset($user['imagem'])){
+                                echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                            }else{echo('Sem imagem');}
+                           ?>
                         </div>
                         <div class="desc-news col-md-6">
-        
-                                <?php
-                                $user = $stmt->fetch(PDO::FETCH_ASSOC);
-                                $id=$user['id'];
+                            <?php
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');
@@ -468,13 +477,17 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
-                        </div>
-                        <div class="desc-news col-md-6">
-                            
-                            <?php
+                            <?php 
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
+                                $url = $user['imagem'];
+                                if(isset($user['imagem'])){
+                                    echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                                }else{echo('Sem imagem');}
+                           ?>
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <?php  
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');
@@ -484,13 +497,17 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
-                        </div>
-                        <div class="desc-news col-md-6">
-                            
-                            <?php
+                            <?php 
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
+                                $url = $user['imagem'];
+                                if(isset($user['imagem'])){
+                                    echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                                }else{echo('Sem imagem');}
+                           ?>
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <?php 
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');
@@ -500,13 +517,17 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
-                        </div>
-                        <div class="desc-news col-md-6">
-                            
-                            <?php
+                            <?php 
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
+                                $url = $user['imagem'];
+                                if(isset($user['imagem'])){
+                                    echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                                }else{echo('Sem imagem');}
+                           ?>
+                        </div>
+                        <div class="desc-news col-md-6"> 
+                            <?php
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');
@@ -516,13 +537,17 @@
                     </div>
                     <div class="single-news item d-flex flex-row">
                         <div class="thumblr col-md-6 d-flex">
-                            <img class="img-fluid img-news" src="Media/img/img-home.jpg" width="300" height="150">
-                        </div>
-                        <div class="desc-news col-md-6">
-                            
-                            <?php
+                            <?php 
                                 $user = $stmt->fetch(PDO::FETCH_ASSOC);
                                 $id=$user['id'];
+                                $url = $user['imagem'];
+                                if(isset($user['imagem'])){
+                                    echo('<img class="img-fluid img-news" src="'.$url.'" width="300" height="150">');
+                                }else{echo('Sem imagem');}
+                           ?>
+                        </div>
+                        <div class="desc-news col-md-6">
+                            <?php
                                 if(isset($user['titulo'])){
                                     echo('<h4 class="text-danger">'.ucfirst($user['assunto']). '</h4>');  
                                     echo('<h6>'.ucfirst($user['titulo']). '</h6>');

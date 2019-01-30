@@ -20,6 +20,7 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `mei`
+CREATE DATABASE IF NOT EXISTS `mei` DEFAULT CHARACTER SET utf8 ;
 --
 
 -- --------------------------------------------------------
@@ -30,14 +31,14 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `clientes` (
   `id` int(11) NOT NULL,
-  `nomeEmpresa` varchar(100) NOT NULL,
-  `nomeResponsavel` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `senha` varchar(100) NOT NULL,
-  `estado` varchar(100) NOT NULL,
-  `CNPJ` varchar(100) NOT NULL,
-  `CNAE` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `nomeEmpresa` varchar(500) NOT NULL,
+  `nomeResponsavel` varchar(500) NOT NULL,
+  `email` varchar(500) NOT NULL,
+  `senha` varchar(500) NOT NULL,
+  `estado` varchar(500) NOT NULL,
+  `CNPJ` varchar(500) NOT NULL,
+  `CNAE` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `clientes`
@@ -59,9 +60,10 @@ INSERT INTO `clientes` (`id`, `nomeEmpresa`, `nomeResponsavel`, `email`, `senha`
 
 CREATE TABLE `noticias` (
   `id` int(11) NOT NULL,
-  `assunto` varchar(100) NOT NULL,
-  `titulo` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `assunto` varchar(500) NOT NULL,
+  `titulo` varchar(500) NOT NULL,
+  `imagem` varchar(5000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `noticias`
