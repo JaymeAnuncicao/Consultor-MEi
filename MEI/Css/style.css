@@ -13,13 +13,18 @@ ul {height: 12vh;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
 /* ------------------------------HOME:INICIO------------------------------------ */
-#home{height: 100%; background-image: url('../media/img/img-home.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
+ #home{height: 100%;background-image: url('../media/img/home3.png');background-repeat: no-repeat;background-color: black;background-size: cover;} 
+#homeLogo{margin-left: 6vw;margin-top: 1vh;}
 .texto{color:rgb(4,30,65);}
 .marge{height: 15vh;}
-.margem{margin-top: 12%;}
+.margem{margin-top: 5%;}
+.margen{margin-top: 1%;}
+.box-blank{box-shadow: 1px 1px 90px 30px  white;background-color: white;}
+.home-12{height: 100%;width: 100%;}
 .button {background-color: rgb(0, 61, 118);border: none;color: white;padding: 0px;text-align: center;text-decoration: none;display: inline-block;font-size: 40px;margin: 4px 2px;cursor: pointer;}
-
-.button1 {border-radius: 5px;width: 23vw;height: 10vh;margin-bottom: 5vh;}
+.apoio{font-size: 50px;width: 23vw;margin-left: 4vw;}
+.dout{font-size: 30px;width: 23vw;margin-left: 4vw;}
+.button1 {border-radius: 17px;width: 18vw;height: 10vh;margin-bottom: 5vh;margin-left: 6vw;}
 /* --------------------------------HOME:FIM--------------------------------------------- */
 
 
@@ -127,5 +132,10 @@ hr{border: none;}
 #cemail{width: 16.6vw;}
 textarea {width: 30vw;height: 150px;padding: 12px 20px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;background-color: #f8f8f8;resize: none;}
 .termos{color: white;}
-#footer{background-color:rgb(0, 61, 118); }
-.blank{height: 1vh;background-color: white;}
+#footer{background-color:rgb(0, 61, 118);height: 100%;}
+.bluest{height: 3vh;background-color: rgb(0, 61, 118);}
+.creditos{background-color: rgb(4,30,65);border-top: 1px solid gray;}
+/* .box-foo{border-right: 20px solid white;} */
+.box-foo1{border-right: 3px solid white;}
+.box-foo2{border-left: 30px solid rgb(0, 61, 118);border-right: 3px solid white;}
+.box-foo3{border-left: 30px solid rgb(0, 61, 118);}

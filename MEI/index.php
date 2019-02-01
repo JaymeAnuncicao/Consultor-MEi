@@ -134,7 +134,7 @@
                         <a class="nav-link text-white mt-3" href="#contatos">Contatos</a>
                     </li>
                     <li class="nav-item efect">
-                        <a class="nav-link text-white mt-3" href="https://praxisjr.com.br/">Blog</a>
+                        <a class="nav-link text-white mt-3" href="https://praxisjr.com.br/" target="blank">Blog</a>
                     </li>
                     <li class="nav-item move"></li>
                     <li class="nav-item efect ">
@@ -150,13 +150,13 @@
     
     <!----------------------HOME-------------------->
     <section id="home" class="container-fluid">
-        <div class="row bg-luz">
-            <div class="col-md-12 text-center margem">
-                <img src="Media/img/logo.png" width="300" height="300" id="homeLogo">
-                <h1 class="mt-5">A melhor resposta sua micro ou pequena empresa</h1>
-                <h4 class="mt-3">Você tem dúvidas? Nós respondemos</h4>
+        <div class="row margem justify-content-center">
+          <div class="col-md-4 box-blank margen">
+                <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
+                <h1 class="mt-1 text-center apoio">Apoiando você e seu negocio</h1>
+                <h4 class="mt-3 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas duvidas </h4> 
                 <a href="#"><button class="button button1 mt-5 hvr-grow">SAIBA MAIS</button></a>
-            </div>
+          </div>
         </div>
     </section>
     <div class="marge"  id="anchorempresa"></div>
@@ -166,8 +166,8 @@
     <section id="nossaempresa" class="container-fluid">
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
-                <h2 class="texto ">Aprenda mais sobre a</h2>
-                <p class="texto ipsum mt-5 text-justify">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica, permanecendo essencialmente  inalterado. Se popularizou na  década de 60, quando a Letraset  lançou decalques contendo Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor similique eius nihil dolorem voluptas facilis accusamus quasi nemo animi id esse enim, facere fugiat reiciendis consequuntur nisi. Blanditiis, repellendus.</p>
+                <h2 class="texto ">Objetivo do consultor MEi </h2>
+                <p class="texto ipsum mt-5 text-justify">Oferecer ao micro empreendedor individual (MEI) e ao Micro empresário (ME) a possibilidade de ter na palma da mão um canal de comunicação, consultoria e informação, preparado para ajuda-lo a crescer. </p>
             </div>
             <div class="col-md-6 ">
                 <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -188,28 +188,28 @@
             <div class="col-md-4 text-right ">
                 <div class="row justify-content-end">   
                     <div class="col-md-10">
-                        <a href="funcionalidades.php"><h5 class="texto ajust">Funcionalidade 1</h5></a>
+                        <a href="funcionalidades.php"><h5 class="texto ajust">Fiscal/tributário</h5></a>
                         <hr noshade class="func">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 2</h5></a>
+                        <a href="#"><h5 class="texto ajust">Pessoal/RH</h5></a>
                         <hr noshade class="func ">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 3</h5></a>
+                        <a href="#"><h5 class="texto ajust">Jurídico </h5></a>
                         <hr noshade class="func">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 4</h5></a>
+                        <a href="#"><h5 class="texto ajust">Treinamentos (link/produção)</h5></a>
                         <hr noshade class="func">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
@@ -225,28 +225,28 @@
             <div class="col-md-4 ">
                 <div class="row">
                     <div class="col-md-10">
-                        <a href=""><h5 class="texto ajust">Funcionalidade 5</h5></a>
+                        <a href=""><h5 class="texto ajust">Financeiro</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 6</h5></a>
+                        <a href="#"><h5 class="texto ajust">Marketing/ Estratégia</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 7</h5></a>
+                        <a href="#"><h5 class="texto ajust">Inovação e criatividade</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Funcionalidade 8</h5></a>
+                        <a href="#"><h5 class="texto ajust">Gestão e planejamento</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
                     </div>
@@ -349,15 +349,15 @@
     <section id="cartao" class="container-fluid">
         <div class="row  justify-content-around container-fluid align-items-end">
             <div class="col-md-4 mt-5">
-                <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" alt="" id="img-card" width="350" height="200"></div>
+                <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" id="img-card" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
+                    O Cartão MEi vem com uma proposta de estimular negócios entre os MEIs e os Mês associados, você pode , se quiser, ganhar descontos e ao mesmo tempo pode , se quiser, dar descontos em seus produtos ou serviços.
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="row justify-content-center"><img src="Media/img/faq-icon.png" id="img-faq" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex nemo, labore adipisci eveniet totam possimus delectus ab harum! Mollitia voluptatibus quam corporis maiores autem suscipit natus officiis vel atque dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas vel cupiditate dolores ratione, totam, corrupti officiis itaque, expedita praesentium quibusdam accusantium voluptatum molestiae vero voluptate suscipit pariatur laborum. Laudantium!
+                    O Nosso FAQ, está preparado para lhe ajudar com as duvidas mais frequentes sobre ser MEI ou ME, obrigações, Benefícios, Direitos e Muito Mais.
                 </div>
             </div>
         </div>
@@ -572,7 +572,7 @@
             <div class="row justify-content-center container-fluid">
             <div class="col-12 col-md-6 col-lg-4 col-sm-12 mt-5 sendemail">
                 <h3 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
-                <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="sendmail" class="text-center">
+                <form  action="PHP/sendmail.php" method="post" id="sendmail" class="text-center">
                     <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1  texto" placeholder="Nome">                            
                     <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta  texto" id="cemail"placeholder="E-email">
                     <input type="text" name="telefone" class="z-depth-1  mb-3 conta  texto" placeholder="Telefone">
@@ -581,22 +581,36 @@
                         
                 </form>    
                 <div class="row justify-content-center">
-                    <input type="submit" value="Enviar" class="btn btn-success btn-lg col-3 col-sm-4 mt-2 ">
+                    <input type="submit" value="Enviar"  class="btn btn-success btn-lg col-3 col-sm-4 mt-2 ">
                 </div>                      
             </div>
             </div>
-            <div class="row justify-content-end container-fluid ">
-                <h6 class="text-white text-right uso">Links Úteis: <a href="#" class="termos"><i class="fas fa-paste"></i>Termos de uso</a>  <a href="#" class="termos"class="termos"><i class="far fa-folder-open"></i>Politica de privacidade</a></h6>
-            </div>
         </div>
     </section>                                            
-    <div class="blank"></div>
+    <div class="bluest"></div>
     <footer id="footer" class="container-fluid">
-        
-        <div class="row justify-content-center text-white">
-            <h6 class="creditos">© Desenvolvido por Praxis - Empresa Jr.2018.Todos os direitos reservados</h6>
+        <div class="row justify-content-center aling-itens-center text-white ml-5">
+            <div class="col-md-3 mt-2 box-foo1">
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Marca</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Termo de uso</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Politica de privacidade</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Rede socias</h5></a></div>
+            </div>
+            <div class="col-md-3 mt-3 box-foo2">
+                <div class="row mt-3 box-foo"><a href="#" class="termos" ><h5>FAQ</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Cadastre-se</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Novidades</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Planos</h5></a></div>
+            </div>
+            <div class="col-md-3 mt-3 box-foo3">
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Consultor MEi</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>Maximo´s Tecnologia Ltda</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>CNPJ N. 11.063.128/0001-10</h5></a></div>
+                <div class="row mt-3 box-foo"><a href="#" class="termos"><h5>E-mail: contato@consultormei.com.br</h5></a></div>
+            </div>
         </div>
-     </footer>
+        <div class="row justify-content-center creditos mt-5 text-white"><h6 class="  mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>
+    </footer>
    <!--------------------CONTATOS:FIM--------------------------------> 
 
 <!---------------MODAL-CADASTRO:INICIO-------------->
