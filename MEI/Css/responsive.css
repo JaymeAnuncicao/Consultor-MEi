@@ -8,7 +8,7 @@
 @media only screen and (max-width: 1400px){
     #navbarNav{margin-left: -2vw;}
     #homeLogo{margin-bottom: -3%}
-    .margem{margin-top: 8%;}
+    .margem{margin-top: 5%;}
     #nossaempresa{height: 80vh;}
     #funcionalidades{height: 115vh;}
     #cartao{height: 90vh;}
@@ -16,6 +16,9 @@
     #contatos{height: 100vh;}
     .conta{width: 26vh;}
     .marge{height: 7.5vh;}
+    .apoio{font-size: 40px;margin-top: 5vh !important;}
+    #homeLogo{width: 20vw;height: 30vh;margin-top: 6vh;}
+    .dout{font-size: 20px;}
 }
 /* -------IPAD PRO--- */
 @media only screen and (max-width: 1024px) and (max-height: 1366px){
