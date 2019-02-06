@@ -119,12 +119,31 @@
             </div>
         </div>
     </section>
+    <div class="bluest"></div>
     <footer id="footer" class="container-fluid">
-        
-        <div class="row justify-content-center text-white">
-            <h6 class="creditos">© Desenvolvido por Praxis - Empresa Jr.2018.Todos os direitos reservados</h6>
+        <div class="row justify-content-center aling-itens-center text-white ml-5">
+            <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
+            <div class="col-md-3 mt-2">
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Termo de uso</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>CNPJ N. 11.063.128/0001-10</h6></a></div>
+            </div>
+            <div class="col-md-3 mt-2 ">
+                <div class="row mt-3 "><a href="#" class="termos" ><h6>FAQ</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Planos</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Novidades</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>Politica de privacidade</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos"><h6>contato@consultormei.com.br</h6></a></div>
+            </div>
+            <div class="col-md-3">
+                <div class="row  "><a href="#" class="termos"><h6>Rede socias</h6></a></div>
+                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" width="35"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" width="35"></a></div>
+            </div>
         </div>
-     </footer>
+        <div class="row justify-content-center creditos mt-5 text-white"><h6 class="  mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>
+    </footer>
 
 
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>

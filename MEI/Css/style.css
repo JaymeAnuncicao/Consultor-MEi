@@ -2,18 +2,18 @@
 /* cor da seleção:rgb(1,130,202); */
 
 /* ------------------------NAVBAR:INICIO------------------------------ */
-.navbar{height: 12vh;font-size: 3vh;}
-#Navbar{background-color: rgb(4,30,65);}
+#Navbar{font-size: 3vh;}
+.bg-primary{background-color: rgb(4,30,65) !important;}
 .bg{height: 100%;background-color: rgba(0, 0, 0, 0.5);}
-.bg-luz{height: 100%;background-color: rgba(255, 255, 255, 0.5);}
-ul {height: 12vh;}
+/* .bg-luz{height: 100%;background-color: rgba(255, 255, 255, 0.5);} */
+ul{height: 12vh;}
 .move{width: 22vw;}
 .efect:hover{background-color: #0182ca !important;background-size: 100px;}
 #navLogo{opacity: 0;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
 /* ------------------------------HOME:INICIO------------------------------------ */
- #home{height: 100%;background-image: url('../media/img/home3.png');background-repeat: no-repeat;background-color: black;background-size: cover;} 
+#home{height: 100%;background-image: url('../media/img/home3.png');background-repeat: no-repeat;background-color: black;background-size: cover;} 
 #homeLogo{margin-left: 6vw;margin-top: 1vh;}
 .texto{color:rgb(4,30,65);}
 .marge{height: 15vh;}

@@ -105,7 +105,7 @@
 <body>
     <!---------------------NAVBAR-------------->
     <header>
-        <nav class="navbar navbar-expand-lg   fixed-top" id="Navbar">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-primary fixed-top" id="Navbar">
             <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="navLogo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
