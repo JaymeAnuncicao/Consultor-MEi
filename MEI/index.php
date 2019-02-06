@@ -150,7 +150,8 @@
     
     <!----------------------HOME-------------------->
     <section id="home" class="container-fluid">
-        <div class="row margem justify-content-center">
+        <div class="row margem justify-content-center bg-luz">
+            
           <div class="col-md-4 box-blank margen">
                 <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
                 <h1 class="mt-1 text-center apoio">Apoiando você e seu negocio</h1>
@@ -591,14 +592,14 @@
     <footer id="footer" class="container-fluid">
         <div class="row justify-content-center aling-itens-center text-white ml-5">
             <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
-            <div class="col-md-3 mt-2">
+            <div class="col-md-3 mt-2 box-foo1">
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Termo de uso</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>CNPJ N. 11.063.128/0001-10</h6></a></div>
             </div>
-            <div class="col-md-3 mt-2 ">
+            <div class="col-md-3 mt-2 box-foo2">
                 <div class="row mt-3 "><a href="#" class="termos" ><h6>FAQ</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Planos</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Novidades</h6></a></div>
