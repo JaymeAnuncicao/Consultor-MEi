@@ -20,7 +20,7 @@ ul{height: 12vh;}
 .marge{height: 15vh;}
 .margem{margin-top: 5%;}
 .margen{margin-top: 1%;}
-.box-blank{box-shadow: 0px 0px 50px 30px  white;background-color: white;}
+.box-blank{box-shadow: 0px 0px 50px 30px  white;background-color: white;} 
 .home-12{height: 100%;width: 100%;}
 .button {background-color: rgb(0, 61, 118);border: none;color: white;padding: 0px;text-align: center;text-decoration: none;display: inline-block;font-size: 40px;margin: 4px 2px;cursor: pointer;}
 .apoio{font-size: 50px;width: 23vw;margin-left: 4vw;}
