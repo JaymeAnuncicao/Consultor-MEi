@@ -7,7 +7,7 @@
     $_SESSION['authenticateADM']= false;
 
     require_once 'PHP/init.php';
-    $conex = db_connect();
+    $conex = db_connect(); 
     $query1= "SELECT id,assunto,titulo,imagem FROM noticias ORDER BY id DESC LIMIT 7;";
     $stmt= $conex->prepare($query1);
     $stmt->execute();
@@ -270,17 +270,17 @@
 							<div class="top-part">
 								<h1 class="package-no">01</h1>
 								<h4>Econômico</h4>
-								<p class="mt-10 mody">Individual</p>
+								<p class="mt-10 mody">Individual (MEi)</p>
 							</div>
 							<div class="package-list text-center">
 								<ul>
-									<li class="text-mody">Secure Online Transfer</li>
-									<li class="text-mody">Unlimited Styles for interface</li>
-									<li class="text-mody">Reliable Customer Service</li>
+									<li class="text-mody">+1 Funcionalidade</li>
+									<li class="text-mody">Plano de 6 meses</li>
+									<li class="text-mody">R$ 6,00 serão doados</li>
 								</ul>
 							</div>
 							<div class="bottom-part">
-								<h1>R$ 199.00</h1>
+								<h6> <s style="color: red;">R$ 120,00</s> </h6><h1>R$ 60,00</h1>
 								<a class="price-btn text-uppercase" href="#">Compre agora</a>
 							</div>
 						</div>
@@ -288,17 +288,17 @@
 							<div class="top-part">
 								<h1 class="package-no">02</h1>
 								<h4>Business</h4>
-								<p class="mt-10 mody">Individual</p>
+								<p class="mt-10 mody">Individual (MEi)</p>
 							</div>
 							<div class="package-list">
 								<ul>
-									<li class="text-mody">Secure Online Transfer</li>
-									<li class="text-mody">Unlimited Styles for interface</li>
-									<li class="text-mody">Reliable Customer Service</li>
+									<li class="text-mody">+1 Funcionalidade</li>
+									<li class="text-mody">Plana de 6 meses</li>
+									<li class="text-mody">R$ 12,00 serão doados</li>
 								</ul>
 							</div>
 							<div class="bottom-part">
-								<h1>R$ 299.00</h1>
+                                <h6><s style="color: red;">R$ 240,00</s> </h6><h1>R$ 120,00</h1>
 								<a class="price-btn text-uppercase" href="#">Compre agora</a>
 							</div>
 						</div>
@@ -306,17 +306,17 @@
 							<div class="top-part">
 								<h1 class="package-no">03</h1>
 								<h4>Premium</h4>
-								<p class="mt-10 mody">Individual</p>
+								<p class="mt-10 mody">Individual (ME)</p>
 							</div>
 							<div class="package-list">
 								<ul>
-									<li class="text-mody">Secure Online Transfer</li>
-									<li class="text-mody">Unlimited Styles for interface</li>
-									<li class="text-mody">Reliable Customer Service</li>
+									<li class="text-mody">+1 Funcionalidade</li>
+									<li class="text-mody">Plano de 6 meses</li>
+									<li class="text-mody">R$ 18,00 serão doados</li>
 								</ul>
 							</div>
 							<div class="bottom-part">
-								<h1>R$ 399.00</h1>
+                                <h6><s style="color: red;">R$ 390,00</s> </h6><h1>R$ 195,00</h1>
 								<a class="price-btn text-uppercase" href="#">Compre agora</a>
 							</div>
 						</div>
@@ -328,13 +328,13 @@
 							</div>
 							<div class="package-list">
 								<ul>
-									<li class="text-mody ">Secure Online Transfer</li>
-									<li class="text-mody">Unlimited Styles for interface</li>
-									<li class="text-mody">Reliable Customer Service</li>
+									<li class="text-mody ">+1 Funcionalidade</li>
+									<li class="text-mody">Plano de 6 meses</li>
+									<li class="text-mody">R$ 24,00 serão doados</li>
 								</ul>
 							</div>
 							<div class="bottom-part">
-								<h1>R$ 499.00</h1>
+                                <h6><s style="color: red;">R$ 780,00</s> </h6><h1>R$ 390,00</h1>
 								<a class="price-btn text-uppercase" href="#">Compre agora</a>
 							</div>
 						</div>																		

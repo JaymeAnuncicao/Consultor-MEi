@@ -36,39 +36,43 @@
 <body>
      <!---------------------NAVBAR : APENAS DE BASE-------------->
      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-darkblue fixed-top">
-            <a class="navbar-brand" href="#">MEI</a>
+     <nav class="navbar navbar-expand-lg  navbar-dark bg-primary fixed-top" id="Navbar">
+            <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="navLogo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link nav-item text-white" href="index.html#home">Home <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav ml-3 ">
+                    <li class="nav-item active efect ">
+                        <a class="nav-link nav-item text-white mt-3 " href="index.php#home">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html#nossaempresa">Nossa Empresa</a>
+                    <li class="nav-item efect"  id="ourenterprise">
+                        <a class="nav-link text-white mt-3" href="index.php#enterprise">Nossa Empresa</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html#funcionalidades">Funcinalidades</a>
+                    <li class="nav-item efect" id="functions">
+                        <a class="nav-link text-white mt-3" href="index.php#funcionalidades">Funcionalidades</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#planos">Planos</a>
+                    <li class="nav-item efect" id="plans">
+                        <a class="nav-link text-white mt-3" href="index.php#planos">Planos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#noticias">Noticias</a>
+                    <li class="nav-item efect" id="notice">
+                        <a class="nav-link text-white mt-3" href="index.php#noticias">Notícias</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="FAQ.php">FAQ</a>
+                    <li class="nav-item efect">
+                        <a class="nav-link text-white mt-3" href="FAQ.php">FAQ</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#contatos">Contatos</a>
+                    <li class="nav-item efect" id="contacts">
+                        <a class="nav-link text-white mt-3" href="index.php#contatos">Contatos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white float-left" href="#">Cadastrar</a>
+                    <li class="nav-item efect">
+                        <a class="nav-link text-white mt-3" href="https://praxisjr.com.br/" target="blank">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white float-left" href="#">Login</a>
+                    <li class="nav-item move"></li>
+                    <li class="nav-item efect ">
+                        <a class="nav-link active text-white mt-3 justify-content-end" data-toggle="modal" data-target="#ModalCadastro" href="#"><i class="far fa-user mr-2"></i>Cadastrar</a>
+                    </li>
+                    <li class="nav-item efect">
+                        <a class="nav-link text-white mt-3" data-toggle="modal" data-target="#ModalLogin" href="#"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
                     </li>
                 </ul>
             </div>
@@ -76,79 +80,91 @@
     </header>
     <!-----------------NAVBAR--------------->
     <section class="container-fluid">
-        <div class=" marge" id="afas">
-            <!-- o span é para fazer a linha embaixo -->
-            <h1 class="mt-5 text"><span>PERGUNTAS FREQUENTES</span></h1>
+        <div class="marge afast" >
+            <h1 class="mt-5 text">PERGUNTAS FREQUENTES</h1>
+            <hr noshade class="faq-line afast">
         </div>
         <!-- LOGIN E CADASTRO -->
-        <div class="col-md-3">
-            <div class="row afas">
-                <div class="col-md-3">
-                    <button class="button button1 text-left" onclick="funcao1()">Login e Cadastro	<i class="fas fa-chevron-right float-right"></i></button>   
-                </div>
-            </div>
-        </div>
-        <!-- PLANOS -->
-        <div class="col-md-3">    
-            <div class="row afas">
-                <div class="col-md-3">  
-                    <button class="button button1 text-left" onclick="funcao2()">Planos	<i class="fas fa-chevron-right float-right"></i></button>   
-                </div>
-            </div>
-        </div>
-        <!-- POLITICA E PRIVACIDADE -->
-        <div class="col-md-3">
-            <div class="row afas">
-                <div class="col-md-3">
-                    <button class="button button1 text-left" onclick="funcao3()">Politica e privacidade	<i class="fas fa-chevron-right float-right"></i></button>   
-                </div>
-            </div>
-        </div>
-        <!-- POLITICA DA EMPRESA -->
-        <div class="col-md-3">
-            <div class="row afas">
-                <div class="col-md-3">
-                    <button class="button button1 text-left"onclick="funcao4()">Politica de compra<i class="fas fa-chevron-right float-right"></i></button>   
-                </div>
-            </div>
-        </div>
-        <div class="row acorde">
-            <!-----------ACCORDION------------->
-            <!-- esse accordion é fixo, e esse será mudado para os demais -->
-            <div class="accordion" id="accordionExample">
-                <div class="cardy">
-                    <div class="" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h4>Como fazer meu cadastro?</h4>
-                        </button>
-                    </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+        <div class="col-md-4">
+            <div class="row">
                 <div class="">
-                    <div class="" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
-                        </button>
-                    </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="row afas">
+                        <div class="col-md-3">
+                            <button class="button button1 text-left" onclick="funcao1()">Login e Cadastro <i class="fas fa-chevron-right float-right"></i></button>   
                         </div>
                     </div>
                 </div>
             </div>
-            <!-----------ACCORDION------------->
+            <!-- PLANOS -->
+            <div class="row">
+                <div class="">    
+                    <div class="row afas">
+                        <div class="col-md-3">  
+                            <button class="button button1 text-left" onclick="funcao2()">Planos	<i class="fas fa-chevron-right float-right"></i></button>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- POLITICA E PRIVACIDADE -->
+            <div class="row">
+                <div class="">
+                    <div class="row afas">
+                        <div class="col-md-3">
+                            <button class="button button1 text-left" onclick="funcao3()">Politica e privacidade	<i class="fas fa-chevron-right float-right"></i></button>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- POLITICA DA EMPRESA -->
+            <div class="row">
+                <div class=""> 
+                    <div class="row afas">
+                        <div class="col-md-3">
+                            <button class="button button1 text-left"onclick="funcao4()">Politica de compra<i class="fas fa-chevron-right float-right"></i></button>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-      
+        <div class="col-md-7 acorde ">
+                <!-----------ACCORDION------------->
+                <!-- esse accordion é fixo, e esse será mudado para os demais -->
+                <div class="accordion " id="accordionExample">
+                    <div class="cardy">
+                        <div class="" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h4>Como fazer meu cadastro?</h4>
+                            </button>
+                        </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----------ACCORDION------------->
+        </div>
+        </div>
     </section>
     <div class="col-md-6 mt-3 mb-5 mr-5 col-lg-4 float-right container">
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="z-depth-3 text-center rounded primary-color-dark p-5">
