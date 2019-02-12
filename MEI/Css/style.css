@@ -9,7 +9,7 @@
 ul{height: 12vh;}
 .move{width: 22vw;}
 .efect{background-color: rgb(4,30,65);}
-.efect:hover{background-color: #0182ca !important;background-size: 100px;}
+.efect:hover{background-color: #0182ca !important;background-size: 100px;-webkit-transition: background-color .5s ease-out;-moz-transition: background-color .5s ease-out;-o-transition: background-color .5s ease-out;transition: background-color .5s ease-out;}
 #navLogo{opacity: 0;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
@@ -127,6 +127,7 @@ hr{border: none;}
 .modal-login{height: 70vh;width: 25vw;margin-left: 3vw;}
 .title-margin{margin-left: 9vw;margin-top: 3vh;}
 .login-margin{margin-top: 5vh !important;margin-left: 7vw;}
+.saiu{margin-left: -1vw;}
 /*---------------------------- CONTATOS:  INCIO------------------- */
 #contatos{height: 85vh; background-image: url('../Media/img/img-contatos.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
 .conta1{border: 1px solid ;border-radius: 4px;border-color:rgb(4, 30, 65); width: 30vw; height: 6.5vh;padding-left: 10px;}

@@ -39,7 +39,7 @@
     .func{margin-left: 3vw;width: 50%;}
     .func1{margin-left: 3vw;width: 50%;}
     .button2{width: 70vw;height: 5vh;}
-    .bottom-part{margin-top: 10vh;}
+    .bottom-part{margin-top: 3vh;}
     .linha2{width: 50%;}
     #cartao{height: 100%;}
     .text-modi{padding: 0 0;}
@@ -55,6 +55,15 @@
     .uso{width: 100%;margin-top: 5vh;margin-bottom: 5vh;}
     .sendemail{align-self: center;}
     #sendmail{align-self: center;}
+    #faq-login{display: block;margin-right: -50vw;}
+    #faq-planos{display: block;margin-right: -50vw;}
+    #faq-privacidade{display: block;margin-right: -50vw;}
+    #faq-compra{display: block;margin-right: -50vw;}
+    .acorde{display: none !important;}
+    .button-faq{width: 65vw !important;margin-left: -1vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 46vw;margin-left: 3vw;}
+    .faq-line{width: 50vw;margin-left: 3vw !important;}
 }
 /* -------IPAD DEITADO--- */
 @media only screen and (max-width: 1024px) and (max-height: 768px){
@@ -97,6 +106,15 @@
     .sendemail{align-self: center;}
     #sendmail{align-self: center;}
     .input1{width: 30vw;}
+    #faq-login{display: block;margin-right: -50vw;}
+    #faq-planos{display: block;margin-right: -50vw;}
+    #faq-privacidade{display: block;margin-right: -50vw;}
+    #faq-compra{display: block;margin-right: -50vw;}
+    .acorde{display: none !important;}
+    .button-faq{width: 65vw !important;margin-left: -1vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 46vw;margin-left: 3vw;}
+    .faq-line{width: 50vw;margin-left: 3vw !important;}
 }
 /* -------IPAD--- */
 @media only screen and (max-width: 768px) and (max-height: 1024px){
@@ -143,6 +161,15 @@
     .input1{width: 48vw;height: 5vh;}
     .input{width: 23.6vw;height: 5vh;}
     .modal-login{width: 60vw;}
+    #faq-login{display: block;margin-right: -50vw;}
+    #faq-planos{display: block;margin-right: -50vw;}
+    #faq-privacidade{display: block;margin-right: -50vw;}
+    #faq-compra{display: block;margin-right: -50vw;}
+    .acorde{display: none !important;}
+    .button-faq{width: 65vw !important;margin-left: -1vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 46vw;margin-left: 3vw;}
+    .faq-line{width: 50vw;margin-left: 3vw !important;}
 }
 /*------------IPHONE X DEITADO------- */
 @media only screen and (max-width: 812px) and (max-height: 375px){
@@ -486,6 +513,12 @@
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
     .box-foo1,.box-foo2{border:none;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -15vw;}
+    .faq-line{width: 93vw;margin-left: -10vw !important;}
 
 }
 /* ----------PIXEL 2 XL--------- */
@@ -526,6 +559,12 @@
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
     .box-foo1,.box-foo2{border:none;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -12vw;}
+    .faq-line{width: 93vw;margin-left: -12vw !important;}
 
 }
 /*----IPHONE/6/7/8 PLUS------*/
@@ -572,6 +611,12 @@
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
     .box-foo1,.box-foo2{border:none;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -12vw;}
+    .faq-line{width: 93vw;margin-left: -12vw !important;}
 
 }
 /*----IPHONE/6/7/8 PLUS------*/
@@ -623,6 +668,12 @@
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
     .box-foo1,.box-foo2{border:none;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -15vw;}
+    .faq-line{width: 93vw;margin-left: -15vw !important;}
 }
 /*----IPHONE/6/7/8------*/
 
@@ -668,6 +719,12 @@
     .title-margin{margin-right: 15vw}
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -15vw;}
+    .faq-line{width: 93vw;margin-left: -15vw !important;}
 }
 /*----IPHONE X------*/
 
@@ -715,6 +772,12 @@
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
     .box-foo1,.box-foo2{border:none;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -15vw;}
+    .faq-line{width: 93vw;margin-left: -15vw !important;}
 }
 /*---------GALAXY S5------ */
 
@@ -762,5 +825,11 @@
     .title-margin{margin-right: 15vw}
     .modal-login{width: 90vw;}
     .login-margin{margin-right: 25vw;}
+    #faq-login{display: block;}
+    .acorde{display: none !important;}
+    .button-faq{width: 85vw !important;margin-left: -18vw !important;}
+    .respon{display: block !important;}
+    .common{font-size: 25px;width: 96vw;margin-left: -15vw;}
+    .faq-line{width: 93vw;margin-left: -15vw !important;}
 }
 /* -------IPHONE 5/SE----- */

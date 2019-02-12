@@ -156,7 +156,7 @@
                 <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
                 <h1 class="mt-1 text-center apoio">Apoiando você e seu negocio</h1>
                 <h4 class="mt-4 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas duvidas </h4> 
-                <a href="#"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
+                <a href="FAQ.php"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
           </div>
         </div>
     </section>
@@ -324,7 +324,7 @@
 							<div class="top-part">
 								<h1 class="package-no">04</h1>
 								<h4>Exclusivo</h4>
-								<p class="mt-10 mody ">Individual</p>
+								<p class="mt-10 mody ">Individual(ME)</p>
 							</div>
 							<div class="package-list">
 								<ul>
@@ -608,10 +608,10 @@
             </div>
             <div class="col-md-3">
                 <div class="row  "><a href="#" class="termos"><h6>Rede socias</h6></a></div>
-                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" width="35"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" width="35"></a></div>
+                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" alt="Facebook" width="35"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" alt="Instagram" width="35"></a></div>
             </div>
         </div>
-        <div class="row justify-content-center creditos mt-5 text-white"><h6 class="  mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>
+        <div class="row justify-content-center creditos mt-5 text-white"><h6 class="mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>
     </footer>
    <!--------------------CONTATOS:FIM--------------------------------> 
 
@@ -659,8 +659,8 @@
                     </div>
                 </div>                                    
                 <form class="text-center primary-color-dark p-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <input type="email" required name="loginemail" class="z-depth-1  mb-5 input1 texto" placeholder="Usuario">
-                    <input type="password" required name="loginsenha" class="z-depth-1  input1 texto" placeholder="Senha"> 
+                    <input type="email" required name="loginemail" class="z-depth-1  mb-5 input1 texto saiu" placeholder="Usuario">
+                    <input type="password" required name="loginsenha" class="z-depth-1  input1 texto saiu" placeholder="Senha"> 
                     <input type="submit" value="Entrar" class="btn btn-success btn-lg col-6 mt-5">
                 </form>                               
             </div>
