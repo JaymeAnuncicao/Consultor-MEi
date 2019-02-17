@@ -22,6 +22,8 @@ ul{height: 12vh;}
 .acorde{margin-left: 35%;margin-top:-46vh;float: left;display: flex;flex-direction: row;justify-content: center;}
 .accordion{width: 130vh;}
 .fas{margin-top: 3%;}
+.button-respon{display: none !important;}
+.button-normal{display: block;}
 /* --------------------FOOTER----------------- */
 #footer{background-color:#003d76;height: 100%;}
 .termos{color: white;}
@@ -29,3 +31,10 @@ ul{height: 12vh;}
 .box-foo1{border-right: 1.5px solid white;}
 .box-foo2{border-left: 30px solid rgb(0, 61, 118);}
 .box-foo3{border-left: 30px solid rgb(0, 61, 118);}
+/*----------------------------MODAL------------------*/
+.input1{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 20vw; height: 6.5vh;padding-left: 10px; }
+.input{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 10vw; height: 6.5vh;padding-left: 10px;}
+.modal-login{height: 70vh;width: 25vw;margin-left: 3vw;}
+.title-margin{margin-left: 9vw;margin-top: 3vh;}
+.login-margin{margin-top: 5vh !important;margin-left: 7vw;}
+.saiu{margin-left: -1vw;}

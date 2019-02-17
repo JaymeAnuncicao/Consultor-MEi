@@ -84,6 +84,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gabriel Souza - Jayme Anunciação - Praxis Jr">
+	<meta name="description" content="Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.">
+    <meta name="keywords" content="Consultoria MEi microempresas microempresas individuais">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-----TITLE---->
     <title>Consultoria MEI</title>
     <!-------FONTS------>
@@ -93,7 +97,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link rel="stylesheet" href="css/teste.css">
+    <!-- <link rel="stylesheet" href="css/teste.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/hover-min.css">
     <link rel="stylesheet" type="text/css" href="css/linearicons.css">
@@ -156,7 +160,7 @@
                 <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
                 <h1 class="mt-1 text-center apoio">Apoiando você e seu negocio</h1>
                 <h4 class="mt-4 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas duvidas </h4> 
-                <a href="FAQ.php"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
+                <a href="funcionalidades.php"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
           </div>
         </div>
     </section>
@@ -168,7 +172,7 @@
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
                 <h2 class="texto ">Objetivo do consultor MEi </h2>
-                <p class="texto ipsum mt-5 text-justify">Oferecer ao micro empreendedor individual (MEI) e ao Micro empresário (ME) a possibilidade de ter na palma da mão um canal de comunicação, consultoria e informação, preparado para ajuda-lo a crescer. </p>
+                <p class="texto ipsum mt-5 text-justify">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
             </div>
             <div class="col-md-6 ">
                 <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -191,28 +195,28 @@
                     <div class="col-md-10">
                         <a href="funcionalidades.php"><h5 class="texto ajust">Fiscal/tributário</h5></a>
                         <hr noshade class="func">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Impostos, Obrigações acessórias e fiscalizações, aqui no <strong>Consultor MEi</strong> vamos juntos encontrar o melhor caminho.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Pessoal/RH</h5></a>
                         <hr noshade class="func ">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Aqui no <strong>consultor MEi</strong>, vamos descomplicar sua vida trabalhista e lhe ajudar a conseguir o melhor da sua equipe ou colaborador.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Jurídico </h5></a>
                         <hr noshade class="func">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">E agora? Aqui no <strong>Consultor MEi</strong> você terá apoio para entender o que fazer e informações para fazer certo.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
                 <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Treinamentos (link/produção)</h5></a>
                         <hr noshade class="func">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Nos do <strong>Consultor MEI</strong> vamos ajudar a lhe capacitar, para melhorar o desempenho e atender a expectativa cada vez maior do cliente.</p>
                     </div>
                 </div>
             </div>
@@ -228,28 +232,28 @@
                     <div class="col-md-10">
                         <a href=""><h5 class="texto ajust">Financeiro</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Cartão de credito a receber, Caixa, Conta bancaria, contas a pagar e a receber, linha de credito, taxas. Ufa. Nos do <strong>Consultor MEi</strong> , junto com você , Vamos descomplicar.</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Marketing/ Estratégia</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">A analise de mercado, a pesquisa e a ação vai ajudar o seu produto ou serviço ser conhecido, nos do <strong>Consultor MEi</strong> estamos aqui para orientar seu negocio para o caminho do sucesso.</p>
                     </div>
                 </div>
                 <div class="row">
                 <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Inovação e criatividade</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Você quer inovar, criar ou melhorar algo em seu negocio, vem com agente, nós do <strong>Consultor MEi</strong> vamos ajudar.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10">
                         <a href="#"><h5 class="texto ajust">Gestão e planejamento</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Lorem Ipsum sobreviveu não só a cinco séculos, como também ao  salto para a editoração eletrônica</p>
+                        <p class="ajust">Sem metas sua empresa não vai pra lugar nenhum, saiba como planejar e gerir melhor o seu negocio, nós do <strong>Consultor MEi</strong> ajudamos.</p>
                     </div>
                 </div>
             </div>

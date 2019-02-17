@@ -17,3 +17,16 @@
     margin-right: 5px;
 }
 .desc-news{padding-top: 10px;}
+.text-selection{color: rgb(1,130,202);}
+.func{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-left: 2vw;}
+.func1{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-left: 6vw;}
+.func2{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-left: 23vw;}
+.func3{background-color: rgb(241, 207, 54);height: 5px;width: 15vw;margin-left: 15vw;}
+.black-bj{background-color: rgba(0, 0, 0,0.5 );}
+#page-info{height: 100%;background-image: url('../Media/img/img-home.jpg');background-repeat: no-repeat;background-color: black;background-size: cover;}
+.parallax {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

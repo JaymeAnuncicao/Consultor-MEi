@@ -14,9 +14,10 @@ ul{height: 12vh;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
 /* ------------------------------HOME:INICIO------------------------------------ */
-#home{height: 100%;background-image: url('../media/img/home3.png');background-repeat: no-repeat;background-color: black;background-size: cover;} 
+#home{height: 100%;background-image: url('../media/img/1600X900.png');background-repeat: no-repeat;background-color: black;background-size: cover;} 
 #homeLogo{margin-left: 6vw;margin-top: 1vh;}
 .texto{color:rgb(4,30,65);}
+.margeament{margin-top: 6%;}
 .marge{height: 15vh;}
 .margem{margin-top: 5%;}
 .margen{margin-top: 1%;}
@@ -120,6 +121,13 @@ hr{border: none;}
 .carousel-control-prev-icon{background-image: url('../Media/img/left.png');height: 5vh;width: 2.5vw;}
 .carousel-indicators .active{background-color: rgb(1,130,202);}
 .carousel-indicators li{height: 10px;width: 10px;border-radius: 50%;background-color: rgb(204, 204, 204);}
+.thumblr{
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 10vw;
+  height: 28vh;
+  margin-right: 5px;
+}
 
 /*----------------------------MODAL------------------*/
 .input1{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 20vw; height: 6.5vh;padding-left: 10px; }

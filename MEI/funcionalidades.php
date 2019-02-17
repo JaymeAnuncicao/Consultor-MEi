@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- TITLE -->
-    <title>Funcionalidades-MEI</title>
+    <title>Sobre MEi e suas Funcionalidades</title>
 
     <!-------FONTS------>
+    <link rel="icon" href="Media/img/logo-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-----PLUGINS CSS---->
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
@@ -24,8 +25,8 @@
 </head>
 <body>
 <header>
-        <nav class="navbar navbar-expand-lg  fixed-top" id="Navbar">
-            <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="navLogo"></a>
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top" id="Navbar">
+            <a class="navbar-brand" href="#home"><img src="Media/img/logo_new.png" width="60" height="60" id="nav-Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
             </button>
@@ -66,58 +67,184 @@
             </div>
         </nav>
     </header>
-    <section class="container margem justify-content-center">
-        <div class="row container-fluid justify-content-center">
+    <section class="margeament container-fluid justify-content-center parallax" id="page-info">
+            <div class=" row black-bj">
+                <div class="row container-fluid justify-content-center mb-5 mt-5">
+                    <h2 class="text-white" id="funcion">Sobre o consultor MEI</h2>
+                </div>
+                <!-------------NOSSA EMPRESA----------->
+                <div class="row container-fluid justify-content-center mt-5" id="fun1">
+                    <div class="col-md-8 col-sm-8">
+                    <div class="row container justify-content-center"><h4 class="text-white">Nossa Empresa</h4></div>
+                    <hr noshade class="func2">
+                    <div class="row container text-justify">
+                        <p class="text-white">O Consultor MEi, é uma Plataforma Web, do grupo Maximo’s Tecnologia.
+                            Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o <strong>Serviços Web de Consultoria</strong>, pois o conhecimento vai fazer sua empresa chegar onde você quer.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center container-fluid pl-5">
+                    <!----------MISSÃO-------->
+                    <div class="col-md-4 col-sm-3">
+                        <div class="row container justify-content-center"><h4 class="text-white">Missão</h4></div>
+                        <hr noshade class="func1">
+                        <div class="row container text-justify">
+                            <p class="text-white">Colaborar, informar e ajudar o empreendedor a vencer as dificuldades e os desafios, com dados uteis e relatórios qualificados. </p>
+                        </div>
+                    </div>
+                    <!--------------VISÃO---------->
+                    <div class="col-md-4 col-sm-3">
+                        <div class="row container justify-content-center"><h4 class="text-white">Visão</h4></div>
+                        <hr noshade class="func1">
+                        <div class="row container text-justify">
+                            <p class="text-white">Ser reconhecido pelos resultados alcançados e assim, tornar-se referencia nacional em consultoria e informações importantes para MEI’s (Micro Empreendedores Individuais  e ME’s (Micro empresários).</p>
+                        </div>
+                    </div>
+                    <!-----------VALORES----------->
+                    <div class="col-md-4 col-sm-3">
+                        <div class="row container justify-content-center"><h4 class="text-white">Valores</h4></div>
+                        <hr noshade class="func1">
+                        <div class="row container text-justify">
+                            <p class="text-white"><strong>Nossos Clientes:</strong>  Atende-los com se eles fosse os nossos melhores amigos.<br>
+                            <strong> Nossa Equipe:</strong> Respeito, valorizaçãopelo mérito e trabalho em equipe, garante uma performance equilibrada entre todos, fortalecendo as pessoas e seus resultados coletivos e individuais.<br></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center mt-5 mb-5 container-fluid pl-5">
+                    <!--------------NÓS E A SOCIEDADE------------>
+                    <div class="col-md-6 col-sm-4">
+                        <div class="row container justify-content-center"><h4 class="text-white">Nós e a sociedade</h4></div>
+                        <hr noshade class="func3">
+                        <div class="row container text-justify">
+                            <p class="text-white">A consciência social é o primeiro caminho a entender as diferenças e buscar intimamente uma sociedade mais justa e fraterna. <strong>(Somos doadores de parte das receitas, de consultoria, a entidades sem fins lucrativos)</strong></p>
+                        </div>   
+                    </div>
+                    <!----------------O PLANETA------------>
+                    <div class="col-md-6 col-sm-4">
+                        <div class="row container justify-content-center"><h4 class="text-white">O Planeta e todos nós</h4></div>
+                        <hr noshade class="func3">
+                        <div class="row container text-justify">
+                            <p class="text-white">Fazer a nossa parte, é dar o nosso exemplo e esperar que no mundo de cada uma pessoa inicie uma mudança no mundo de todos nós. <strong>(Uso sustentável de todos os recursos disponíveis, renováveis ou não renovável)</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>  
+    <section class="container-fluid justify-content-center" id="func-info">
+        <div class="row container-fluid justify-content-center mt-5 mb-5">
             <h2 class="texto" id="funcion">Funcionalidades</h2>
         </div>
-        <div class="row container-fluid justify-content-center" id="fun1">
+        <div class="row justify-content-center pl-3">
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 1</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 2</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 3</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 4</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+        </div>
+        <div class="row justify-content-center pl-3">
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 5</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 6</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 7</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+            <div class="col-md-3">
+            <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 8</h4></div>
+            <hr noshade class="func">
+            <div class="row container text-justify">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam.</p>
+            </div>
+            </div>
+        </div>
+        <!-- <div class="row container-fluid justify-content-center" id="fun1">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 1</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 2</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 3</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 4</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 5</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 6</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 7</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
-        <div class="row container-fluid justify-content-center">
+        </div> -->
+        <!-- <div class="row container-fluid justify-content-center">
             <div class="row container justify-content-center"><h4 class="texto">Fucionalidade 8</h4></div>
             <div class="row container text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A id nam aut praesentium possimus iste assumenda dignissimos doloremque officiis sunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et unde voluptatibus libero quas beatae, corporis sit optio assumenda voluptatum, quisquam nam nesciunt porro nulla doloremque! Qui nesciunt omnis amet laborum odio saepe mollitia dicta, voluptatem deserunt eius? Quibusdam, libero sed nostrum ullam esse soluta voluptate veritatis eos laboriosam. Expedita quibusdam nam quaerat non odit laudantium qui maiores fugit maxime voluptatibus molestiae, unde nobis id? Unde, placeat corporis. Ut repellat natus tempore sunt architecto commodi reiciendis magnam quidem, quia maiores voluptatem eligendi modi recusandae assumenda illum quam repellendus exercitationem fugit ab ad similique autem at. Tenetur rem laborum eos tempora magni asperiores odio, blanditiis amet inventore! Reprehenderit, a. Exercitationem assumenda eum perspiciatis unde iure voluptates explicabo totam sint quod? Maxime, vel, deserunt facilis eius laborum accusantium fugit eum harum laboriosam iste accusamus, reprehenderit a quasi distinctio repellendus? Fugit, rem possimus. Ducimus aperiam velit nulla laboriosam. Perferendis.</p>
             </div>
-        </div>
+        </div> -->
     </section>
     <div class="bluest"></div>
     <footer id="footer" class="container-fluid">
@@ -151,6 +278,6 @@
 	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <!-- <script type="text/javascript" src="js/app.js"></script> -->
 </body>
 </html>
