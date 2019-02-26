@@ -45,12 +45,8 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`id`, `nomeEmpresa`, `nomeResponsavel`, `email`, `senha`, `estado`, `CNPJ`, `CNAE`) VALUES
-(1, 'Praxisjr', 'Jayme', 'jayme.anunciacao@praxisjr.com.br', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 'Bahia', 'nemsei', 'tbmnao'),
-(2, 'Engtop', 'Alvin', 'alvin@eosesquilos.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'Bahia', 'nemsei', 'tbmnao'),
-(3, 'Admin', 'RoliÃ§Ã£o', 'admin@mail.com', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Bahia', 'nemsei', 'tbmnao'),
-(4, 'SantaMonica', 'Kratos', 'deus@guerra.com', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 'Bahia', 'nemsei', 'tbmnao'),
-(5, 'Alanzoka', 'Alan', 'alan@mail.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'Bahia', 'nemsei', 'tbmnao'),
-(6, 'Saint', 'Saori', 'saint@seiya.com', '1e8907751e7095aa152ab8d1109b786d7a0afd23', 'Bahia', 'nemsei', 'tbmnao');
+(1, 'Admin', 'Claudio', 'admin@mail.com', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Bahia', 'nemsei', 'tbmnao');
+
 
 -- --------------------------------------------------------
 
@@ -69,11 +65,11 @@ CREATE TABLE `noticias` (
 -- Extraindo dados da tabela `noticias`
 --
 
-INSERT INTO `noticias` (`id`, `assunto`, `titulo`) VALUES
-(1, 'seu dinheiro', 'aaaaadv3w ernrerqbrv'),
-(2, 'mudanca', 'testando'),
-(3, 'seu dinheiro', 'aaaaaaaaaaaaaaaaaaaa'),
-(4, 'esse vai ser meu maior triunfo', 'eu disse muhuahuahah');
+INSERT INTO `noticias` (`id`, `assunto`, `titulo`,`imagem`) VALUES
+(1, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
+(2, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
+(3, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
+(4, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg');
 
 --
 -- Indexes for dumped tables

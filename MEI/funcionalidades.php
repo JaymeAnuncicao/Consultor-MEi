@@ -79,8 +79,7 @@
                     <hr noshade class="func2">
                     <div class="row container text-justify">
                         <p class="text-white">O Consultor MEi, é uma Plataforma Web, do grupo Maximo’s Tecnologia.
-                            Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o <strong>Serviços Web de Consultoria</strong>, pois o conhecimento vai fazer sua empresa chegar onde você quer.
-                        </p>
+                            Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o <strong>Serviços Web de Consultoria</strong>, pois o conhecimento vai fazer sua empresa chegar onde você quer. <br>O consultor mei veio para cobrir uma lacuna entre o desejo do micro empreendedor individual e do micro empresário pelo conhecimento.</p>
                     </div>
                     </div>
                 </div>
@@ -251,7 +250,7 @@
         <div class="row justify-content-center aling-itens-center text-white ml-5">
             <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
             <div class="col-md-3 mt-2">
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Termo de uso</h6></a></div>
+                <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" class="termos"><h6>Termo de uso</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
@@ -278,6 +277,5 @@
 	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <!-- <script type="text/javascript" src="js/app.js"></script> -->
 </body>
 </html>

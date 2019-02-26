@@ -180,7 +180,7 @@
         <div class="row justify-content-center aling-itens-center text-white ml-5">
             <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
             <div class="col-md-3 mt-2 box-foo1">
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Termo de uso</h6></a></div>
+                <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" class="termos"><h6>Termo de uso</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>

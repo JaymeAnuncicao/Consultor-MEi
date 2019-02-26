@@ -26,7 +26,8 @@ ul{height: 12vh;}
 .button-normal{display: block;}
 /* --------------------FOOTER----------------- */
 #footer{background-color:#003d76;height: 100%;}
-.termos{color: white;}
+.termos{color: gray;}
+.termos:hover{text-decoration:none;color: white;-webkit-transition: color .5s ease-out;-moz-transition: color .5s ease-out;-o-transition: color .5s ease-out;transition: color .5s ease-out;}
 .creditos{background-color: #041e41;border-top: 1px solid gray;}
 .box-foo1{border-right: 1.5px solid white;}
 .box-foo2{border-left: 30px solid rgb(0, 61, 118);}

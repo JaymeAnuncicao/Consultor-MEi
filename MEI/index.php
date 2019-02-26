@@ -89,7 +89,7 @@
     <meta name="keywords" content="Consultoria MEi microempresas microempresas individuais">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-----TITLE---->
-    <title>Consultoria MEI</title>
+    <title>Consultor MEi</title>
     <!-------FONTS------>
     <link rel="icon" href="Media/img/logo-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -585,7 +585,7 @@
                     <textarea name="mensagem" placeholder="Mensagem..." id="mensage" cols="30" rows="10"></textarea>
                         
                 </form>    
-                <div class="row justify-content-center">
+                <div class="row justify-content-center button-contatos">
                     <input type="submit" value="Enviar"  class="btn btn-success btn-lg col-3 col-sm-4 mt-2 ">
                 </div>                      
             </div>
@@ -597,7 +597,7 @@
         <div class="row justify-content-center aling-itens-center text-white ml-5">
             <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
             <div class="col-md-3 mt-2 box-foo1">
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Termo de uso</h6></a></div>
+                <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" download class="termos"><h6>Termo de uso</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
@@ -612,7 +612,7 @@
             </div>
             <div class="col-md-3">
                 <div class="row  "><a href="#" class="termos"><h6>Rede socias</h6></a></div>
-                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" alt="Facebook" width="35"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" alt="Instagram" width="35"></a></div>
+                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" alt="Facebook" width="35" id="face-icon"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" alt="Instagram" id="insta-icon" width="35"></a></div>
             </div>
         </div>
         <div class="row justify-content-center creditos mt-5 text-white"><h6 class="mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>

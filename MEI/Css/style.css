@@ -121,14 +121,7 @@ hr{border: none;}
 .carousel-control-prev-icon{background-image: url('../Media/img/left.png');height: 5vh;width: 2.5vw;}
 .carousel-indicators .active{background-color: rgb(1,130,202);}
 .carousel-indicators li{height: 10px;width: 10px;border-radius: 50%;background-color: rgb(204, 204, 204);}
-.thumblr{
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 10vw;
-  height: 28vh;
-  margin-right: 5px;
-}
-
+.thumblr{padding-left: 10px;padding-top: 10px;width: 10vw;height: 28vh;margin-right: 5px;}
 /*----------------------------MODAL------------------*/
 .input1{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 20vw; height: 6.5vh;padding-left: 10px; }
 .input{border: 1px solid ;border-radius: 6px;border-color:rgb(4, 30, 65); width: 10vw; height: 6.5vh;padding-left: 10px;}
@@ -142,7 +135,8 @@ hr{border: none;}
 .conta{border: 1px solid ;border-radius: 4px;border-color:rgb(2, 24, 53); width: 12vw; height: 6.5vh;padding-left: 10px;}
 #cemail{width: 16.6vw;}
 textarea {width: 30vw;height: 150px;padding: 12px 20px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;background-color: #f8f8f8;resize: none;}
-.termos{color: white;}
+.termos{color: gray;}
+.termos:hover{text-decoration:none;color: white;-webkit-transition: color .5s ease-out;-moz-transition: color .5s ease-out;-o-transition: color .5s ease-out;transition: color .5s ease-out;}
 #footer{background-color:#003d76;height: 100%;}
 .bluest{height: 3vh;background-color: rgb(0, 61, 118);}
 .creditos{background-color: #041e41;border-top: 1px solid gray;}
