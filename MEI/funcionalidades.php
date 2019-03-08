@@ -79,7 +79,11 @@
                     <hr noshade class="func2">
                     <div class="row container text-justify">
                         <p class="text-white">O Consultor MEi, é uma Plataforma Web, do grupo Maximo’s Tecnologia.
-                            Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o <strong>Serviços Web de Consultoria</strong>, pois o conhecimento vai fazer sua empresa chegar onde você quer. <br>O consultor mei veio para cobrir uma lacuna entre o desejo do micro empreendedor individual e do micro empresário pelo conhecimento.</p>
+                            Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o <strong>Serviços Web de Consultoria</strong>, pois o conhecimento vai fazer sua empresa chegar onde você quer. <br>O consultor mei veio para cobrir uma lacuna entre o desejo do micro empreendedor individual e do micro empresário pelo conhecimento.
+                            Trabalhamos dando consultoria em varias áreas com o intuito de solucionar suas duvidas e lhe mostrar um caminho para o crescimento do seu negocio.
+                            Com uma ferramenta ampla e moderna estamos podendo oferecer consultoria a qualquer MEI (Micro empreendedor individual) ou ME (Micro empresário) do território brasileiro, pois todos merecem a oportunidade de ter apoio quando precisa.
+
+                            </p>
                     </div>
                     </div>
                 </div>
@@ -127,6 +131,22 @@
                         <div class="row container text-justify">
                             <p class="text-white">Fazer a nossa parte, é dar o nosso exemplo e esperar que no mundo de cada uma pessoa inicie uma mudança no mundo de todos nós. <strong>(Uso sustentável de todos os recursos disponíveis, renováveis ou não renovável)</strong></p>
                         </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5 mb-5 container-fluid pl-5">
+                    <div class="col-md-6 col-sm-4">
+                            <div class="row container justify-content-center"><h4 class="text-white">Sobre os planos</h4></div>
+                            <hr noshade class="func3">
+                            <div class="row container text-justify">
+                                <p class="text-white">Os “planos do consultor mei” refletem os “valores” da empresa.</p>
+                                <p class="text-white">- A plataforma tem áreas gratuitas</p>
+                                <p class="text-white">- O valor do serviço é Baixo, para poder atender o maior numero de empreendedores.</p>
+                                <p class="text-white">- Ate sendo Baixo, do valor cobrado nos doamos uma pequena parte para entidades sem fins lucrativos.</p>
+                                <p class="text-white">- Informamos os custos dos impostos no valor do serviço. </p>
+                                <p class="text-white">- informamos o valor liquido mensal e semestral que será recebido.</p>
+                                <p class="text-white">- E o mais importante, nada disso reduz a qualidade dos serviços que iremos lhe oferecer.</p> 
+                                <p class="text-white"><strong>P.S. cobramos os seis meses de uma so vez para reduzir os custos com boletos e com as taxas do cartão de debito ou credito.</strong></p>                               
+                            </div>
                     </div>
                 </div>
 
