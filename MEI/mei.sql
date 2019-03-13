@@ -69,7 +69,9 @@ INSERT INTO `noticias` (`id`, `assunto`, `titulo`,`imagem`) VALUES
 (1, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
 (2, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
 (3, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
-(4, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg');
+(4, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
+(5, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg'),
+(6, 'seu dinheiro', 'site mostra as melhores consultoras do ano', 'http://www.auctus.com.br/wp-content/uploads/2016/09/o-que-e-consultoria.jpg');
 
 --
 -- Indexes for dumped tables
