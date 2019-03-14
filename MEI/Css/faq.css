@@ -11,10 +11,11 @@ ul{height: 12vh;}
 .respon{display: none;}
 .acorde{display: block;}
 #FAQ{padding: 90px 50px;}
-.faq-line{height: .5vh;width: 40vw;background-color: rgb(4,30,65);margin-left: 0vw !important;}
+.faq-line{height: .5vh;width: 40vw;background-color: rgb(4,30,65);margin-left: 27vw !important;}
 .afast{margin-left: 3.4vw;margin-bottom: 5vh;}
 .text{color: rgb(4,30,65);}
 .margem{margin-top: 25%;}
+.marge{margin-top: 10%;}
 .button{background-color: rgb(4,30,65);height: 8vh;border: none;color: white;padding: 5px 20px 5px 40px ;text-align: center;text-decoration: none;display: inline-block;font-size: 20px;margin: 4px 2px;cursor: pointer;}
 .button-faq{border-radius: 8px;width: 50vh;margin-bottom: 5%;}
 .button-faq:hover{background-color: #0182ca;-webkit-transition: background-color .5s ease-out;-moz-transition: background-color .5s ease-out;-o-transition: background-color .5s ease-out;transition: background-color .5s ease-out;}
