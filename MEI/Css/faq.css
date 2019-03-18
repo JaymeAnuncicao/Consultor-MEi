@@ -25,6 +25,9 @@ ul{height: 12vh;}
 .fas{margin-top: 3%;}
 .button-respon{display: none !important;}
 .button-normal{display: block;}
+table, th, td {
+    border: 1px solid black;
+  }
 /* --------------------FOOTER----------------- */
 #footer{background-color:#003d76;height: 100%;}
 .termos{color: gray;}
