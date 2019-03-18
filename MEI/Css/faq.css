@@ -5,12 +5,12 @@
 ul{height: 12vh;}
 .move{width: 20vw;}
 .efect{background-color: rgb(4,30,65);}
-.efect:hover{background-color: #0182ca !important;background-size: 100px;-webkit-transition: background-color .5s ease-out;-moz-transition: background-color .5s ease-out;-o-transition: background-color .5s ease-out;transition: background-color .5s ease-out;}
+.efect:hover{background-color: rgb(1, 130, 202) !important;background-size: 100px;-webkit-transition: background-color .5s ease-out;-moz-transition: background-color .5s ease-out;-o-transition: background-color .5s ease-out;transition: background-color .5s ease-out;}
 /* --------------------------------NAVBAR:FIM------------------------- */
 
 .respon{display: none;}
 .acorde{display: block;}
-#FAQ{padding: 90px 50px;}
+#FAQ{padding: 90px 50px;background-color: #f9f9ff;}
 .faq-line{height: .5vh;width: 40vw;background-color: rgb(4,30,65);margin-left: 27vw !important;}
 .afast{margin-left: 3.4vw;margin-bottom: 5vh;}
 .text{color: rgb(4,30,65);}
@@ -40,3 +40,8 @@ ul{height: 12vh;}
 .title-margin{margin-left: 9vw;margin-top: 3vh;}
 .login-margin{margin-top: 5vh !important;margin-left: 7vw;}
 .saiu{margin-left: -1vw;}
+
+/*  */
+.flyiner{border-bottom: 1px solid #041e41;}
+.flyiner:hover{background-color: rgba(1, 130, 202,0.1);}
+.btn-link:hover{text-decoration: none;}

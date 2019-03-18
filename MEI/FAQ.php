@@ -24,19 +24,81 @@
 <!--23- um textão -->
 
 <?php
+
+    session_start();
+    $_SESSION['usuario'] = '';
+    $_SESSION['email'] = ''; 
+    $_SESSION['senha'] = '';
+    $_SESSION['authenticateUser']= false;
+    $_SESSION['authenticateADM']= false;
+
     require_once 'PHP/init.php';
-    if(isset($_POST['titulo'], $_POST['assunto'])){
-        $titulo = $_POST['titulo'];
-        $assunto = $_POST['assunto'];
-
-        $connec = db_connect();
-
-        $query = 'INSERT INTO noticias (assunto,titulo) VALUES (:assunto, :titulo);';
-        $stmt = $connec->prepare($query);
-        $stmt->bindValue(':assunto', $assunto);
-        $stmt->bindValue(':titulo', $titulo);
+    $conex = db_connect(); 
+    // $query1= "SELECT id,assunto,titulo,imagem FROM noticias ORDER BY id DESC LIMIT 7;";
+    // $stmt= $conex->prepare($query1);
+    // $stmt->execute();
+    if(isset($_POST['nomeEmpresa'],$_POST['nomeResponsavel'], $_POST['email'],$_POST['senha'],$_POST['estado'],$_POST['CNPJ'],$_POST['CNAE'])){
+        $nomeEmpresa=$_POST['nomeEmpresa'];
+        $nomeResponsavel=$_POST['nomeResponsavel'];
+        $email=$_POST['email']; 
+        $senha=sha1($_POST['senha']);
+        $estado=$_POST['estado'];
+        $CNPJ=$_POST['CNPJ'];
+        $CNAE=$_POST['CNAE'];       
+        $query3 = 'SELECT email FROM clientes WHERE email=:email';
+        $stmt = $conex->prepare($query3);
+        $stmt->bindValue(':email', $email);
         $stmt->execute();
+        $array = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if(sizeof($array) == 0){
+            $query2 = 'INSERT INTO clientes (nomeEmpresa,nomeResponsavel,email,senha,estado,CNPJ,CNAE) VALUES (:nomeEmpresa,:nomeResponsavel,:email,:senha,:estado,:CNPJ,:CNAE);';
+            $stmt = $conex->prepare($query2);
+            $stmt->bindValue(':nomeEmpresa', ucfirst($nomeEmpresa));
+            $stmt->bindValue(':nomeResponsavel', ucfirst($nomeResponsavel));
+            $stmt->bindValue(':email', $email);
+            $stmt->bindValue(':senha', $senha);
+            $stmt->bindValue(':estado', $estado);
+            $stmt->bindValue(':CNPJ', $CNPJ);
+            $stmt->bindValue(':CNAE', $CNAE);
+            $stmt->execute();
+            header("Location: index.php");
+        }else {
+            $err = 'Email já cadastrado';
+            $cadastro = false;
+        }
+        
     }
+    if(isset($_POST['loginemail'],$_POST['loginsenha'])){
+        $login = $_POST['loginemail'];
+        $lenha = sha1($_POST['loginsenha']);
+        $sql = "SELECT nomeResponsavel, nomeEmpresa, senha, email FROM clientes WHERE email = :loginemail AND senha = :loginsenha;";
+        $stmt = $conex->prepare($sql);
+        
+        $stmt->bindValue(':loginemail', $login);
+        $stmt->bindValue(':loginsenha', $lenha);
+        
+        $stmt->execute();
+        $dados = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        
+        $name = $dados[0]['nomeResponsavel'];
+        
+        if(strcmp($login,'admin@mail.com') == 0 && strcmp($lenha,'d033e22ae348aeb5660fc2140aec35850c4da997') == 0){
+            $_SESSION['authenticateADM'] = true;
+            header("location: admin.php");
+        }elseif (strcmp($lenha,$dados[0]['senha']) == 0 && strcmp($login,$dados[0]['email']) == 0){
+            $_SESSION['usuario'] = $name;
+            $_SESSION['email'] = $login;
+            $_SESSION['authenticateUser'] = true;
+            header('location: Usuario.php');
+            exit();
+        }else{
+            $_SESSION['authenticateADM'] = false;
+            $_SESSION['authenticateUser'] = false;
+            header('location: index.php');
+        }
+        
+    }    
 ?>
 
 
@@ -115,10 +177,10 @@
         <div class="">
             <div class="row ">
                 <div class="accordion " id="accordionExample">
-                    
-                    <div class="cardy">
+                    <!-- ITEM 1 -->
+                    <div class="cardy mb-2">
                         <div class="" id="headingOne">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0 flyiner">
                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     <h5 class="text">1- O MICROEMPREENDEDOR INDIVIDUAL - MEI</h5>
                                 </button>
@@ -192,9 +254,9 @@
                         </div>
                     </div>
                     <!-- ------ITEM 2----- -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTwo">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <h5 class="text">2- INFORME-SE ANTES DE FORMALIZAR</h5>  
                             </button>
@@ -369,9 +431,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 3 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingThree">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <h5 class="text">3- FORMALIZAÇÃO COMO MEI</h5>  
                             </button>
@@ -517,15 +579,13 @@
                                         <div class="" id="headingTen3">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen3" aria-expanded="false" aria-controls="collapseTen3">
-                                                    <h6 class="text">3.10- Qual o faturamento anual  do Microempreendedor Individual?</h5>  
+                                                    <h6 class="text">3.10- Como tenho certeza que consegui concluir minha formalização como Microempreendedor Individual- MEI? O que comprova o registro do MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTen3" class="collapse" aria-labelledby="headingTen3" data-parent="#accordionmode3">
                                             <div class="card-body">
-                                                <p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p>
-                                                <p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p>
-                                                <p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p>
+                                                <p>O processo de formalização do MEI será considerado devidamente concluído com a emissão automática, pelo Portal do Empreendedor, do <a class="internal-link" href="resolveuid/7661c73442db415c94034565b2030a57" target="_blank" title="">Certificado da Condição de Microempreendedor Individual – CCMEI</a>, que é o documento comprobatório do registro como MEI.</p>                                            
                                             </div>
                                         </div>
                                     </div>
@@ -533,15 +593,13 @@
                                         <div class="" id="headingEleven3">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven3" aria-expanded="false" aria-controls="collapseEleven3">
-                                                    <h6 class="text">3.11- Qual o faturamento anual  do Microempreendedor Individual?</h5>  
+                                                    <h6 class="text">3.11- Ao iniciar minha formalização no Portal do Empreendedor,<br> o formulário eletrônico apresenta informações erradas nos campos de "Identificação", como devo proceder?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEleven3" class="collapse" aria-labelledby="headingEleven3" data-parent="#accordionmode3">
                                             <div class="card-body">
-                                                <p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p>
-                                                <p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p>
-                                                <p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p>
+                                                <p>Erros de dados cadastrais podem ocorrer principalmente em relação ao nome. Esses erros estão na base de dados da Receita Federal do Brasil, pois os dados cadastrais são vinculados ao CPF. Nestes casos é melhor corrigir os erros identificados antes de proceder com a formalização. Assim, ocorrendo a constatação de existência de erros dos dados cadastrais informados, a exemplo de erro no seu nome, sugere-se não completar a formalização. Dirija-se, a uma unidade dos Correios, ao Banco do Brasil ou Caixa Econômica Federal, munido dos documentos pessoais que comprovem o erro e proceda à retificação dos dados incorretos. Após efetuar a correção e verificar que os dados cadastrais estão corretos volte ao Portal do Empreendedor e faça sua formalização.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -549,15 +607,13 @@
                                         <div class="" id="headingTwelve3">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve3" aria-expanded="false" aria-controls="collapseTwelve3">
-                                                    <h6 class="text">3.12- Qual o faturamento anual  do Microempreendedor Individual?</h5>  
+                                                    <h6 class="text">3.12- O que fazer quando o sistema aponta impedimento do titular no ato da formalização?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwelve3" class="collapse" aria-labelledby="headingTwelve3" data-parent="#accordionmode3">
                                             <div class="card-body">
-                                                <p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p>
-                                                <p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p>
-                                                <p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p>
+                                                <p>No momento da formalização o MEI não pode ser titular, sócio ou administrador de outra empresa, pois isso constitui impedimento para o seu cadastramento. Qualquer dúvida procure um posto de atendimento da Receita Federal do Brasil, para consulta e certificação da sua situação cadastral. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -565,15 +621,13 @@
                                         <div class="" id="headingThirteen3">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen3" aria-expanded="false" aria-controls="collapseThirteen3">
-                                                    <h6 class="text">3.13- Qual o faturamento anual  do Microempreendedor Individual?</h5>  
+                                                    <h6 class="text">3.13- O MEI pode ter mais do que uma ocupação ou atividade econômica conforme a Classificação Nacional de Atividades Econômicas (CNAE)?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThirteen3" class="collapse" aria-labelledby="headingThirteen3" data-parent="#accordionmode3">
                                             <div class="card-body">
-                                                <p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p>
-                                                <p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p>
-                                                <p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p>
+                                                <p>Sim. Além da atividade principal, o MEI pode registrar até 15 (quinze) ocupações para suas atividades secundárias, as quais serão vinculadas ao código de Classificação Nacional de Atividades Econômicas - CNAE.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -582,9 +636,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 4 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingFour">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             <h5 class="text">4- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -598,15 +652,15 @@
                                         <div class="" id="headingOne4">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">4.1-  O Microempreendedor Individual/MEI é obrigado a emitir nota fiscal?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne4" class="collapse show" aria-labelledby="headingOne4" data-parent="#accordionmode4">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>O MEI estará dispensado de emitir nota fiscal para consumidor pessoa física, porém, estará obrigado à emissão quando o destinatário da mercadoria ou serviço for outra empresa, salvo quando esse destinatário emitir nota fiscal de entrada.</p>
+                                                <p>O MEI não tem a obrigação de emitir a Nota Fiscal Eletrônica – NF-e, mesmo se realizar vendas interestaduais, exceto se desejar e por opção. (§ 1º do artigo 106, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278" target="_blank"> Resolução CGSN nº 140, de 2018</a>).</p>
                                             </div>
                                         </div>
                                     </div>
@@ -614,13 +668,14 @@
                                         <div class="" id="headingTwo4">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">4.2- Presto serviços apenas para uma empresa, posso ser Microempreendedor Individual e emitir nota fiscal apenas para essa empresa?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionmode4">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                               <p>Sim. É permitido que o Microempreendedor Individual- MEI, no seu ramo de negócio venha a ser fornecedor ou prestador de serviço para pessoas físicas, para uma ou mais empresas, emitindo, nestes casos, as notas fiscais correspondentes.</p>
+                                               <p>Mas lembre-se: não é permitido substituir o vínculo empregatício, isto é, o emprego com carteira assinada, pela condição de MEI. O MEI prestador de serviço para empresas não pode ter com elas relação de pessoalidade, subordinação e habitualidade.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -628,13 +683,13 @@
                                         <div class="" id="headingThree4">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">4.3- Tenho que ter algum controle do meu faturamento/ receita e notas fiscais emitidas?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordionmode4">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                            <p>Sim. O empreendedor deverá registrar, mensalmente, em formulário simplificado, o total das suas receitas. Para tanto, deverá imprimir e preencher todo mês o <a href="http://www.portaldoempreendedor.gov.br/public/docs/RELATORIO_MENSAL_DAS_RECEITAS_BRUTAS.doc">Relatório de Receitas Brutas Mensais</a>, conforme modelo disponível no Portal do Empreendedor.</p><p><b><u>O MEI deverá manter as notas fiscais de suas compras e vendas, arquivadas pelo prazo de 05 anos, a contar da data de sua emissão.</u></b></p>
                                             </div>
                                         </div>
                                     </div>
@@ -643,11 +698,11 @@
                         </div>
                     </div>
                     <!-- ACCORDION 5 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingFive">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <h5 class="text">5- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">5- PREVIDÊNCIA E DEMAIS BENEFÍCIOS</h5>  
                             </button>
                         </h5>
                         </div>
@@ -659,14 +714,15 @@
                                         <div class="" id="headingOne5">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
-                                                    <h6 class="text">5.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">5.1- Quais os benefícios previdenciários do MEI?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne5" class="collapse show" aria-labelledby="headingOne5" data-parent="#accordionmode5">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
+                                                <p>Ao se formalizar, o MEI passa a ter cobertura previdenciária para si e seus dependentes, com os seguintes benefícios.</p>
+                                                <p><strong>PARA O EMPREENDEDOR:</strong></p>
                                                 <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
                                             </div>
                                         </div>
@@ -1012,9 +1068,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 6 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingSix">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             <h5 class="text">6- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1283,9 +1339,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 7 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingSeven">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             <h5 class="text">7- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1400,9 +1456,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 8 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingEight">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             <h5 class="text">8- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1503,9 +1559,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 9 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingNine">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             <h5 class="text">9- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1606,9 +1662,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 10 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                             <h5 class="text">10- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1723,9 +1779,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 11 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingEleven">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                             <h5 class="text">11- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1854,9 +1910,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 12 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTwelve">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                             <h5 class="text">12- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -1888,9 +1944,9 @@
                         </div>
                     </div>
                         <!-- ACCORDION 13 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingThirteen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                             <h5 class="text">13- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2089,9 +2145,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 14 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingFourteen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                             <h5 class="text">14- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2136,9 +2192,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 15 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingFifteen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                             <h5 class="text">15- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2267,9 +2323,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 16 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingSixteen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
                             <h5 class="text">16- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2301,9 +2357,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 17 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingSeventeen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
                             <h5 class="text">17- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2432,9 +2488,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 18 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingEight">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             <h5 class="text">18- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2591,9 +2647,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 19 -->
-                    <div class="">  
+                    <div class="mb-2">  
                         <div class="" id="headingNineteen">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
                             <h5 class="text">19- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2666,9 +2722,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 20 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTwenty">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
                             <h5 class="text">20- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -2783,9 +2839,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 21 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTwentyOne">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
                             <h5 class="text">21- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -3026,9 +3082,9 @@
                         </div>
                     </div>
                     <!-- ACCORDION 22 -->
-                    <div class="">
+                    <div class="mb-2">
                         <div class="" id="headingTwentyTwo">
-                        <h5 class="mb-0">
+                        <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
                             <h5 class="text">22- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>

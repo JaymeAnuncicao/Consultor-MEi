@@ -50,30 +50,46 @@
     
 </head>
 <body>
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        <select name="numero" id="">
-            <option value="6">1</option>
-            <option value="5">2</option>
-            <option value="4">3</option>
-            <option value="3">4</option>
-            <option value="2">5</option>
-            <option value="1">6</option>
-        </select>
-        <input type="text" name="assunto" placeholder="Assunto">
-        <textarea name="titulo" id="" cols="30" rows="10" placeholder="Titulo"></textarea>
-        <input type="text" name="img-url" placeholder="Link da imagem">
-        <input type="submit" value="Atualizar" class="btn btn-success btn-lg col-2 mt-5">
-    </form>
+    <section class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                    <div class="row mb-3">
+                        <h6>Notícia a ser atualizada:</h6><select name="numero" class="adm-placy ml-3">
+                            <option value="6">1°</option>
+                            <option value="5">2°</option>
+                            <option value="4">3°</option>
+                            <option value="3">4°</option>
+                            <option value="2">5°</option>
+                            <option value="1">6°</option>
+                        </select>
+                    </div>  
+                    <div class="row mb-3">
+                        <h6>Título da Notícia:</h6><input type="text" class="ml-1 adm-place" name="assunto" placeholder="Título">
+                    </div>
+                    <div class="row mb-3">
+                        <h6>Link da imagem:</h6><input type="text" name="img-url" class="ml-2 adm-place" placeholder="Link da imagem">
+                    </div>
+                    <div class="row">
+                        <h6>Texto da notícia:</h6><textarea name="titulo" class="adm-text"  placeholder="Titulo"></textarea>
+                    </div>
+                    <div class="row justify-content-center">   
+                        <input type="submit" value="Atualizar" class="btn btn-success btn-lg col-4 mt-5 mr-5">
+                        <a href="logout.php" class="btn btn-danger btn-lg col-4 mr-5 mt-5 ">Sair</a>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </section>
 
 
 
 
 
-
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="Js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="Js/wow.min.js"></script>
+    <script type="text/javascript" src="Js/app.js"></script>
 </body>
 </html>

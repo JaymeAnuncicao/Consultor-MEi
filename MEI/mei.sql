@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `mei`
-CREATE DATABASE IF NOT EXISTS `mei` DEFAULT CHARACTER SET utf8 ;
+-- CREATE DATABASE IF NOT EXISTS `mei` DEFAULT CHARACTER SET utf8 ;
 --
 
 -- --------------------------------------------------------
