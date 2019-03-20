@@ -181,7 +181,7 @@
                     <div class="cardy mb-2">
                         <div class="" id="headingOne">
                             <h5 class="mb-0 flyiner">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button class="btn btn-link btn-mode" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     <h5 class="text">1- O MICROEMPREENDEDOR INDIVIDUAL - MEI</h5>
                                 </button>
                             </h5>
@@ -355,10 +355,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix2">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix2" aria-expanded="false" aria-controls="collapseSix1">
+                                            <h5 class="mb-0 btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSix2" aria-expanded="false" aria-controls="collapseSix1">
                                                     <h6 class="text">2.6- O Microempreendedor Individual pode se formalizar no mesmo endereço de outro MEI?<br> O Microempreendedor Individual pode dividir o mesmo espaço físico onde realiza a atividade com outro MEI?</h5>
-                                                    <h6 class="text"></h6>
                                                 </button>
                                             </h5>
                                         </div>
@@ -414,8 +413,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen2">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen2" aria-expanded="false" aria-controls="collapseTen2">
+                                            <h5 class="mb-0 btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseTen2" aria-expanded="false" aria-controls="collapseTen2">
                                                     <h6 class="text">2.10- A pessoa física que possui débitos comerciais ou dívidas junto a instituições financeiras, bem como,<br> restrição cadastral nos órgãos de proteção de crédito, poderá se formalizar como MEI?</h5>  
                                                 </button>
                                             </h5>
@@ -591,8 +590,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven3">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven3" aria-expanded="false" aria-controls="collapseEleven3">
+                                            <h5 class="mb-0 btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven3" aria-expanded="false" aria-controls="collapseEleven3">
                                                     <h6 class="text">3.11- Ao iniciar minha formalização no Portal do Empreendedor,<br> o formulário eletrônico apresenta informações erradas nos campos de "Identificação", como devo proceder?</h5>  
                                                 </button>
                                             </h5>
@@ -2007,9 +2006,10 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight11">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight11" aria-expanded="false" aria-controls="collapseEight11">
-                                                    <h6 class="text">11.8- O que fazer caso seja feito o desenquadramento e o MEI não tiver solicitado, <br> mesmo exercendo atividades e com faturamento que permitem manter a condição de MEI?</h5>  
+                                            <h5 class="mb-0 btn-mode">
+                                                <button class="btn btn-link btn-mode text collapsed " type="button" data-toggle="collapse" data-target="#collapseEight11" aria-expanded="false" aria-controls="collapseEight11">
+                                                   <h6 class="text">11.8- O que fazer caso seja feito o desenquadramento e o MEI não tiver solicitado,<br>
+                                                     mesmo exercendo atividades e com faturamento que permitem manter a condição de MEI?</h6>
                                                 </button>
                                             </h5>
                                         </div>
@@ -2522,6 +2522,16 @@
                                             <div class="card-body">
                                                 <p>É uma funcionalidade desenvolvida no Portal do Simples Nacional que permite ao Microempreendedor Individual – MEI pagar os valores mensais apurados no SIMEI (INSS, ICMS, ISS), de forma automática, debitando de sua conta-corrente Pessoa Física ou Jurídica.<br><br>Essa opção pode ser acessada em “Simei Serviços &gt; Débito Automático”, e serão necessários o CNPJ, o CPF e o Código de Acesso.</p>
                                                 <p>Clique aqui para consultar o <a class="internal-link" href="resolveuid/f0b5abc9f46d4d17ab40d1c370959923" target="_self" title="">passo a passo</a>.</p>
+                                                <p>O MEI deve ter conta-corrente em algum dos bancos da rede arrecadadora a seguir:</p>
+                                                <p>001 - Banco do Brasil;<br>003 - Banco da Amazônia S/A;<br>004 – Banco do Nordeste do Brasil S/A;<br>008 - Banco Santander (Brasil) S/A;<br>021 - Banco Banestes S/A;<br>041 - Banco do Estado do Rio Grande do Sul S/A;<br>070 - Banco de Brasília S/A;<br>104 - Caixa Econômica Federal;<br>237 - Banco Bradesco S/A;<br>389 - Banco Mercantil do Brasil S/A;<br>748 - Banco Cooperativo Sicredi S/A;<br>756 - Banco Cooperativo do Brasil S/A.</p>
+                                                <p>Notas:</p>
+                                                <p>1. A responsabilidade por confirmar a realização do débito na conta-corrente, ou seja, o efetivo pagamento do DASMEI é do MEI.</p>
+                                                <p>2. A opção pelo débito automático é válida até que o MEI faça a desativação.</p>
+                                                <p>3. O Débito Automático do MEI só será realizado enquanto o CNPJ estiver ativo e optante pelo SIMEI.</p>
+                                                <p>4. O MEI, em gozo de benefício previdenciário, não deve fazer a opção pelo débito automático no ano em que gozou de benefício previdenciário. Por esse motivo, DESATIVE sua opção pelo Débito Automático do MEI e só REATIVE após o dia 10 de Janeiro do ano seguinte,  caso não esteja mais em gozo de benefício previdenciário.</p>
+                                                <p>5. O MEI que passar a usufruir de benefício previdenciário deve solicitar a DESATIVAÇÃO do débito automático. Nova opção só deverá ser feita no ano seguinte, após o dia 10 de Janeiro, caso não esteja mais em gozo de benefício previdenciário.</p>
+                                                <p>6. Inclusão / Alteração / Desativação realizada até o dia 10 surtirá efeito no dia 20 do mês corrente (PA anterior). Inclusão / Alteração / Desativação realizada após o dia 10 surtirá efeitos no dia 20 do mês seguinte (PA atual).</p>
+                                                <p>7. A geração de DAS para pagamento, fora do Débito Automático do MEI, deve ser feita utilizando-se o PGMEI, APP MEI ou Totem Sebrae, mas, no caso de o MEI estar em gozo de benefício previdenciário, a geração deve ser feita exclusivamente pelo PGMEI.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2557,8 +2567,7 @@
                                         <div id="collapseThree15" class="collapse" aria-labelledby="headingThree15" data-parent="#accordionmode15">
                                             <div class="card-body">
                                                 <p>Caso o MEI esteja usufruindo de benefício previdenciário ele não deverá fazer a Opção pelo Débito Automático do MEI. O contribuinte deverá continuar pagando os seus tributos gerando o DAS por meio do PGMEI. Nova opção só deverá ser feita no ano seguinte, após o dia 10 de Janeiro, caso não esteja mais em gozo de benefício previdenciário.</p>
-                                                <p>Nova opção só poderá ser feita no ano seguinte, após o dia 10 de Janeiro, caso não esteja mais usufruindo de benefício previdenciário.</p>
-                                                <p>Nota: A geração do DAS em caso de benefício previdenciário deve ser feito unicamente por meio do PGMEI, não devendo ser utilizado o APP MEI ou Totem SEBRAE.</p>
+                                                <p>Nota: A geração do DAS em caso de benefício previdenciário deve ser feita unicamente por meio do PGMEI, não devendo ser utilizado o APP MEI ou Totem SEBRAE.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2572,7 +2581,9 @@
                                         </div>
                                         <div id="collapseFour15" class="collapse" aria-labelledby="headingFour15" data-parent="#accordionmode15">
                                             <div class="card-body">
-                                                
+                                                <p>Caso o MEI esteja usufruindo de benefício previdenciário ele não deverá fazer a Opção pelo Débito Automático do MEI. O contribuinte deverá continuar pagando os seus tributos gerando o DAS por meio do PGMEI. Nova opção só deverá ser feita no ano seguinte, após o dia 10 de Janeiro, caso não esteja mais em gozo de benefício previdenciário.</p>
+                                                <p>Nova opção só poderá ser feita no ano seguinte, após o dia 10 de Janeiro, caso não esteja mais usufruindo de benefício previdenciário.</p>
+                                                <p>Nota: A geração do DAS em caso de benefício previdenciário deve ser feito unicamente por meio do PGMEI, não devendo ser utilizado o APP MEI ou Totem SEBRAE.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2597,13 +2608,13 @@
                                         <div class="" id="headingSix15">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix15" aria-expanded="false" aria-controls="collapseSix15">
-                                                    <h6 class="text">15.6- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">15.6- O que é o pagamento online?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix15" class="collapse" aria-labelledby="headingSix15" data-parent="#accordionmode15">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>É uma forma de pagamento via débito em conta-corrente dos DAS do Simples Nacional. Mais informações na notícia publicada no <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Noticias/NoticiaCompleta.aspx?id=34242a99-e6aa-496d-a3ef-05fb0093a558" target="_blank"> Portal do Simples Nacional</a>.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2611,13 +2622,13 @@
                                         <div class="" id="headingSeven15">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven15" aria-expanded="false" aria-controls="collapseSeven15">
-                                                    <h6 class="text">15.7- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">15.7- Posso pagar online mais de um DAS por ano-calendário?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven15" class="collapse" aria-labelledby="headingSeven15" data-parent="#accordionmode15">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim. Você irá selecionar um Período de Apuração, pagar o DAS online e retornar para selecionar outro Período de Apuração, sempre um de cada vez. Não é possível selecionar vários documentos para pagamento online de uma só vez.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2625,13 +2636,13 @@
                                         <div class="" id="headingEight15">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight15" aria-expanded="false" aria-controls="collapseEight15">
-                                                    <h6 class="text">15.8- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">15.8- Posso pagar online se estiver recebendo benefício do INSS?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEight15" class="collapse" aria-labelledby="headingEight15" data-parent="#accordionmode15">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não. Se você informar que está recebendo um Benefício do INSS, o sistema automaticamente irá selecionar todas as competências para a impressão dos DAS e irá desabilitar a opção “Pagar Online”, pois, para esta opção, só é possível pagar um documento de cada vez.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2644,7 +2655,7 @@
                         <div class="" id="headingSixteen">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                            <h5 class="text">16- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">16- Papel do Município em relação ao MEI</h5>  
                             </button>
                         </h5>
                         </div>
@@ -2656,15 +2667,14 @@
                                         <div class="" id="headingOne16">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne16" aria-expanded="true" aria-controls="collapseOne16">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">16.1- Papel do Município em relação ao MEI</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne16" class="collapse show" aria-labelledby="headingOne16" data-parent="#accordionmode16">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>Acesse a <a href="http://www.cnm.org.br/areastecnicas/perguntas_e_respostas/financas" target="_blank">FAQ da Confederação Nacional de Municípios</a> ou <a href="http://www.cnm.org.br/areastecnicas/perguntas_e_respostas/financas" target="_blank">- CNM </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -2678,7 +2688,7 @@
                         <div class="" id="headingSeventeen">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                            <h5 class="text">17- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">17- Restituição do MEI</h5>  
                             </button>
                         </h5>
                         </div>
@@ -2690,15 +2700,17 @@
                                         <div class="" id="headingOne17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne17" aria-expanded="true" aria-controls="collapseOne17">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">17.1- Como devo proceder para solicitar restituição de valor recolhido indevidamente ou a maior em documento de arrecadação (DAS)?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne17" class="collapse show" aria-labelledby="headingOne17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>A restituição da contribuição previdenciária (INSS), recolhida em DAS, é solicitada por meio do aplicativo Pedido Eletrônico de Restituição, disponível neste portal, no menu Simei-Serviços ou no portal e-CAC da RFB.</p>
+                                                <p>A restituição do ICMS e do ISS deverá ser solicitada, respectivamente, junto ao Estado/DF e Município, de acordo com as orientações de cada ente federado.</p>
+                                                <p>O Manual do aplicativo de restituição está disponível neste portal, em Manuais > Manual da Restituição.</p>
+                                                <p>Nota: <br>Para o MEI, as situações mais comuns de pagamento indevido em DAS são:<br>- Pagamento em duplicidade para o mesmo período de apuração (PA);<br>- Pagamento de INSS efetuado em DASMEI para um PA em que o MEI esteve em gozo de benefício de salário-maternidade, auxílio-doença ou auxílio-reclusão, e desde que o benefício tenha abrangido o mês inteiro (do primeiro ao último dia).<br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -2706,13 +2718,14 @@
                                         <div class="" id="headingTwo17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo17" aria-expanded="false" aria-controls="collapseTwo17">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">17.2- Após solicitar a restituição por meio do aplicativo, é necessário comparecer a alguma unidade da Receita Federal?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo17" class="collapse" aria-labelledby="headingTwo17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>Não. Todo o processo é feito de forma eletrônica, desde o pedido até a efetivação do pagamento da restituição na conta bancária. Em casos regulares, em que o contribuinte não apresenta débitos e os dados bancários informados estão consistentes, o prazo médio para o pagamento da restituição será de 60 dias.</p>
+                                                <p>Nota:<br>No aplicativo Pedido Eletrônico de Restituição, o MEI poderá:<br>- Solicitar a Restituição do valor da contribuição previdenciária (INSS) recolhida indevidamente ou a maior em DAS;<br>- Consultar a situação dos pedidos de restituição efetuados;<br>- Alterar dados bancários para crédito da restituição.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2720,13 +2733,14 @@
                                         <div class="" id="headingThree17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree17" aria-expanded="false" aria-controls="collapseThree17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.3- Para solicitar a restituição é necessário informar a conta bancária? A conta bancária tem que ser da pessoa jurídica?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree17" class="collapse" aria-labelledby="headingThree17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>É obrigatória a informação da conta bancária para solicitar a restituição por meio do aplicativo Pedido Eletrônico de Restituição. Para o MEI, poderá ser utilizada conta Pessoa Jurídica, associada ao CNPJ, caso possua, ou conta Pessoa Física, associada ao CPF do responsável pelo CNPJ.</p>
+                                                <p>Não é necessário informar o número do CPF do responsável, pois esse dado é recuperado do cadastro CNPJ.<br>Pode ser utilizada tanto uma conta corrente quanto uma conta de poupança.<br>No aplicativo, o MEI também pode alterar os dados bancários para crédito da restituição.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2734,13 +2748,13 @@
                                         <div class="" id="headingFour17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour17" aria-expanded="false" aria-controls="collapseFour17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.4- Tenho prazo para solicitar a restituição?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour17" class="collapse" aria-labelledby="headingFour17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Sim. A restituição deve ser solicitada em, no máximo, 5 anos, contados da data do pagamento.
                                             </div>
                                         </div>
                                     </div>
@@ -2748,13 +2762,15 @@
                                         <div class="" id="headingFive17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive17" aria-expanded="false" aria-controls="collapseFive17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.5- O valor a ser restituído sofre alguma atualização?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFive17" class="collapse" aria-labelledby="headingFive17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim. O valor a ser restituído será acrescido de juros obtidos pela aplicação da taxa Selic, acumulada mensalmente, a partir do mês subsequente ao do pagamento indevido até o mês anterior ao da restituição, e de 1% (um por cento) relativamente ao mês em que estiver sendo efetuada.</p>
+                                                <p>Nota:</p>
+                                                <p>No momento do pedido, o aplicativo apresenta os valores originais. A atualização do valor, com aplicação da taxa Selic acumulada, somente ocorrerá quando da efetivação do pagamento da restituição.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2762,13 +2778,13 @@
                                         <div class="" id="headingSix17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix17" aria-expanded="false" aria-controls="collapseSix17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.6-  Não sou mais optante pelo SIMEI, mas quero fazer o pedido de restituição de um pagamento indevido de MEI. <br> Posso utilizar o aplicativo Pedido Eletrônico de Restituição?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix17" class="collapse" aria-labelledby="headingSix17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Sim. No entanto, não poderá ser informada uma conta bancária de pessoa física, devendo ser informada uma conta de titularidade da pessoa jurídica.
                                             </div>
                                         </div>
                                     </div>
@@ -2776,13 +2792,13 @@
                                         <div class="" id="headingSeven17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven17" aria-expanded="false" aria-controls="collapseSeven17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.7- Paguei um DAS em duplicidade. Posso compensar esse crédito com o valor devido no mês seguinte?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven17" class="collapse" aria-labelledby="headingSeven17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Não há compensação a pedido para o MEI, que poderá solicitar a restituição do valor pago em duplicidade ou a maior.
                                             </div>
                                         </div>
                                     </div>
@@ -2790,13 +2806,13 @@
                                         <div class="" id="headingEight17">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight17" aria-expanded="false" aria-controls="collapseEight17">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">17.8- Posso cancelar um pedido eletrônico de restituição?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEight17" class="collapse" aria-labelledby="headingEight17" data-parent="#accordionmode17">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Sim. No entanto, o pedido de cancelamento só poderá ser realizado na unidade de atendimento da RFB.
                                             </div>
                                         </div>
                                     </div>
@@ -2809,7 +2825,7 @@
                         <div class="" id="headingEight">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            <h5 class="text">18- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">18- Parcelamento do MEI</h5>  
                             </button>
                         </h5>
                         </div>
@@ -2821,15 +2837,15 @@
                                         <div class="" id="headingOne18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne18" aria-expanded="true" aria-controls="collapseOne18">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">18.1- Posso parcelar os débitos apurados pelo Simei (INSS, ISS e ICMS)?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne18" class="collapse show" aria-labelledby="headingOne18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>Sim. Com o advento da Lei Complementar nº 155, de 27 de outubro de 2016, é permitido parcelar os débitos do MEI. Existem duas modalidades de parcelamento: o convencional, que pode ser solicitado a qualquer tempo, e o especial, que pode ser solicitado até o dia 09/07/2018.</p>
+                                                <p>Nota: Somente serão parcelados débitos já vencidos e declarados por meio da DASN SIMEI na data do pedido de parcelamento.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2837,13 +2853,14 @@
                                         <div class="" id="headingTwo18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo18" aria-expanded="false" aria-controls="collapseTwo18">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">18.2- Como solicitar o parcelamento dos débitos do MEI em cobrança na Receita Federal do Brasil (RFB)?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo18" class="collapse" aria-labelledby="headingTwo18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>O pedido de parcelamento, convencional ou especial, pode ser feito no Portal do Simples Nacional ou no Portal e-CAC da RFB, nos serviços "Parcelamento - Microempreendedor Individual" ou "Parcelamento Especial - Microempreendedor Individual ".<br>O acesso ao Portal do Simples Nacional e ao Portal e-CAC é feito com certificado digital ou código de acesso.</p>
+                                                <p>Nota: O código de acesso gerado no Portal do Simples Nacional não é válido para acesso ao Portal e-CAC da RFB, e vice-versa.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2851,13 +2868,15 @@
                                         <div class="" id="headingThree18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree18" aria-expanded="false" aria-controls="collapseThree18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.3- É permitido fazer um parcelamento especial e um convencional?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree18" class="collapse" aria-labelledby="headingThree18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>MEI poderá optar:</p>
+                                                <p>- por um parcelamento convencional, com débitos vencidos até 12/2016;<br>- ou por um especial desde que tenha somente débitos até 05/2016;<br>- ou por um especial e um convencional, hipótese em que estará obrigado ao pagamento de duas parcelas e, ainda, do DAS MEI mensal.</p>
+                                                <p>Assim, tendo em vista os prováveis montantes de débitos consolidados do MEI, o parcelamento convencional poderá ser mais adequado as suas necessidades.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2865,13 +2884,16 @@
                                         <div class="" id="headingFour18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour18" aria-expanded="false" aria-controls="collapseFour18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.4- Como é feita a consolidação do parcelamento dos débitos do MEI na RFB?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour18" class="collapse" aria-labelledby="headingFour18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>No parcelamento convencional, no momento da consolidação, são considerados todos os débitos apurados pelo Simei (INSS, ISS e ISS) em cobrança na RFB.</p>
+                                                <p>No parcelamento especial, são considerados os débitos apurados pelo Simei em cobrança na RFB, até a competência maio de 2016.</p>
+                                                <p>O saldo devedor é atualizado com os devidos acréscimos legais até a data da consolidação.</p>
+                                                <p>O valor de cada parcela é obtido mediante a divisão do valor da dívida pela quantidade de parcelas, observado o valor mínimo de R$ 50,00 (cinquenta reais).</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2879,13 +2901,16 @@
                                         <div class="" id="headingFive18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive18" aria-expanded="false" aria-controls="collapseFive18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.5- Em quantas parcelas posso parcelar os débitos do MEI na RFB?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFive18" class="collapse" aria-labelledby="headingFive18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>No parcelamento convencional, o número máximo de parcelas é 60 (sessenta), e no parcelamento especial, o número máximo de parcelas é 120 (cento e vinte).</p>
+                                                <p>Em ambos, o valor mínimo de cada parcela é de R$ 50,00 (cinquenta reais).</p>
+                                                <p>O aplicativo calcula a quantidade de parcelas de forma automática, considerando o maior número de parcelas possível, respeitado o valor da parcela mínima.</p>
+                                                <p>Nota: Não é permitido ao contribuinte escolher o número de parcelas.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2893,13 +2918,15 @@
                                         <div class="" id="headingSix18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix18" aria-expanded="false" aria-controls="collapseSix18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.6- Qual é o prazo para pagamento da 1ª (primeira) parcela e das subsequentes?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix18" class="collapse" aria-labelledby="headingSix18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Para que o parcelamento seja validado, o Documento de Arrecadação do Simples Nacional (DAS) da primeira parcela deverá ser pago até a data de vencimento constante no documento.</p>
+                                                <p>As demais parcelas devem ser pagas, mensalmente, até o último dia útil de cada mês.</p>
+                                                <p>Nota: Se não houver o pagamento tempestivo da 1ª (primeira) parcela, o pedido de parcelamento será considerado sem efeito e o aplicativo permitirá nova solicitação no mesmo ano-calendário.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2907,13 +2934,13 @@
                                         <div class="" id="headingSeven18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven18" aria-expanded="false" aria-controls="collapseSeven18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.7- Posso desistir do parcelamento?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven18" class="collapse" aria-labelledby="headingSeven18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                O contribuinte pode desistir do parcelamento a qualquer tempo.
                                             </div>
                                         </div>
                                     </div>
@@ -2921,13 +2948,15 @@
                                         <div class="" id="headingEight18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight18" aria-expanded="false" aria-controls="collapseEight18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.8- Já tenho um pedido de parcelamento, posso fazer um outro pedido para incluir novos débitos?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEight18" class="collapse" aria-labelledby="headingEight18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Somente é possível incluir novos débitos no parcelamento convencional. Para tanto, é necessário efetuar a desistência do parcelamento em andamento, e, na sequência, solicitar um novo parcelamento, observando o limite de um pedido de parcelamento validado por ano-calendário.</p>
+                                                <p>Esse novo parcelamento consolidará o saldo do parcelamento anterior e os novos débitos.</p>
+                                                <p>No parcelamento especial não será possível incluir novos débitos, pois será admitido apenas um pedido.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2935,13 +2964,15 @@
                                         <div class="" id="headingNine18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine18" aria-expanded="false" aria-controls="collapseNine18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.9- O parcelamento pode ser rescindido? Em quais situações?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseNine18" class="collapse" aria-labelledby="headingNine18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O parcelamento será rescindido quando houver:</p>
+                                                <p>- a falta de pagamento de 3 (três) parcelas, consecutivas ou não;<br>- a existência de saldo devedor, após a data de vencimento da última parcela do parcelamento.<br></p>
+                                                <p>Nota: É considerada inadimplente a parcela parcialmente paga.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2949,13 +2980,13 @@
                                         <div class="" id="headingTen18">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen18" aria-expanded="false" aria-controls="collapseTen18">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">18.10- Onde posso obter informações sobre o PERT-MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTen18" class="collapse" aria-labelledby="headingTen18" data-parent="#accordionmode18">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Para obter informações sobre o aplicativo para adesão ao Programa Especial de Regularização Tributária, o contribuinte deverá acessar o "<a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Manual_PERT.pdf" target="_blank" title="Manual do PERT">Manual do PERT</a>" que se encontra em "Manuais" na área pública deste portal.
                                             </div>
                                         </div>
                                     </div>
@@ -2968,7 +2999,7 @@
                         <div class="" id="headingNineteen">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                            <h5 class="text">19- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">19- Cancelamento da inscrição de MEI</h5>  
                             </button>
                         </h5>
                         </div>
@@ -2980,15 +3011,16 @@
                                         <div class="" id="headingOne19">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne19" aria-expanded="true" aria-controls="collapseOne19">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">19.1- O que é cancelamento e suspensão do MEI?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne19" class="collapse show" aria-labelledby="headingOne19" data-parent="#accordionmode19">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>O cancelamento de MEI está previsto no Estatuto da Microempresa e da Empresa de Pequeno Porte, no parágrafo 15-B, do artigo 18-A. O CGSIM - Comitê para Gestão da Rede Nacional para Simplificação do Registro e da Legalização de Empresas e Negócios - criado para tratar do processo de registro e de legalização de empresários e de pessoas jurídicas, realizou a regulamentação por meio da Resolução n° 36/2016, alterada pela Resolução n° 39/2017, que estabelece o cancelamento da inscrição do MEI que não cumpre nenhuma de suas obrigações fiscais.</p>
+                                                <p>A Resolução publicada prevê que antes do cancelamento efetivo, o MEI terá seu CNPJ suspenso por 95 dias e só depois deste prazo, caso ainda continue inadimplente, a baixa acontecerá definitivamente.</p>
+                                                <p>A relação dos MEIs que tiverem suas inscrições no CNPJ suspensas ou canceladas serão publicadas no Portal do Empreendedor.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -2996,13 +3028,17 @@
                                         <div class="" id="headingTwo19">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo19" aria-expanded="false" aria-controls="collapseTwo19">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">19.2- Quais os efeitos do cancelamento do MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo19" class="collapse" aria-labelledby="headingTwo19" data-parent="#accordionmode19">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>A inscrição de MEI cancelada terá os seguintes efeitos:</p>
+                                                <p>• Baixa da inscrição do MEI no Cadastro Nacional de Pessoas Jurídicas (CNPJ);<br>• Baixa das inscrições do MEI nas administrações tributárias estadual e municipal;<br>• Cancelamento das licenças e dos alvarás concedidos.</p>
+                                                <p>Dessa forma, o cancelamento não pode ser revertido. O empreendedor terá que se formalizar novamente caso queira realizar atividade econômica como MEI. Portanto, caso opte por nova formalização como MEI, não poderá manter o mesmo número do CNPJ cancelado.</p>
+                                                <p>Sobre os aspectos previdenciários, as contribuições mensais efetivamente pagas (Guia DAS-MEI) nesse período continuam válidas para o Regime Geral de Previdência Social (RGPS) e poderão ser consideradas para a concessão de eventuais benefícios previdenciários, inclusive na contagem para aposentadoria, nos termos da legislação previdenciária.</p>
+                                                <p>Importante saber que cancelamento do registro, sem quitação dos débitos, não impede que posteriormente sejam lançados ou cobrados do titular do CNPJ cancelado os impostos, contribuições e respectivas penalidades decorrentes da falta de recolhimento ou da prática comprovada e apurada em processo administrativo ou judicial de outras irregularidades praticadas. Neste caso, os débitos que permanecerem após o cancelamento poderão ser também ser parcelados. Para saber mais sobre o parcelamento de débitos, <a class="external-link" href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" target="_blank" title="">clique aqui</a><a class="external-link" href="http://http//www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" target="_blank" title="">.</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -3010,13 +3046,14 @@
                                         <div class="" id="headingThree19">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree19" aria-expanded="false" aria-controls="collapseThree19">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">19.3- Haverá alguma comunicação que minha inscrição será cancelada?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree19" class="collapse" aria-labelledby="headingThree19" data-parent="#accordionmode19">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>A norma prevê que antes do cancelamento definitivo, o MEI terá seu CNPJ suspenso por 90 dias e só depois deste prazo, caso ainda continue inadimplente, a baixa acontecerá definitivamente.</p>
+                                                <p>A relação dos MEIs que tiverem suas inscrições no CNPJ suspensas ou canceladas serão publicadas no Portal do Empreendedor.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3024,13 +3061,14 @@
                                         <div class="" id="headingFour19">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour19" aria-expanded="false" aria-controls="collapseFour19">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">19.4- Depois do cancelamento consigo emitir o CCMEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour19" class="collapse" aria-labelledby="headingFour19" data-parent="#accordionmode19">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O CCMEI será emitido com a condição de “baixado”, perdendo o seu efeito de alvará.</p>
+                                                <p>Importante esclarecer que após CCMEI cancelado, o MEI poderá transmitir as declarações em atraso.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3055,15 +3093,14 @@
                                         <div class="" id="headingOne20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne20" aria-expanded="true" aria-controls="collapseOne20">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">20.1- O que é o MEI - Microempreendedor Individual?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne20" class="collapse show" aria-labelledby="headingOne20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>O limite de faturamento para fins de enquadramento como MEI deve considerar toda a receita do segurado especial. Se o segurado especial se formaliza como MEI, essa formalização deverá abranger toda a sua atividade rural e não apenas parte dela. Sendo assim, o total das receitas do grupo familiar não poderá ultrapassar R$ 81.000,00/ano.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3071,13 +3108,14 @@
                                         <div class="" id="headingTwo20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo20" aria-expanded="false" aria-controls="collapseTwo20">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">20.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo20" class="collapse" aria-labelledby="headingTwo20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>O disposto no § 7º do art. 18-E da LC 123/2006 estabelece que o empreendedor manterá todas as suas obrigações relativas à condição de produtor rural ou de agricultor familiar. Assim, o art. 25 da Lei nº 8.212/1991 continua sendo aplicado para toda a receita da comercialização da produção rural.</p>
+                                                <p>No entanto, não estará obrigado ao pagamento do SENAR sobre a venda dessa produção, em face do disposto no § 3º do art. 13 da LC 123/2006. A contribuição sobre a venda da produção incidirá sobre o total comercializado pelo grupo familiar, seja ou não industrializado.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3085,13 +3123,14 @@
                                         <div class="" id="headingThree20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree20" aria-expanded="false" aria-controls="collapseThree20">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">20.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree20" class="collapse" aria-labelledby="headingThree20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>a)Não. Cada regime, seu requisito; cada descumprimento, sua respectiva sanção. A contratação de empregados pelo segurado especial é vedada pela própria CF/88, em seu art. 195, § 8º: § 8º O produtor, o parceiro, o meeiro e o arrendatário rurais e o pescador artesanal, bem como os respectivos cônjuges, que exerçam suas atividades em regime de economia familiar, sem empregados permanentes, contribuirão para a seguridade social mediante a aplicação de uma alíquota sobre o resultado da comercialização da produção e farão jus aos benefícios nos termos da lei. Logo, segurado especial não pode ter empregado permanente, pois se tiver, deixa de ser segurado especial. As regras do MEI permitem a contratação de 1 empregado permanente. Resumindo: - Se contratar 3 empregados por 40 dias (ou 2 empregados por 60 dias), permanece segurado especial, mas NÃO PODERÁ SER MEI; - Se contratar 1 empregado por mais de 120 dias, poderá ser MEI, mas NÃO PODERÁ SER SEGURADO ESPECIAL; - A única possibilidade de acumular as duas situações (MEI e Segurado Especial) é: contratar 1 empregado por até 120 dias/ano.</p>
+                                                <p>b)Não. Considera-se sempre o grupo familiar.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3099,13 +3138,13 @@
                                         <div class="" id="headingFour20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour20" aria-expanded="false" aria-controls="collapseFour20">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">20.4- Poderá haver mais de 1 (um) MEI em um mesmo grupo familiar?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour20" class="collapse" aria-labelledby="headingFour20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3113,13 +3152,13 @@
                                         <div class="" id="headingFive20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive20" aria-expanded="false" aria-controls="collapseFive20">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">20.5-  Um MEI prestador de serviços poderá manter a condição de segurado especial?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFive20" class="collapse" aria-labelledby="headingFive20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Poderá, desde que respeite o limite de prestação de serviços para terceiros constante da legislação previdenciária (120 dias/ano).
                                             </div>
                                         </div>
                                     </div>
@@ -3127,13 +3166,13 @@
                                         <div class="" id="headingSix20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix20" aria-expanded="false" aria-controls="collapseSix20">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">20.6- Um MEI que industrialize seus produtos poderá ser segurado especial, mesmo que a industrialização não seja rudimentar?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix20" class="collapse" aria-labelledby="headingSix20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Sim, de acordo com o § 5º do art. 18-E da LC 123/2006; inciso VII do § 9º e § 14 do art. 12 da Lei nº 8.212/1991.
                                             </div>
                                         </div>
                                     </div>
@@ -3141,13 +3180,13 @@
                                         <div class="" id="headingSeven20">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven20" aria-expanded="false" aria-controls="collapseSeven20">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">20.7- Um MEI pode ser sócio de cooperativa de produção?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven20" class="collapse" aria-labelledby="headingSeven20" data-parent="#accordionmode20">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                Não, de acordo com o inciso VII do § 4º do art. 3º da LC 123/2006. De acordo com o § 5º do mesmo artigo, ele poderá participar de cooperativa de crédito. 
                                             </div>
                                         </div>
                                     </div>
@@ -3160,7 +3199,7 @@
                         <div class="" id="headingTwentyOne">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
-                            <h5 class="text">21- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">21- SALÃO PARCEIRO-PROFISSIONAL PARCEIRO</h5>  
                             </button>
                         </h5>
                         </div>
@@ -3172,15 +3211,14 @@
                                         <div class="" id="headingOne21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne21" aria-expanded="true" aria-controls="collapseOne21">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">21.1- Quais são os benefícios do novo sistema de trabalho e os maiores desafios no processo de transição?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne21" class="collapse show" aria-labelledby="headingOne21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>O maior benefício é propor avanços na relação contratual. Cada profissional de beleza poderá continuar atuando para receber uma comissão de acordo com os valores de mercado. Em contrapartida, o dono do salão tem a segurança na questão tributária e trabalhista.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3188,13 +3226,13 @@
                                         <div class="" id="headingTwo21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo21" aria-expanded="false" aria-controls="collapseTwo21">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">21.2- Quais ocupações estão previstas para profissional-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo21" class="collapse" aria-labelledby="headingTwo21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>Cabeleireiros, barbeiros, esteticistas, manicures, pedicures, depiladores e maquiadores.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3202,13 +3240,13 @@
                                         <div class="" id="headingThree21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree21" aria-expanded="false" aria-controls="collapseThree21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.3- Em que situações a relação de parceria poderá ser interpretada como relação de emprego?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree21" class="collapse" aria-labelledby="headingThree21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Quando não existir contrato de parceria formalizado na forma descrita na Lei ou quando o profissional-parceiro desempenhar funções diferentes das descritas no contrato de parceria. Importante reforçar que se houver pessoalidade, subordinação e assiduidade, poderá ser caracterizada uma relação de vínculo empregatício.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3216,13 +3254,13 @@
                                         <div class="" id="headingFour21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour21" aria-expanded="false" aria-controls="collapseFour21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.4- Há modelos de contrato de parceria para salões de beleza?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour21" class="collapse" aria-labelledby="headingFour21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim. Algumas entidades representativas do setor podem fornecer aos seus associados. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -3230,13 +3268,14 @@
                                         <div class="" id="headingFive21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive21" aria-expanded="false" aria-controls="collapseFive21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.5- Quais são as cláusulas obrigatórias do contrato de parceria (parágrafo 10 - Lei nº 13.352/2016)?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFive21" class="collapse" aria-labelledby="headingFive21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>São as seguintes cláusulas:</p>
+                                                <p>I - percentual das retenções pelo salão-parceiro dos valores recebidos por cada serviço prestado pelo profissional-parceiro;<br>II - obrigação, por parte do salão-parceiro, de retenção e de recolhimento dos tributos e contribuições sociais e previdenciárias devidos pelo profissional-parceiro em decorrência da atividade deste na parceria;<br>III - condições e periodicidade do pagamento do profissional-parceiro, por tipo de serviço oferecido;<br>IV - direitos do profissional-parceiro quanto ao uso de bens materiais necessários ao desempenho das atividades profissionais, bem como sobre o acesso e circulação nas dependências do estabelecimento;<br>V - possibilidade de rescisão unilateral do contrato, no caso de não subsistir interesse na sua continuidade, mediante aviso prévio de, no mínimo, trinta dias;<br>VI - responsabilidades de ambas as partes com a manutenção e higiene de materiais e equipamentos, das condições de funcionamento do negócio e do bom atendimento dos clientes;<br>VII - obrigação, por parte do profissional-parceiro, de manutenção da regularidade de sua inscrição perante as autoridades fazendárias.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3244,13 +3283,17 @@
                                         <div class="" id="headingSix21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix21" aria-expanded="false" aria-controls="collapseSix21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.6- Quem é responsável pela centralização de pagamentos e recebimentos?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix21" class="collapse" aria-labelledby="headingSix21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O salão-parceiro realizará a retenção de sua parte, conforme contrato de parceria, e fará o recolhimento de tributos e contribuições sociais e previdenciárias incidentes sobre a parte do profissional-parceiro.</p>
+                                                <p>Para fins tributários, a parte retida pelo salão-parceiro deve ser declarada como RECEITA DE PRESTAÇÃO DE SERVIÇOS. No Simples Nacional não tem validade o § 4º do art. 1º-A da Lei nº 12.592/2012, na redação dada pela Lei nº 13.352/2016. De acordo com o § 18 do art. 25-A da Resolução CGSN nº 140/2018:</p>
+                                                <p>§ 19. A receita obtida pelo salão-parceiro e pelo profissional-parceiro de que trata a Lei nº 12.592, de 2012, deverá ser tributada: (Lei Complementar nº 123, de 2006, art. 3º, §§ 1º e 16; art. 18, § 4º)</p>
+                                                <p>I - na forma prevista no Anexo III desta Resolução, quanto aos serviços e produtos neles empregados; <br>II - na forma prevista no Anexo I desta Resolução, quanto aos produtos e mercadorias comercializados.</p>
+                                                <p>A parte destinada ao profissional-parceiro ocorrerá também a título de atividades de prestação de serviços de beleza.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3258,13 +3301,13 @@
                                         <div class="" id="headingSeven21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven21" aria-expanded="false" aria-controls="collapseSeven21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.7- Quem é responsável pela preservação e manutenção das condições de trabalho?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven21" class="collapse" aria-labelledby="headingSeven21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O salão-parceiro. Especialmente quanto aos seus equipamentos e instalações, possibilitando as condições adequadas ao cumprimento das normas de segurança e saúde.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3272,13 +3315,13 @@
                                         <div class="" id="headingEight21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight21" aria-expanded="false" aria-controls="collapseEight21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.8- Como a lei é aplicada e deve ser seguida em caso de franquias?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEight21" class="collapse" aria-labelledby="headingEight21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Com relação às questões fiscais, funciona da mesma maneira. O gestor e os funcionários escolhem se vão seguir o sistema celetista ou parceria. Em questões trabalhistas, os franqueados devem sempre seguir as orientações da matriz.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3286,13 +3329,13 @@
                                         <div class="" id="headingNine21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine21" aria-expanded="false" aria-controls="collapseNine21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.9- Quais os benefícios para quem é salão-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseNine21" class="collapse" aria-labelledby="headingNine21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Pela nova lei, os salões de beleza poderão firmar contratos de parceria com profissionais cabeleireiros, barbeiros, esteticistas, manicures, depiladores e maquiadores, que atuarão como autônomos, sem vínculo empregatício, desde que respeitadas as condições da parceria estabelecidas no contrato. Os demais empregados dos salões de beleza que atuam em áreas de apoio como recepção, gestão e serviços gerais continuam com contratos regidos pela CLT.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3300,13 +3343,13 @@
                                         <div class="" id="headingTen21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen21" aria-expanded="false" aria-controls="collapseTen21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.10- O salão-parceiro pode ser MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTen21" class="collapse" aria-labelledby="headingTen21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não, porque as atividades que são atribuídas ao Salão Parceiro não estão contempladas nas atividades permitidas ao Microempreendedor Individual.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3314,13 +3357,13 @@
                                         <div class="" id="headingEleven21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven21" aria-expanded="false" aria-controls="collapseEleven21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.11- O salão-parceiro pode ter uma relação de subordinação com o profissional-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEleven21" class="collapse" aria-labelledby="headingEleven21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não. O profissional-parceiro não terá relação de emprego ou de sociedade com o salão-parceiro enquanto perdurar a relação de parceria tratada na Lei nº 13.352/2016. Caso haja elementos como a cobrança de assiduidade ou relação de subordinação, pode caracterizar uma relação trabalhista e não de parceria.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3328,13 +3371,13 @@
                                         <div class="" id="headingTwelve21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve21" aria-expanded="false" aria-controls="collapseTwelve21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.12- Como se dá a emissão da nota fiscal pelo salão-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwelve21" class="collapse" aria-labelledby="headingTwelve21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O salão-parceiro deverá emitir ao consumidor documento fiscal unificado relativo às receitas de serviços e produtos neles empregados, discriminando-se a parte do salão-parceiro e do profissional-parceiro. O profissional-parceiro emitirá documento fiscal destinado ao salão-parceiro relativamente ao valor da parte recebida. A receita obtida pelo salão-parceiro e pelo profissional-parceiro deverá ser tributada na forma prevista no Anexo III da Resolução CGSN 140/2011, quanto aos serviços e produtos neles empregados, e no Anexo I da Resolução CGSN nº 140/2011, quanto aos produtos e mercadorias comercializados. Será considerada como receita auferida pelo MEI que atue como profissional-parceiro a totalidade da parte recebida do salão-parceiro.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3342,13 +3385,13 @@
                                         <div class="" id="headingThirteen21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen21" aria-expanded="false" aria-controls="collapseThirteen21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.13- Como se dá o pagamento de comissão e impostos já que as máquinas de cartão são do salão-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThirteen21" class="collapse" aria-labelledby="headingThirteen21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>A lei prevê que o salão é responsável pela centralização dos pagamentos. O cliente paga no caixa e o salão desconta os tributos, previdência social e paga a parte do serviço prestado que cabe ao profissional. O salão é responsável para que, no ato do pagamento, já sejam realizados os descontos necessários.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3356,13 +3399,13 @@
                                         <div class="" id="headingFourteen21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen21" aria-expanded="false" aria-controls="collapseFourteen21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.14- O profissional-parceiro pode ser MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFourteen21" class="collapse" aria-labelledby="headingFourteen21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Incentivo ao empreendedorismo, a melhoria da segurança jurídica entre o salão e o profissional e a possibilidade do aumento de renda.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3370,13 +3413,13 @@
                                         <div class="" id="headingFifteen21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen21" aria-expanded="false" aria-controls="collapseFifteen21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.15- Quais os benefícios para quem é profissional-parceiro?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFifteen21" class="collapse" aria-labelledby="headingFifteen21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim, mesmo que inscrito como pessoa jurídica, ele será assistido pelo sindicato da sua categoria profissional e, na ausência desse, pelo órgão local competente do Ministério do Trabalho.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3384,13 +3427,13 @@
                                         <div class="" id="headingSixteen21">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen21" aria-expanded="false" aria-controls="collapseSixteen21">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">21.16- O profissional-parceiro tem assistência sindical?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSixteen21" class="collapse" aria-labelledby="headingSixteen21" data-parent="#accordionmode21">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim, mesmo que inscrito como pessoa jurídica, ele será assistido pelo sindicato da sua categoria profissional e, na ausência desse, pelo órgão local competente do Ministério do Trabalho.</p>
                                             </div>
                                         </div>
                                     </div>                               
@@ -3403,7 +3446,7 @@
                         <div class="" id="headingTwentyTwo">
                         <h5 class="mb-0 flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
-                            <h5 class="text">22- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">22- Programa CREDMEI</h5>  
                             </button>
                         </h5>
                         </div>
@@ -3415,15 +3458,14 @@
                                         <div class="" id="headingOne22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne22" aria-expanded="true" aria-controls="collapseOne22">
-                                                    <h6 class="text">3.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                                    <h6 class="text">22.1- O que é o Progrma CREDMEI?</h6>
                                                 </button>
                                             </h5>
                                         </div>
 
                                         <div id="collapseOne22" class="collapse show" aria-labelledby="headingOne22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
+                                                <p>O CREDMEI é um programa do governo federal que busca simplificar o processo de obtenção de produtos e serviços financeiros junto aos bancos em operação no País. É um programa de desburocratização da relação entre o microempreendedor individual e o sistema bancário.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3431,13 +3473,13 @@
                                         <div class="" id="headingTwo22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo22" aria-expanded="false" aria-controls="collapseTwo22">
-                                                    <h6 class="text">3.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                                    <h6 class="text">22.2- Como o empreendedor pode se beneficiar do Programa?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo22" class="collapse" aria-labelledby="headingTwo22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
+                                                <p>Por meio do CREDMEI, o empreendedor pode entrar em contato e realizar solicitações para diversas instituições financeiras simultaneamente, usando apenas o seu computador ou smartphone. O empreendedor apenas precisará ir ao banco para realizar a assinatura de um contrato, caso receba alguma proposta compatível com suas necessidades. Com isso o empreendedor economiza tempo e dinheiro e pode se dedicar ao dedicar ao seu negócio.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3445,13 +3487,13 @@
                                         <div class="" id="headingThree22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree22" aria-expanded="false" aria-controls="collapseThree22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.3- Quais empreendedores podem se beneficiar do Programa CREDMEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThree22" class="collapse" aria-labelledby="headingThree22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>O programa é destinado aos microempreendedores individuais, ou seja, os empreendedores formalizados por meio do Portal do Empreendedor. Para participar, o empreendedor deve estar com o cadastro atualizado e exercer suas atividades em um dos munícipios contemplados na fase piloto do Programa: Brasília-DF, Manaus-AM, Fortaleza-CE, Vitória-ES e Curitiba-PR.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3459,13 +3501,13 @@
                                         <div class="" id="headingFour22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour22" aria-expanded="false" aria-controls="collapseFour22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.4- Como o Programa funciona?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFour22" class="collapse" aria-labelledby="headingFour22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Por meio do Portal do Empreendedor, o MEI elabora uma solicitação de produtos e serviços financeiros, indicando que tipo de solução precisa para seu negócio.. Esta solicitação é encaminhada eletronicamente para as instituições financeiras selecionadas pelo empreendedor. Junto à solicitação, a instituição financeira também receberá os dados e documentos do empreendedor, que facilitarão e agilizarão o processo de análise do pedido. Se a solicitação for aprovada, a instituição entra em contato diretamente com o empreendedor, com as orientações para a assinatura do contrato.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3473,13 +3515,15 @@
                                         <div class="" id="headingFive22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive22" aria-expanded="false" aria-controls="collapseFive22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.5- Quais são instituições financeiras participantes do Programa?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseFive22" class="collapse" aria-labelledby="headingFive22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>A participação de instituições financeiras no Programa se dá por meio de um processo simplificado de credenciamento. Todas as instituições financeiras e as instituições de pagamento em funcionamento regular no País podem se credenciar gratuitamente no Programa. </p>
+                                                <p>Neste momento, estão credenciadas no Programa  as seguintes instituições:</p>
+                                                <p>AGÊNCIA DE FOMENTO DO PARANÁ S/A<br>CAIXA ECONÔMICA FEDERAL - CEF<br>CENTRAL COOPERATIVA DE CRÉDITO NO ESTADO DO ESPÍRITO SANTO - CECOOP<br>HSCM - SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E À EMPRESA DE PEQUENO PORTE</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3487,13 +3531,13 @@
                                         <div class="" id="headingSix22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix22" aria-expanded="false" aria-controls="collapseSix22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.6- O que é a fase piloto do Programa?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSix22" class="collapse" aria-labelledby="headingSix22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>É a fase inicial de implantação do Programa em que a solicitação de produtos e serviços financeiros está disponível apenas em cidades pré-selecionadas. Estas cidades são: Brasília-DF, Manaus-AM, Fortaleza-CE, Vitória-ES e Curitiba-PR. A fase piloto tem como objetivo testar a ferramenta de solicitação disponibilizada no Portal do Empreendedor e também definir conjuntamente com as instituições financeira participantes o modelo de atendimento dos usuários do serviço.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3501,13 +3545,13 @@
                                         <div class="" id="headingSeven22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven22" aria-expanded="false" aria-controls="collapseSeven22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.7- O CREDMEI conta com alguma linha de crédito específica para o MEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseSeven22" class="collapse" aria-labelledby="headingSeven22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não. O programa CREDMEI não é um programa de concessão de crédito, mas de facilitação do acesso aos serviços oferecidos pelas instituições financeiras. Por meio do CREDMEI, o empreendedor chega mais facilmente ao banco, porém a concessão de determinada linha de crédito, específica ou não, será uma decisão exclusiva do banco, tomada de acordo com sua política de crédito.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3515,13 +3559,13 @@
                                         <div class="" id="headingEight22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight22" aria-expanded="false" aria-controls="collapseEight22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.8- Preciso pagar alguma taxa para usar o CREDIMEI?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEight22" class="collapse" aria-labelledby="headingEight22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Não. O CREDMEI é totalmente gratuito, tanto para empreendedores quanto para instituições financeiras.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3529,13 +3573,13 @@
                                         <div class="" id="headingNine22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine22" aria-expanded="false" aria-controls="collapseNine22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.9- Preciso de algum documento para fazer minha solicitação?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseNine22" class="collapse" aria-labelledby="headingNine22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Sim. Para fazer a solicitação, o empreendedor deve ter em mãos um documento de identidade e um comprovante de residência, os quais deverão ser digitalizados para inserção no formulário de solicitação. Além disso, o empreendedor deve manter o cadastro CNPJ atualizado.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3543,13 +3587,13 @@
                                         <div class="" id="headingTen22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen22" aria-expanded="false" aria-controls="collapseTen22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.10- Ao clicar em CREDMEI no Portal do Empreendedor, fui direcionado para o site do Brasil Cidadão. O que é isso? Preciso me cadastrar neste site?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTen22" class="collapse" aria-labelledby="headingTen22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>>O Brasil Cidadão é o serviço do governo federal que realiza a identificação digital do cidadão. Com esta identificação digital única, é possível acessar diversos serviços públicos disponíveis na plataforma de serviços do governo federal (<a href="https://correio.mdic.gov.br/owa/redir.aspx?REF=2hq1rMEOfZLajTvPA5f_hfqR0dxJNQeZpucJ--AgjTtYr8pgHqbWCAFodHRwOi8vd3d3LnNlcnZpY29zLmdvdi5icg.." rel="noopener noreferrer" target="_blank"><span class="Hyperlink__Char">www.servicos.gov.br</span></a>). O Brasil Cidadão foi criado pelo Decreto nº. 8.936, de 19 de dezembro de 2016, e sua adoção no âmbito dos serviços públicos digitais é obrigatória. Assim, o MEI que desejar realizar uma solicitação por meio do CREDMEI deverá realizar seu cadastro no Brasil Cidadão.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3557,13 +3601,13 @@
                                         <div class="" id="headingEleven22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven22" aria-expanded="false" aria-controls="collapseEleven22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.11- Qual o prazo para a instituição responder a solicitação?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseEleven22" class="collapse" aria-labelledby="headingEleven22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>A instituição não tem um prazo pré-estabelecido para responder as solicitações de produtos e serviços financeiros. O compromisso assumido no âmbito do Programa é que as instituições analisem e respondam a solicitação o mais rápido o possível. Para fara facilitar o processo de análise, é importante que o cadastro esteja atualizado e que as cópias do documento de identidade e do comprovante de residência sejam legíveis.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3571,13 +3615,13 @@
                                         <div class="" id="headingTwelve22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve22" aria-expanded="false" aria-controls="collapseTwelve22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.12- O que devo fazer para acompanhar o andamento da solicitação?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseTwelve22" class="collapse" aria-labelledby="headingTwelve22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>A instituição financeira que recebeu a solicitação ficará responsável informar o andamento da proposta. Isso será feito por meio de contato telefônico ou via e-mail. Por isso é importante que os dados de contato estejam sempre atualizados.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3585,31 +3629,53 @@
                                         <div class="" id="headingThirteen22">
                                             <h5 class="mb-0">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen22" aria-expanded="false" aria-controls="collapseThirteen22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                                    <h6 class="text">22.13- Estou em uma cidade que não faz parte da fase piloto do Programa. Quando poderei utilizar o Programa?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="collapseThirteen22" class="collapse" aria-labelledby="headingThirteen22" data-parent="#accordionmode22">
                                             <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="">
-                                        <div class="" id="headingFourteen22">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen22" aria-expanded="false" aria-controls="collapseFourteen22">
-                                                    <h6 class="text">3.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
-                                                </button>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseFourteen22" class="collapse" aria-labelledby="headingFourteen22" data-parent="#accordionmode22">
-                                            <div class="card-body">
-                                                Sim, entrou em vigor em 01/07/2009.
+                                                <p>Conforme normativos do Programa, a fase piloto durará inicialmente até maio/2019. A partir desta data, o Programa estará disponível para outras cidades.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <div class="" id="headingGlossary">
+                        <h5 class="mb-0 flyiner">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGlossary" aria-expanded="false" aria-controls="collapseGlossary">
+                            <h5 class="text">GLOSSÁRIO DAS SIGLAS E ABREVIAÇÕES</h5>  
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseGlossary" class="collapse" aria-labelledby="headingGlossary" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p><b>CNAE</b> é a Classificação Nacional de Atividade Econômica, serve para determinar a área de atuação da atividade empresarial, ou seja, é um código que atribui um conjunto de atividades desempenhadas pelo Empresário. <br><b>NIT</b> é o número de Identificação do Trabalhador, fornecido pelo INSS que confirma a inscrição do Trabalhador na Previdência Social.</p>
+                                <h2>CONHEÇA OUTRAS SIGLAS IMPORTANTES</h2>
+                                <p><b>MEI:</b> Microempreendedor Individual.</p>
+                                <p><b>DAS ou DAS-MEI:</b> Documento de Arrecadação do Simples Nacional.</p>
+                                <p><b>DASN-SIMEI:</b> Declaração Anual do Simples Nacional do MEI.</p>
+                                <p><b>Resolução do CGSN:</b> Comitê Gestor do Simples Nacional.</p>
+                                <p><b>CGSIM </b> - Comitê para Gestão da Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e Negócios</p>
+                                <p><b>CPP:</b> Contribuição Patronal Previdenciária.</p>
+                                <p><b>CCMEI:</b> Certificado da Condição de Microempreendedor Individual.</p>
+                                <p><b>DIRPF:</b> Declaração Anual de Imposto de Renda Pessoa Física.</p>
+                                <p><b>INSS:</b> Instituto Nacional do Seguro Social.</p>
+                                <p><b>CPF:</b> Cadastro de Pessoas Físicas.</p>
+                                <p><b>CTPS:</b> Carteira de Trabalho e Previdência Social.</p>
+                                <p><b>GPS:</b> Guia da Previdência Social.</p>
+                                <p><b>PIS:</b> Programa de Integração Social.</p>
+                                <p><b>GFIP:</b> Guia de Recolhimento do FGTS e Informações à Previdência Social.</p>
+                                <p><b>RAIS:</b> Relação Anual de Informações Sociais.</p>
+                                <p><b>PGMEI:</b> Programa Gerador de DAS do Microempreendedor Individual.</p>
+                                <p><b>PBF:</b> Programa Bolsa Família</p>
+                                <p><b>NF-e:</b> Nota Fiscal Eletrônica.</p>
+                                <p><b>PGDAS-D:</b> Programa Gerador do Documento de Arrecadação do Simples Nacional – Declaratório.</p>
+                                <p><b>RFB:</b> Receita Federal do Brasil.</p>
+                                <p><b>CLT:</b> Consolidação das Leis do Trabalho.</p>
                             </div>
                         </div>
                     </div>

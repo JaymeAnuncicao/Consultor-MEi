@@ -27,7 +27,8 @@ ul{height: 12vh;}
 .button-normal{display: block;}
 table, th, td {
     border: 1px solid black;
-  }
+}
+.btn-mode{width: 2vw;}
 /* --------------------FOOTER----------------- */
 #footer{background-color:#003d76;height: 100%;}
 .termos{color: gray;}
