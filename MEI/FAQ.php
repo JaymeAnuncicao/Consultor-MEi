@@ -167,16 +167,15 @@
     </header>
     <!-----------------NAVBAR : FIM--------------->
     <section class="container-fluid" id="FAQ">
-        <div class="marge justify-content-center row" >
+        <div class="row justify-content-center mt-6">
             <h1 class="mt-5 text common">PERGUNTAS FREQUENTES</h1>
-            
+            <hr noshade class="faq-line afast">
         </div>
-        <hr noshade class="faq-line afast">
         <!-- LOGIN E CADASTRO -->
-        <div class="row justify-content-center ">
+        <div class="row faq-ground justify-content-center ">
         <div class="">
             <div class="row ">
-                <div class="accordion " id="accordionExample">
+                <div class="accordion" id="accordionExample">
                     <!-- ITEM 1 -->
                     <div class="cardy mb-2">
                         <div class="" id="headingOne">
@@ -189,10 +188,10 @@
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <!-- ----ACCORDION INSIDE---- -->
-                            <div class="accordion ml-4" id="accordionmode">
+                            <div class="accordion" id="accordionmode">
                                 <div class="cardy">
                                     <div class="" id="headingOne1">
-                                        <h5 class="mb-0">
+                                        <h5 class="mb-0 flyiner">
                                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
                                                 <h6 class="text">1.1- O que é o MEI - Microempreendedor Individual?</h6>
                                             </button>
@@ -208,7 +207,7 @@
                                 </div>
                                 <div class="">
                                     <div class="" id="headingTwo1">
-                                        <h5 class="mb-0">
+                                        <h5 class="mb-0 flyiner">
                                             <button class="btn btn-link collapsed " type="button" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
                                                 <h6 class="text">1.2- Qual é a lei que instituiu o Microempreendedor individual?</h6>  
                                             </button>
@@ -222,7 +221,7 @@
                                 </div>
                                 <div class="">
                                     <div class="" id="headingThree1">
-                                        <h5 class="mb-0">
+                                        <h5 class="mb-0 flyiner">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
                                                 <h6 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h6>  
                                             </button>
@@ -236,7 +235,7 @@
                                 </div>
                                 <div class="">
                                     <div class="" id="headingFour1">
-                                        <h5 class="mb-0">
+                                        <h5 class="mb-0 flyiner">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour1" aria-expanded="false" aria-controls="collapseFour1">
                                                 <h6 class="text">1.4- Qual o faturamento anual  do Microempreendedor Individual?</h6>  
                                             </button>
@@ -256,7 +255,7 @@
                     <!-- ------ITEM 2----- -->
                     <div class="mb-2">
                         <div class="" id="headingTwo">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <h5 class="text">2- INFORME-SE ANTES DE FORMALIZAR</h5>  
                             </button>
@@ -265,10 +264,10 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
                                 <!-- ----ACCORDION INSIDE---- -->
-                                <div class="accordion ml-4" id="accordionmode2">
+                                <div class="accordion " id="accordionmode2">
                                     <div class="cardy">
                                         <div class="" id="headingOne2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
                                                     <h6 class="text">2.1- Pontos de atenção antes da formalização:</h6>
                                                 </button>
@@ -285,7 +284,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                                                     <h6 class="text">2.2- Situações que NÃO permitem a formalização como MEI:</h5>  
                                                 </button>
@@ -300,7 +299,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
                                                     <h6 class="text">2.3- Situações que permitem a formalização como MEI, com ressalvas:</h5>  
                                                 </button>
@@ -319,7 +318,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour2" aria-expanded="false" aria-controls="collapseFour1">
                                                     <h6 class="text">2.4- O que é a Consulta Prévia de endereço e atividade? Onde fazer a consulta prévia?</h5>  
                                                 </button>
@@ -335,7 +334,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive2" aria-expanded="false" aria-controls="collapseFour1">
                                                     <h6 class="text">2.5- Quais documentos ou dados são necessários para me formalizar como MEI? Após a formalização, o que devo fazer?</h5>  
                                                 </button>
@@ -355,7 +354,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix2">
-                                            <h5 class="mb-0 btn-mode">
+                                            <h5 class="mb-0 flyiner btn-mode">
                                                 <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSix2" aria-expanded="false" aria-controls="collapseSix1">
                                                     <h6 class="text">2.6- O Microempreendedor Individual pode se formalizar no mesmo endereço de outro MEI?<br> O Microempreendedor Individual pode dividir o mesmo espaço físico onde realiza a atividade com outro MEI?</h5>
                                                 </button>
@@ -369,7 +368,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven2" aria-expanded="false" aria-controls="collapseFour1">
                                                     <h6 class="text">2.7- É possível solicitar a inscrição como MEI e manter vínculo empregatício com carteira assinada?</h5>  
                                                 </button>
@@ -383,7 +382,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner ">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight2" aria-expanded="false" aria-controls="collapseEight2">
                                                     <h6 class="text">2.8- Quais atividades podem ser enquadradas como Microempreendedor Individual?</h5>  
                                                 </button>
@@ -398,7 +397,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine2">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner ">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine2" aria-expanded="false" aria-controls="collapseNine2">
                                                     <h6 class="text">2.9- Minha ocupação não consta no Portal. Como faço para me formalizar?</h5>  
                                                 </button>
@@ -413,7 +412,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen2">
-                                            <h5 class="mb-0 btn-mode">
+                                            <h5 class="mb-0 flyiner btn-mode">
                                                 <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseTen2" aria-expanded="false" aria-controls="collapseTen2">
                                                     <h6 class="text">2.10- A pessoa física que possui débitos comerciais ou dívidas junto a instituições financeiras, bem como,<br> restrição cadastral nos órgãos de proteção de crédito, poderá se formalizar como MEI?</h5>  
                                                 </button>
@@ -432,7 +431,7 @@
                     <!-- ACCORDION 3 -->
                     <div class="mb-2">
                         <div class="" id="headingThree">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <h5 class="text">3- FORMALIZAÇÃO COMO MEI</h5>  
                             </button>
@@ -440,11 +439,11 @@
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode3">
+                                <div class="accordion " id="accordionmode3">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner ">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
                                                     <h6 class="text">3.1- O que é, como, onde posso me formalizar e quais são as vantagens de me formalizar?</h6>
                                                 </button>
@@ -461,7 +460,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
                                                     <h6 class="text">3.2- Quanto tempo demora para me formalizar?</h5>  
                                                 </button>
@@ -475,7 +474,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                                                     <h6 class="text">3.3- Posso me formalizar a qualquer tempo?</h5>  
                                                 </button>
@@ -489,7 +488,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour3" aria-expanded="false" aria-controls="collapseFour3">
                                                     <h6 class="text">3.4- Qual o custo da formalização do Microempreendedor Individual- MEI?</h5>  
                                                 </button>
@@ -503,7 +502,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive3" aria-expanded="false" aria-controls="collapseFive3">
                                                     <h6 class="text">3.5- Preciso levar algum documento para a Junta Comercial? Quais? A Junta Comercial precisa aprovar meu pedido de formalização como MEI?</h5>  
                                                 </button>
@@ -517,7 +516,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix3" aria-expanded="false" aria-controls="collapseSix3">
                                                     <h6 class="text">3.6- Qual a idade mínima para poder me formalizar como MEI?</h5>  
                                                 </button>
@@ -531,7 +530,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven3" aria-expanded="false" aria-controls="collapseSeven3">
                                                     <h6 class="text">3.7- Será feita alguma fiscalização após o registro?</h5>  
                                                 </button>
@@ -547,7 +546,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight3" aria-expanded="false" aria-controls="collapseEight3">
                                                     <h6 class="text">3.8- O Microempreendedor Individual - MEI tem Contrato Social? O MEI pode ter sócio?</h5>  
                                                 </button>
@@ -562,7 +561,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine3" aria-expanded="false" aria-controls="collapseNine3">
                                                     <h6 class="text">3.9- Posso cadastrar um nome fantasia? Como devo proceder?</h5>  
                                                 </button>
@@ -576,7 +575,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen3" aria-expanded="false" aria-controls="collapseTen3">
                                                     <h6 class="text">3.10- Como tenho certeza que consegui concluir minha formalização como Microempreendedor Individual- MEI? O que comprova o registro do MEI?</h5>  
                                                 </button>
@@ -590,7 +589,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven3">
-                                            <h5 class="mb-0 btn-mode">
+                                            <h5 class="mb-0 flyiner btn-mode">
                                                 <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven3" aria-expanded="false" aria-controls="collapseEleven3">
                                                     <h6 class="text">3.11- Ao iniciar minha formalização no Portal do Empreendedor,<br> o formulário eletrônico apresenta informações erradas nos campos de "Identificação", como devo proceder?</h5>  
                                                 </button>
@@ -604,7 +603,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve3" aria-expanded="false" aria-controls="collapseTwelve3">
                                                     <h6 class="text">3.12- O que fazer quando o sistema aponta impedimento do titular no ato da formalização?</h5>  
                                                 </button>
@@ -618,7 +617,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen3">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen3" aria-expanded="false" aria-controls="collapseThirteen3">
                                                     <h6 class="text">3.13- O MEI pode ter mais do que uma ocupação ou atividade econômica conforme a Classificação Nacional de Atividades Econômicas (CNAE)?</h5>  
                                                 </button>
@@ -637,7 +636,7 @@
                     <!-- ACCORDION 4 -->
                     <div class="mb-2">
                         <div class="" id="headingFour">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             <h5 class="text">4- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
                             </button>
@@ -645,11 +644,11 @@
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode4">
+                                <div class="accordion " id="accordionmode4">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne4">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
                                                     <h6 class="text">4.1-  O Microempreendedor Individual/MEI é obrigado a emitir nota fiscal?</h6>
                                                 </button>
@@ -665,7 +664,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo4">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
                                                     <h6 class="text">4.2- Presto serviços apenas para uma empresa, posso ser Microempreendedor Individual e emitir nota fiscal apenas para essa empresa?</h5>  
                                                 </button>
@@ -680,7 +679,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree4">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
                                                     <h6 class="text">4.3- Tenho que ter algum controle do meu faturamento/ receita e notas fiscais emitidas?</h5>  
                                                 </button>
@@ -699,7 +698,7 @@
                     <!-- ACCORDION 5 -->
                     <div class="mb-2">
                         <div class="" id="headingFive">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             <h5 class="text">5- PREVIDÊNCIA E DEMAIS BENEFÍCIOS</h5>  
                             </button>
@@ -707,11 +706,11 @@
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode5">
+                                <div class="accordion" id="accordionmode5">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
                                                     <h6 class="text">5.1- Quais os benefícios previdenciários do MEI?</h6>
                                                 </button>
@@ -765,7 +764,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5">
                                                     <h6 class="text">5.2- O empregado de uma empresa privada pode se inscrever como MEI?</h5>  
                                                 </button>
@@ -779,7 +778,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
                                                     <h6 class="text">5.3- O MEI pode contratar como empregado o cônjuge ou o companheiro?</h5>  
                                                 </button>
@@ -793,7 +792,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour5" aria-expanded="false" aria-controls="collapseFour5">
                                                     <h6 class="text">5.4- O MEI pode contribuir de forma adicional para receber benefício superior a um salário mínimo?</h5>  
                                                 </button>
@@ -807,8 +806,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive5">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
                                                     <h6 class="text">5.5- O período de contribuição como Microempreendedor Individual <br> poderá ser somado a outros períodos de contribuição para a Previdência Social?</h5>  
                                                 </button>
                                             </h5>
@@ -823,8 +822,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix5">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix5" aria-expanded="false" aria-controls="collapseSix5">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSix5" aria-expanded="false" aria-controls="collapseSix5">
                                                     <h6 class="text">5.6- No caso do MEI estar inadimplente com os pagamentos (DAS),<br> qual é o prejuízo ou penalidade que o MEI terá junto ao INSS/Previdência Social?</h5>  
                                                 </button>
                                             </h5>
@@ -840,7 +839,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven5" aria-expanded="false" aria-controls="collapseSeven5">
                                                     <h6 class="text">5.7- O MEI que estiver recebendo auxílio-doença ou salário maternidade deve pagar o DAS?</h5>  
                                                 </button>
@@ -856,7 +855,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight5" aria-expanded="false" aria-controls="collapseEight5">
                                                     <h6 class="text">5.8- Como MEI, se eu engravidar, como farei para dar entrada no salário-maternidade?</h5>  
                                                 </button>
@@ -872,7 +871,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine5" aria-expanded="false" aria-controls="collapseNine5">
                                                     <h6 class="text">5.9- Como será pago o Salário - Maternidade à empregada do MEI?</h5>  
                                                 </button>
@@ -886,7 +885,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen5" aria-expanded="false" aria-controls="collapseTen5">
                                                     <h6 class="text">5.10- Já sou aposentado, como MEI o que ganharei ao contribuir para o INSS?</h5>  
                                                 </button>
@@ -901,7 +900,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven5" aria-expanded="false" aria-controls="collapseEleven5">
                                                     <h6 class="text">5.11- Sou aposentado por invalidez, se eu me formalizar como Microempreendedor Individual - MEI perderei a aposentadoria?</h5>  
                                                 </button>
@@ -915,7 +914,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve5" aria-expanded="false" aria-controls="collapseTwelve5">
                                                     <h6 class="text">5.12- O MEI que se aposenta por invalidez deve dar baixa em sua inscrição como MEI?</h5>  
                                                 </button>
@@ -929,7 +928,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen5" aria-expanded="false" aria-controls="collapseThirteen5">
                                                     <h6 class="text">5.13- A legislação do Microempreendedor Individual já está em vigor?</h5>  
                                                 </button>
@@ -944,8 +943,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFourteen5">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen5" aria-expanded="false" aria-controls="collapseFourteen5">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen5" aria-expanded="false" aria-controls="collapseFourteen5">
                                                     <h6 class="text">5.14- Sou tutor e administro uma pensão por morte de um órfão menor de idade. <br> Caso me registre como MEI, o menor perderá o benefício previdenciário?</h5>  
                                                 </button>
                                             </h5>
@@ -959,7 +958,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFifteen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen5" aria-expanded="false" aria-controls="collapseFifteen5">
                                                     <h6 class="text">5.15- Qual o prazo para o MEI solicitar o auxílio doença?</h5>  
                                                 </button>
@@ -974,7 +973,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSixteen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen5" aria-expanded="false" aria-controls="collapseSixteen5">
                                                     <h6 class="text">5.16- Para o MEI que também trabalha como empregado, qual o prazo para solicitar o auxilio doença?</h5>  
                                                 </button>
@@ -990,7 +989,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeventeen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen5" aria-expanded="false" aria-controls="collapseSeventeen5">
                                                     <h6 class="text">5.17- O MEI pode receber Seguro-Desemprego?</h5>  
                                                 </button>
@@ -1004,7 +1003,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEighteen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen5" aria-expanded="false" aria-controls="collapseEighteen5">
                                                     <h6 class="text">5.18- Se eu ficar sem contribuir durante um período, posso retomar as contribuições?</h5>  
                                                 </button>
@@ -1018,7 +1017,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNineteen5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen5" aria-expanded="false" aria-controls="collapseNineteen5">
                                                     <h6 class="text">5.19- Caso o MEI decida encerrar sua atividade, pode continuar contribuindo para o INSS?</h5>  
                                                 </button>
@@ -1032,8 +1031,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwenty5">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty5" aria-expanded="false" aria-controls="collapseTwenty5">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty5" aria-expanded="false" aria-controls="collapseTwenty5">
                                                     <h6 class="text">5.20- Uma pessoa de 60 anos, que nunca contribuiu para o INSS, e se registra como MEI. Como é necessário ter 180 <br> contribuições mensais, isso significa que só poderá se aposentar por idade aos 75 anos?</h5>  
                                                 </button>
                                             </h5>
@@ -1046,7 +1045,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyOne5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne5" aria-expanded="false" aria-controls="collapseTwentyOne5">
                                                     <h6 class="text">5.21- Se uma pessoa aposentada por invalidez se tornar MEI, perde o benefício?</h5>  
                                                 </button>
@@ -1060,7 +1059,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyTwo5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyTwo5" aria-expanded="false" aria-controls="collapseTwentyTwo5">
                                                     <h6 class="text">5.22- Quais os requisitos para uma aposentadoria por idade urbana?</h5>  
                                                 </button>
@@ -1079,7 +1078,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyThree5">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyThree5" aria-expanded="false" aria-controls="collapseTwentyThree5">
                                                     <h6 class="text">5.23- Quais são os critérios para a aposentadoria por tempo de contribuição?</h5>  
                                                 </button>
@@ -1098,7 +1097,7 @@
                     <!-- ACCORDION 6 -->
                     <div class="mb-2">
                         <div class="" id="headingSix">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             <h5 class="text">6- PAGAMENTO DE OBRIGAÇÕES MENSAIS</h5>  
                             </button>
@@ -1106,11 +1105,11 @@
                         </div>
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode6">
+                                <div class="accordion " id="accordionmode6">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
                                                     <h6 class="text">6.1- O Carnê da Cidadania será enviado para endereço do MEI em 2019?</h6>
                                                 </button>
@@ -1126,7 +1125,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo6" aria-expanded="false" aria-controls="collapseTwo6">
                                                     <h6 class="text">6.2- Qual o valor das contribuições mensais (Carnê do MEI - DAS) para o ano de 2019?</h5>  
                                                 </button>
@@ -1146,7 +1145,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
                                                     <h6 class="text">6.3- Como o MEI deve fazer para recolher as suas contribuições mensais (Carnê do MEI - DAS) e fazer seus pagamentos?</h5>  
                                                 </button>
@@ -1161,7 +1160,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour6" aria-expanded="false" aria-controls="collapseFour6">
                                                     <h6 class="text">6.4- Para o MEI que não pagou o boleto mensal no vencimento, é possível recalcular a guia para pagamento em atraso?</h5>  
                                                 </button>
@@ -1176,7 +1175,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive6" aria-expanded="false" aria-controls="collapseFive6">
                                                     <h6 class="text">6.5- Se o MEI durante o ano alterar, incluir ou excluir atividades do registro, o valor do DAS será alterado?</h5>  
                                                 </button>
@@ -1191,7 +1190,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix6" aria-expanded="false" aria-controls="collapseSix6">
                                                     <h6 class="text">6.6- O MEI sem movimento (Inativo), como deve proceder para não gerar novos débitos?</h5>  
                                                 </button>
@@ -1205,8 +1204,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven6">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven6" aria-expanded="false" aria-controls="collapseSeven6">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven6" aria-expanded="false" aria-controls="collapseSeven6">
                                                     <h6 class="text">6.7- O Microempreendedor Individual tem que pagar algum boleto de cobrança que chega pelo correio, e-mail ou SMS <br> relativo a seu negócio para  instituições privadas como associações e sindicatos?</h5>  
                                                 </button>
                                             </h5>
@@ -1219,7 +1218,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight6" aria-expanded="false" aria-controls="collapseEight6">
                                                     <h6 class="text">6.8- Quais impostos devem ser pagos pelo Microempreendedor Individual- MEI? Quais são os valores e os vencimentos?</h5>  
                                                 </button>
@@ -1235,7 +1234,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine6" aria-expanded="false" aria-controls="collapseNine6">
                                                     <h6 class="text">6.9- Como faço o pagamento dos impostos devidos pelo Microempreendedor Individual- MEI?</h5>  
                                                 </button>
@@ -1250,7 +1249,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen6" aria-expanded="false" aria-controls="collapseTen6">
                                                     <h6 class="text">6.10- Qual será o procedimento em caso de atraso nos pagamentos dos impostos?</h5>  
                                                 </button>
@@ -1265,7 +1264,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven6" aria-expanded="false" aria-controls="collapseEleven6">
                                                     <h6 class="text">6.11- A legislação do Microempreendedor Individual já está em vigor?</h5>  
                                                 </button>
@@ -1287,7 +1286,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve6" aria-expanded="false" aria-controls="collapseTwelve6">
                                                     <h6 class="text">6.12- O que acontece quando o MEI NÃO faz sua declaração anual – DASN/SIMEI ou a entrega com atraso?</h5>  
                                                 </button>
@@ -1302,8 +1301,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen6">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen6" aria-expanded="false" aria-controls="collapseThirteen6">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen6" aria-expanded="false" aria-controls="collapseThirteen6">
                                                     <h6 class="text">6.13- O MEI que realizou a Declaração Anual do MEI – DASN-SIMEI de forma errada (como situação especial) não terá acesso a declaração retificadora, <br> portanto não terá como alterar a falha, como ele poderá corrigir o erro?</h5>  
                                                 </button>
                                             </h5>
@@ -1317,7 +1316,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFourteen6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen6" aria-expanded="false" aria-controls="collapseFourteen6">
                                                     <h6 class="text">6.14- O Microempreendedor Individual é obrigado a pagar Contribuição Sindical, mesmo não sendo filiado a Sindicato?</h5>  
                                                 </button>
@@ -1333,7 +1332,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFifteen6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen6" aria-expanded="false" aria-controls="collapseFifteen6">
                                                     <h6 class="text">6.15- O MEI tem a obrigação de recolher taxas para associações?</h5>  
                                                 </button>
@@ -1347,7 +1346,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSixteen6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen6" aria-expanded="false" aria-controls="collapseSixteen6">
                                                     <h6 class="text">6.16- O MEI que nunca pagou DAS poderá ter o seu registro cancelado?</h5>  
                                                 </button>
@@ -1361,8 +1360,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeventeen6">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen6" aria-expanded="false" aria-controls="collapseSeventeen6">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen6" aria-expanded="false" aria-controls="collapseSeventeen6">
                                                     <h6 class="text">6.17- O MEI que está inadimplente com o pagamento do DAS pode parcelar esta dívida? <br> Qual órgão fará o parcelamento? Quais as condições do parcelamento (valor mínimo da prestação)?</h5>  
                                                 </button>
                                             </h5>
@@ -1375,7 +1374,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEighteen6">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen6" aria-expanded="false" aria-controls="collapseEighteen6">
                                                     <h6 class="text">6.18- A inadimplência do MEI referente às guias do DAS é passível de dívida ativa no CNPJ da empresa?</h5>  
                                                 </button>
@@ -1394,7 +1393,7 @@
                     <!-- ACCORDION 7 -->
                     <div class="mb-2">
                         <div class="" id="headingSeven">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             <h5 class="text">7- LICENCIAMENTO DEFINITIVO e ALVARÁ DE FUNCIONAMENTO</h5>  
                             </button>
@@ -1402,11 +1401,11 @@
                         </div>
                         <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode7">
+                                <div class="accordion " id="accordionmode7">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne7" aria-expanded="true" aria-controls="collapseOne7">
                                                     <h6 class="text">7.1- O Alvará de Funcionamento Provisório é gratuito para o Microempreendedor Individual - MEI?</h6>
                                                 </button>
@@ -1423,7 +1422,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo7" aria-expanded="false" aria-controls="collapseTwo7">
                                                     <h6 class="text">7.2- Como é concedido o Alvará de Funcionamento definitivo?</h5>  
                                                 </button>
@@ -1443,7 +1442,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree7" aria-expanded="false" aria-controls="collapseThree7">
                                                     <h6 class="text">7.3- Após os 180 dias utilizando o alvará provisório, o Microempreendedor Individual - MEI obterá o alvará definitivo automaticamente ou precisa ir a Prefeitura?</h5>  
                                                 </button>
@@ -1457,7 +1456,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour7" aria-expanded="false" aria-controls="collapseFour7">
                                                     <h6 class="text">7.4- O Microempreendedor Individual - MEI poderá trabalhar na própria residência?</h5>  
                                                 </button>
@@ -1473,7 +1472,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive7" aria-expanded="false" aria-controls="collapseFive7">
                                                     <h6 class="text">7.5- A Prefeitura e órgãos estaduais e municipais poderão realizar vistorias para emissão do Alvará, Licença ou Autorizações de Funcionamento?</h5>  
                                                 </button>
@@ -1488,7 +1487,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix7" aria-expanded="false" aria-controls="collapseSix7">
                                                     <h6 class="text">7.6- Caso o MEI se formalize no seu endereço residencial, o valor do IPTU pode sofrer aumento para IPTU comercial?</h5>  
                                                 </button>
@@ -1502,7 +1501,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven7">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven7" aria-expanded="false" aria-controls="collapseSeven7">
                                                     <h6 class="text">7.7- O MEI tem de obter a licença de funcionamento junto ao Corpo de Bombeiros  Militares dos Estados e do Distrito Federal?</h5>  
                                                 </button>
@@ -1522,7 +1521,7 @@
                     <!-- ACCORDION 8 -->
                     <div class="mb-2">
                         <div class="" id="headingEight">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             <h5 class="text">8- EMPREGADO DO MEI</h5>  
                             </button>
@@ -1530,11 +1529,11 @@
                         </div>
                         <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode8">
+                                <div class="accordion " id="accordionmode8">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne8" aria-expanded="true" aria-controls="collapseOne8">
                                                     <h6 class="text">8.1- Quantos empregados o Microempreendedor Individual- MEI pode contratar?</h6>
                                                 </button>
@@ -1549,7 +1548,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo8" aria-expanded="false" aria-controls="collapseTwo8">
                                                     <h6 class="text">8.2- Quais os procedimentos que o MEI deve tomar para caracterizar o afastamento do único empregado?</h5>  
                                                 </button>
@@ -1564,7 +1563,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree8" aria-expanded="false" aria-controls="collapseThree8">
                                                     <h6 class="text">8.3- Para contratação de empregado o MEI precisa de um contador?</h5>  
                                                 </button>
@@ -1578,7 +1577,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour8" aria-expanded="false" aria-controls="collapseFour8">
                                                     <h6 class="text">8.4- Qual o custo para contratação de um empregado?</h5>  
                                                 </button>
@@ -1593,7 +1592,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive8" aria-expanded="false" aria-controls="collapseFive8">
                                                     <h6 class="text">8.5- O MEI quando contratar empregado deverá fazer a guia do FGTS (GFIP) e informar ao órgão competente?</h5>  
                                                 </button>
@@ -1608,7 +1607,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix8">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix8" aria-expanded="false" aria-controls="collapseSix8">
                                                     <h6 class="text">8.6- O MEI que não contratou funcionário durante o ano, está obrigado a elaboração e entrega da RAIS?</h5>  
                                                 </button>
@@ -1627,7 +1626,7 @@
                     <!-- ACCORDION 9 -->
                     <div class="mb-2">
                         <div class="" id="headingNine">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             <h5 class="text">9- ALTERAÇÃO DE DADOS CADASTRAIS</h5>  
                             </button>
@@ -1635,11 +1634,11 @@
                         </div>
                         <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode9">
+                                <div class="accordion " id="accordionmode9">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne9" aria-expanded="true" aria-controls="collapseOne9">
                                                     <h6 class="text">9.1- Quanto tempo após efetivar a formalização como MEI é possível alterar as atividades econômicas – CNAE?</h6>
                                                 </button>
@@ -1654,7 +1653,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo9" aria-expanded="false" aria-controls="collapseTwo9">
                                                     <h6 class="text">9.2- Posso alterar quaisquer dados cadastrais após a formalização do MEI no Portal do Empreendedor?</h5>  
                                                 </button>
@@ -1668,7 +1667,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree9" aria-expanded="false" aria-controls="collapseThree9">
                                                     <h6 class="text">9.3- Como o MEI com sede em um Estado deve proceder para transferir seu registro para outras unidades da federação?</h5>  
                                                 </button>
@@ -1683,7 +1682,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour9" aria-expanded="false" aria-controls="collapseFour9">
                                                     <h6 class="text">9.4- Que procedimento deve ser realizado pelo optante do SIMEI quando sua atividade é excluída daquelas que são permitidas?</h5>  
                                                 </button>
@@ -1698,7 +1697,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive9" aria-expanded="false" aria-controls="collapseFive9">
                                                     <h6 class="text">9.5- Ao inserir o CEP do meu endereço, aparece que o CEP é inexistente ou não corresponde ao meu endereço, como devo proceder?</h5>  
                                                 </button>
@@ -1712,7 +1711,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix9">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix9" aria-expanded="false" aria-controls="collapseSix9">
                                                     <h6 class="text">9.6- O CEP do meu Município é único para toda a cidade. Como faço para informar meu endereço?</h5>  
                                                 </button>
@@ -1731,7 +1730,7 @@
                     <!-- ACCORDION 10 -->
                     <div class="mb-2">
                         <div class="" id="headingTen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                             <h5 class="text">10- QUERO DEIXAR DE SER MEI -(BAIXA)?</h5>  
                             </button>
@@ -1739,11 +1738,11 @@
                         </div>
                         <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode10">
+                                <div class="accordion " id="accordionmode10">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne10">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne10" aria-expanded="true" aria-controls="collapseOne10">
                                                     <h6 class="text">10.1- Como solicitar o encerramento da minha empresa como MEI?</h6>
                                                 </button>
@@ -1761,7 +1760,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo10">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo10" aria-expanded="false" aria-controls="collapseTwo10">
                                                     <h6 class="text">10.2- O MEI que deu baixa no CNPJ pode reabrir a mesma empresa depois de fechada? Qual o procedimento?</h5>  
                                                 </button>
@@ -1775,7 +1774,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree10">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree10" aria-expanded="false" aria-controls="collapseThree10">
                                                     <h6 class="text">10.3- O MEI com débitos mensais (DAS) e anuais (DASN-SIMEI) poderá fazer a baixa da empresa?</h5>  
                                                 </button>
@@ -1790,8 +1789,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour10">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour10" aria-expanded="false" aria-controls="collapseFour10">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFour10" aria-expanded="false" aria-controls="collapseFour10">
                                                     <h6 class="text">10.4- Caso a baixa do MEI seja no último dia do mês (ex.:31 de março),<br> será necessário pagar o boleto que vencerá no mês subsequente (ex.: em 20 de abril)?</h5>  
                                                 </button>
                                             </h5>
@@ -1804,8 +1803,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive10">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive10" aria-expanded="false" aria-controls="collapseFive10">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFive10" aria-expanded="false" aria-controls="collapseFive10">
                                                     <h6 class="text">10.5- Se a baixa for no primeiro dia do mês (ex.: 01 de abril) é necessário pagar o boleto que vencerá <br> no mesmo mês (ex.: dia 20/04)? E o boleto que vence no mês seguinte (ex.: dia 20/05)?</h5>  
                                                 </button>
                                             </h5>
@@ -1818,7 +1817,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix10">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix10" aria-expanded="false" aria-controls="collapseSix10">
                                                     <h6 class="text">10.6- Após a baixa do MEI é necessário entregar a Declaração de Extinção – DASN-SIMEI - Extinção? Se positivo qual o prazo da entrega?</h5>  
                                                 </button>
@@ -1834,9 +1833,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven10">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven10" aria-expanded="false" aria-controls="collapseSeven10">
-                                                    <h6 class="text">10.7- Após a realização da baixa e ao fazer a declaração de extinção em atraso é cobrada uma multa com o motivo “entrega da declaração fora do prazo”? Esta multa realmente procede?</h5>  
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven10" aria-expanded="false" aria-controls="collapseSeven10">
+                                                    <h6 class="text">10.7- Após a realização da baixa e ao fazer a declaração de extinção em atraso é cobrada uma <br> multa com o motivo “entrega da declaração fora do prazo”? Esta multa realmente procede?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
@@ -1853,7 +1852,7 @@
                     <!-- ACCORDION 11 -->
                     <div class="mb-2">
                         <div class="" id="headingEleven">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                             <h5 class="text">11- DESENQUADRAMENTO</h5>  
                             </button>
@@ -1861,11 +1860,11 @@
                         </div>
                         <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode11">
+                                <div class="accordion " id="accordionmode11">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne11" aria-expanded="true" aria-controls="collapseOne11">
                                                     <h6 class="text">11.1- O que é desenquadramento para o MEI ?</h6>
                                                 </button>
@@ -1880,7 +1879,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo11" aria-expanded="false" aria-controls="collapseTwo11">
                                                     <h6 class="text">11.2- Posso efetuar o desenquadramento por opção a qualquer tempo?</h5>  
                                                 </button>
@@ -1894,7 +1893,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree11" aria-expanded="false" aria-controls="collapseThree11">
                                                     <h6 class="text">11.3- Como efetuar o desenquadramento como MEI ?</h5>  
                                                 </button>
@@ -1909,7 +1908,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour11" aria-expanded="false" aria-controls="collapseFour11">
                                                     <h6 class="text">11.4- Qual o prazo para o MEI comunicar seu desenquadramento obrigatório e quais os efeitos?</h5>  
                                                 </button>
@@ -1929,7 +1928,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive11" aria-expanded="false" aria-controls="collapseFive11">
                                                     <h6 class="text">11.5- A partir de que data estarei desenquadrado com MEI no caso de exceder o limite de receita bruta?</h5>  
                                                 </button>
@@ -1973,7 +1972,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix11" aria-expanded="false" aria-controls="collapseSix11">
                                                     <h6 class="text">11.6- O desenquadramento do MEI, implica, necessariamente, exclusão do Simples Nacional?</h5>  
                                                 </button>
@@ -1988,7 +1987,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven11">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven11" aria-expanded="false" aria-controls="collapseSeven11">
                                                     <h6 class="text">11.7- Em que situações ocorrerá o desenquadramento automático como MEI?</h5>  
                                                 </button>
@@ -2006,7 +2005,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight11">
-                                            <h5 class="mb-0 btn-mode">
+                                            <h5 class="mb-0 flyiner btn-mode">
                                                 <button class="btn btn-link btn-mode text collapsed " type="button" data-toggle="collapse" data-target="#collapseEight11" aria-expanded="false" aria-controls="collapseEight11">
                                                    <h6 class="text">11.8- O que fazer caso seja feito o desenquadramento e o MEI não tiver solicitado,<br>
                                                      mesmo exercendo atividades e com faturamento que permitem manter a condição de MEI?</h6>
@@ -2026,7 +2025,7 @@
                     <!-- ACCORDION 12 -->
                     <div class="mb-2">
                         <div class="" id="headingTwelve">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                             <h5 class="text">12- QUERO CRESCER, NÃO SOU MAIS MEI, E AGORA?</h5>  
                             </button>
@@ -2034,11 +2033,11 @@
                         </div>
                         <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode12">
+                                <div class="accordion " id="accordionmode12">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne12">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne12" aria-expanded="true" aria-controls="collapseOne12">
                                                     <h6 class="text">12.1- O que ocorre com a pessoa que estiver enquadrada na lei do MEI e estourar o faturamento de 81 mil anual?</h6>
                                                 </button>
@@ -2063,7 +2062,7 @@
                         <!-- ACCORDION 13 -->
                     <div class="mb-2">
                         <div class="" id="headingThirteen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                             <h5 class="text">13- OUTROS ASSUNTOS?</h5>  
                             </button>
@@ -2071,11 +2070,11 @@
                         </div>
                         <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode13">
+                                <div class="accordion " id="accordionmode13">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne13" aria-expanded="true" aria-controls="collapseOne13">
                                                     <h6 class="text">13.1- Onde o MEI pode solicitar informações ou registrar suas reclamações e sugestões?</h6>
                                                 </button>
@@ -2119,8 +2118,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo13">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo13" aria-expanded="false" aria-controls="collapseTwo13">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo13" aria-expanded="false" aria-controls="collapseTwo13">
                                                     <h6 class="text">13.2- Quando ocorre a migração de Microempresa – ME para Microempreendedor Individual – MEI, é possível emitir o <br> Certificado na Condição de Microempreendedor Individual – CCMEI pelo Portal do Empreendedor?</h5>  
                                                 </button>
                                             </h5>
@@ -2133,7 +2132,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree13" aria-expanded="false" aria-controls="collapseThree13">
                                                     <h6 class="text">13.3- O MEI é obrigado a adquirir um Certificado Digital?</h5>  
                                                 </button>
@@ -2148,7 +2147,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour13" aria-expanded="false" aria-controls="collapseFour13">
                                                     <h6 class="text">13.4- O que fazer quando alguma instituição não reconhece o Certificado de Registro de Microempreendedor Individual - CCMEI?</h5>  
                                                 </button>
@@ -2162,7 +2161,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive13" aria-expanded="false" aria-controls="collapseFive13">
                                                     <h6 class="text">13.5- Qual o prazo para o MEI elaborar e entregar a Declaração Anual para o MEI – DASN-SIMEI?</h5>  
                                                 </button>
@@ -2176,7 +2175,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix13" aria-expanded="false" aria-controls="collapseSix13">
                                                     <h6 class="text">13.6- O MEI que não teve faturamento no ano ou estava sem movimento, tem de entregar a Declaração Anual para o MEI- DASN-SIMEI?</h5>  
                                                 </button>
@@ -2190,7 +2189,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven13" aria-expanded="false" aria-controls="collapseSeven13">
                                                     <h6 class="text">13.7- Como MEI deve proceder para gerar um novo DARF referente a multa expedida pelo atraso na entrega da DASN -SIMEI?</h5>  
                                                 </button>
@@ -2204,7 +2203,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight13" aria-expanded="false" aria-controls="collapseEight13">
                                                     <h6 class="text">13.8- Preciso ter contabilidade?</h5>  
                                                 </button>
@@ -2219,7 +2218,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine13" aria-expanded="false" aria-controls="collapseNine13">
                                                     <h6 class="text">13.9- Preciso informar algum órgão federal, estadual ou municipal sobre meu faturamento?</h5>  
                                                 </button>
@@ -2233,7 +2232,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen13" aria-expanded="false" aria-controls="collapseTen13">
                                                     <h6 class="text">13.10- É possível transferir o CNPJ do MEI para outra pessoa?</h5>  
                                                 </button>
@@ -2247,7 +2246,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven13" aria-expanded="false" aria-controls="collapseEleven13">
                                                     <h6 class="text">13.11- Quais os escritórios de contabilidade do meu município que atendem ao Microempreendedor Individual- MEI?</h5>  
                                                 </button>
@@ -2261,7 +2260,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve13" aria-expanded="false" aria-controls="collapseTwelve13">
                                                     <h6 class="text">13.12- Quais obrigações acessórias estão previstas para o Microempreendedor Individual (MEI)?</h5>  
                                                 </button>
@@ -2279,7 +2278,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen13" aria-expanded="false" aria-controls="collapseThirteen13">
                                                     <h6 class="text">13.13-  MEI deve registrar o seu Faturamento Bruto ou o Lucro no relatório de Receitas Brutas Mensal?</h5>  
                                                 </button>
@@ -2293,8 +2292,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFourteen13">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen13" aria-expanded="false" aria-controls="collapseFourteen13">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen13" aria-expanded="false" aria-controls="collapseFourteen13">
                                                     <h6 class="text">13.14- O MEI que presta serviços, ao preencher o Relatório Mensal de Receitas Brutas, deverá informar somente o valor dos Serviços Prestados,<br> ou informar também o material comprado e aplicado para execução dos Serviços?</h5>  
                                                 </button>
                                             </h5>
@@ -2307,8 +2306,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFifteen13">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen13" aria-expanded="false" aria-controls="collapseFifteen13">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen13" aria-expanded="false" aria-controls="collapseFifteen13">
                                                     <h6 class="text">13.15-  O MEI que vende a prazo (cartão de crédito, cheque pós-datado), deverá registrar a sua receita <br> no relatório de receitas brutas mensais no mês que ocorre a venda ou mês do recebimento?</h5>  
                                                 </button>
                                             </h5>
@@ -2321,7 +2320,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSixteen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen13" aria-expanded="false" aria-controls="collapseSixteen13">
                                                     <h6 class="text">13.16- O MEI, no relatório mensal de receitas brutas, deve informar as vendas e serviços considerando qual período de faturamento?</h5>  
                                                 </button>
@@ -2335,7 +2334,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeventeen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen13" aria-expanded="false" aria-controls="collapseSeventeen13">
                                                     <h6 class="text">13.17- Qual o limite para compras de mercadorias para revenda e/ou insumos para o MEI?</h5>  
                                                 </button>
@@ -2349,7 +2348,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEighteen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen13" aria-expanded="false" aria-controls="collapseEighteen13">
                                                     <h6 class="text">13.18- O MEI está obrigado a abrir uma conta corrente de Pessoa Jurídica, para registro das suas movimentações bancarias?</h5>  
                                                 </button>
@@ -2363,7 +2362,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNineteen13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen13" aria-expanded="false" aria-controls="collapseNineteen13">
                                                     <h6 class="text">13.19- O Microempreendedor Individual pode instalar máquina de cartão de crédito e/ou débito? O que precisa fazer?</h5>  
                                                 </button>
@@ -2378,7 +2377,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwenty13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty13" aria-expanded="false" aria-controls="collapseTwenty13">
                                                     <h6 class="text">13.20- É permitido ao Microempreendedor Individual emitir boletos para efetuar cobrança através de uma instituição bancária?</h5>  
                                                 </button>
@@ -2392,7 +2391,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyOne13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne13" aria-expanded="false" aria-controls="collapseTwentyOne13">
                                                     <h6 class="text">13.21- É possível o MEI adquirir um veículo ou outro bem através do CNPJ, à vista ou financiado?</h5>  
                                                 </button>
@@ -2406,7 +2405,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyTwo13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyTwo13" aria-expanded="false" aria-controls="collapseTwentyTwo13">
                                                     <h6 class="text">13.22- O Microempreendedor Individual poderá realizar importação de produtos?</h5>  
                                                 </button>
@@ -2420,7 +2419,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwentyThree13">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyThree13" aria-expanded="false" aria-controls="collapseTwentyThree13">
                                                     <h6 class="text">13.23- O Microempreendedor Individual poderá realizar exportação de produtos?</h5>  
                                                 </button>
@@ -2442,7 +2441,7 @@
                     <!-- ACCORDION 14 -->
                     <div class="mb-2">
                         <div class="" id="headingFourteen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                             <h5 class="text">14- COMO POSSO APRENDER MAIS?</h5>  
                             </button>
@@ -2450,11 +2449,11 @@
                         </div>
                         <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode14">
+                                <div class="accordion " id="accordionmode14">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne14">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne14" aria-expanded="true" aria-controls="collapseOne14">
                                                     <h6 class="text">14.1- Existem cursos de capacitação específicos para o Microempreendedor Individual?</h6>
                                                 </button>
@@ -2479,7 +2478,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo14">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo14" aria-expanded="false" aria-controls="collapseTwo14">
                                                     <h6 class="text">14.2- O Sebrae possui cursos sobre as normas e procedimentos exigidos pelas Vigilâncias Sanitárias?</h5>  
                                                 </button>
@@ -2499,7 +2498,7 @@
                     <!-- ACCORDION 15 -->
                     <div class="mb-2">
                         <div class="" id="headingFifteen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                             <h5 class="text">15- DÉBITO AUTOMÁTICO/PAGAMENTO ONLINE</h5>  
                             </button>
@@ -2507,11 +2506,11 @@
                         </div>
                         <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode15">
+                                <div class="accordion " id="accordionmode15">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne15" aria-expanded="true" aria-controls="collapseOne15">
                                                     <h6 class="text">15.1- O que é Débito Automático do MEI?</h6>
                                                 </button>
@@ -2537,7 +2536,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo15" aria-expanded="false" aria-controls="collapseTwo15">
                                                     <h6 class="text">15.2- Como o MEI pode fazer a opção pelo Débito Automático?</h5>  
                                                 </button>
@@ -2558,7 +2557,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree15" aria-expanded="false" aria-controls="collapseThree15">
                                                     <h6 class="text">15.3- Como o MEI deve proceder caso tenha optado pelo Débito Automático e passe a usufruir de benefício previdenciário?</h5>  
                                                 </button>
@@ -2573,9 +2572,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour15" aria-expanded="false" aria-controls="collapseFour15">
-                                                    <h6 class="text">15.4- </h5>  
+                                                    <h6 class="text">15.4- Como o MEI deve proceder caso tenha optado pelo Débito Automático e passe a usufruir de benefício previdenciário?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
@@ -2589,7 +2588,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive15" aria-expanded="false" aria-controls="collapseFive15">
                                                     <h6 class="text">15.5- Como o MEI pode Consultar/ Alterar/ Desativar sua opção pelo Débito Automático do MEI?</h5>  
                                                 </button>
@@ -2606,7 +2605,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix15" aria-expanded="false" aria-controls="collapseSix15">
                                                     <h6 class="text">15.6- O que é o pagamento online?</h5>  
                                                 </button>
@@ -2620,7 +2619,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven15" aria-expanded="false" aria-controls="collapseSeven15">
                                                     <h6 class="text">15.7- Posso pagar online mais de um DAS por ano-calendário?</h5>  
                                                 </button>
@@ -2634,7 +2633,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight15">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight15" aria-expanded="false" aria-controls="collapseEight15">
                                                     <h6 class="text">15.8- Posso pagar online se estiver recebendo benefício do INSS?</h5>  
                                                 </button>
@@ -2653,7 +2652,7 @@
                     <!-- ACCORDION 16 -->
                     <div class="mb-2">
                         <div class="" id="headingSixteen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
                             <h5 class="text">16- Papel do Município em relação ao MEI</h5>  
                             </button>
@@ -2661,11 +2660,11 @@
                         </div>
                         <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode16">
+                                <div class="accordion " id="accordionmode16">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne16">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne16" aria-expanded="true" aria-controls="collapseOne16">
                                                     <h6 class="text">16.1- Papel do Município em relação ao MEI</h6>
                                                 </button>
@@ -2686,7 +2685,7 @@
                     <!-- ACCORDION 17 -->
                     <div class="mb-2">
                         <div class="" id="headingSeventeen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
                             <h5 class="text">17- Restituição do MEI</h5>  
                             </button>
@@ -2694,11 +2693,11 @@
                         </div>
                         <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode17">
+                                <div class="accordion " id="accordionmode17">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne17" aria-expanded="true" aria-controls="collapseOne17">
                                                     <h6 class="text">17.1- Como devo proceder para solicitar restituição de valor recolhido indevidamente ou a maior em documento de arrecadação (DAS)?</h6>
                                                 </button>
@@ -2716,7 +2715,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo17" aria-expanded="false" aria-controls="collapseTwo17">
                                                     <h6 class="text">17.2- Após solicitar a restituição por meio do aplicativo, é necessário comparecer a alguma unidade da Receita Federal?</h5>  
                                                 </button>
@@ -2731,7 +2730,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree17" aria-expanded="false" aria-controls="collapseThree17">
                                                     <h6 class="text">17.3- Para solicitar a restituição é necessário informar a conta bancária? A conta bancária tem que ser da pessoa jurídica?</h5>  
                                                 </button>
@@ -2746,7 +2745,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour17" aria-expanded="false" aria-controls="collapseFour17">
                                                     <h6 class="text">17.4- Tenho prazo para solicitar a restituição?</h5>  
                                                 </button>
@@ -2760,7 +2759,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive17" aria-expanded="false" aria-controls="collapseFive17">
                                                     <h6 class="text">17.5- O valor a ser restituído sofre alguma atualização?</h5>  
                                                 </button>
@@ -2776,8 +2775,8 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix17">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix17" aria-expanded="false" aria-controls="collapseSix17">
+                                            <h5 class="mb-0 flyiner btn-mode">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseSix17" aria-expanded="false" aria-controls="collapseSix17">
                                                     <h6 class="text">17.6-  Não sou mais optante pelo SIMEI, mas quero fazer o pedido de restituição de um pagamento indevido de MEI. <br> Posso utilizar o aplicativo Pedido Eletrônico de Restituição?</h5>  
                                                 </button>
                                             </h5>
@@ -2790,7 +2789,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven17" aria-expanded="false" aria-controls="collapseSeven17">
                                                     <h6 class="text">17.7- Paguei um DAS em duplicidade. Posso compensar esse crédito com o valor devido no mês seguinte?</h5>  
                                                 </button>
@@ -2804,7 +2803,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight17">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight17" aria-expanded="false" aria-controls="collapseEight17">
                                                     <h6 class="text">17.8- Posso cancelar um pedido eletrônico de restituição?</h5>  
                                                 </button>
@@ -2822,20 +2821,20 @@
                     </div>
                     <!-- ACCORDION 18 -->
                     <div class="mb-2">
-                        <div class="" id="headingEight">
-                        <h5 class="mb-0 flyiner">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <div class="" id="headingEighteen">
+                        <h5 class="mb-0 flyiner flyiner">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
                             <h5 class="text">18- Parcelamento do MEI</h5>  
                             </button>
                         </h5>
                         </div>
-                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode18">
+                                <div class="accordion " id="accordionmode18">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne18" aria-expanded="true" aria-controls="collapseOne18">
                                                     <h6 class="text">18.1- Posso parcelar os débitos apurados pelo Simei (INSS, ISS e ICMS)?</h6>
                                                 </button>
@@ -2851,7 +2850,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo18" aria-expanded="false" aria-controls="collapseTwo18">
                                                     <h6 class="text">18.2- Como solicitar o parcelamento dos débitos do MEI em cobrança na Receita Federal do Brasil (RFB)?</h5>  
                                                 </button>
@@ -2866,7 +2865,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree18" aria-expanded="false" aria-controls="collapseThree18">
                                                     <h6 class="text">18.3- É permitido fazer um parcelamento especial e um convencional?</h5>  
                                                 </button>
@@ -2882,7 +2881,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour18" aria-expanded="false" aria-controls="collapseFour18">
                                                     <h6 class="text">18.4- Como é feita a consolidação do parcelamento dos débitos do MEI na RFB?</h5>  
                                                 </button>
@@ -2899,7 +2898,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive18" aria-expanded="false" aria-controls="collapseFive18">
                                                     <h6 class="text">18.5- Em quantas parcelas posso parcelar os débitos do MEI na RFB?</h5>  
                                                 </button>
@@ -2916,7 +2915,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix18" aria-expanded="false" aria-controls="collapseSix18">
                                                     <h6 class="text">18.6- Qual é o prazo para pagamento da 1ª (primeira) parcela e das subsequentes?</h5>  
                                                 </button>
@@ -2932,7 +2931,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven18" aria-expanded="false" aria-controls="collapseSeven18">
                                                     <h6 class="text">18.7- Posso desistir do parcelamento?</h5>  
                                                 </button>
@@ -2946,7 +2945,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight18" aria-expanded="false" aria-controls="collapseEight18">
                                                     <h6 class="text">18.8- Já tenho um pedido de parcelamento, posso fazer um outro pedido para incluir novos débitos?</h5>  
                                                 </button>
@@ -2962,7 +2961,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine18" aria-expanded="false" aria-controls="collapseNine18">
                                                     <h6 class="text">18.9- O parcelamento pode ser rescindido? Em quais situações?</h5>  
                                                 </button>
@@ -2978,7 +2977,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen18">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen18" aria-expanded="false" aria-controls="collapseTen18">
                                                     <h6 class="text">18.10- Onde posso obter informações sobre o PERT-MEI?</h5>  
                                                 </button>
@@ -2997,7 +2996,7 @@
                     <!-- ACCORDION 19 -->
                     <div class="mb-2">  
                         <div class="" id="headingNineteen">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
                             <h5 class="text">19- Cancelamento da inscrição de MEI</h5>  
                             </button>
@@ -3005,11 +3004,11 @@
                         </div>
                         <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode19">
+                                <div class="accordion " id="accordionmode19">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne19">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne19" aria-expanded="true" aria-controls="collapseOne19">
                                                     <h6 class="text">19.1- O que é cancelamento e suspensão do MEI?</h6>
                                                 </button>
@@ -3026,7 +3025,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo19">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo19" aria-expanded="false" aria-controls="collapseTwo19">
                                                     <h6 class="text">19.2- Quais os efeitos do cancelamento do MEI?</h5>  
                                                 </button>
@@ -3044,7 +3043,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree19">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree19" aria-expanded="false" aria-controls="collapseThree19">
                                                     <h6 class="text">19.3- Haverá alguma comunicação que minha inscrição será cancelada?</h5>  
                                                 </button>
@@ -3059,7 +3058,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour19">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour19" aria-expanded="false" aria-controls="collapseFour19">
                                                     <h6 class="text">19.4- Depois do cancelamento consigo emitir o CCMEI?</h5>  
                                                 </button>
@@ -3079,21 +3078,21 @@
                     <!-- ACCORDION 20 -->
                     <div class="mb-2">
                         <div class="" id="headingTwenty">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                            <h5 class="text">20- NOTA FISCAL (Inscrição Estadual e/ou Municipal)</h5>  
+                            <h5 class="text">20- MEI RURAL</h5>  
                             </button>
                         </h5>
                         </div>
                         <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode20">
+                                <div class="accordion " id="accordionmode20">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne20">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne20" aria-expanded="true" aria-controls="collapseOne20">
-                                                    <h6 class="text">20.1- O que é o MEI - Microempreendedor Individual?</h6>
+                                            <h5 class="mb-0 flyiner ">
+                                                <button class="btn btn-link btn-mode" type="button" data-toggle="collapse" data-target="#collapseOne20" aria-expanded="true" aria-controls="collapseOne20">
+                                                    <h6 class="text">20.1- O segurado especial que se formalizar como MEI terá que se submeter ao limite de faturamento anual de R$ 81.000,00, ou poderá ter uma <br> atividade complementar como MEI com esse limite, além das suas outras atividades como segurado especial? Contextualização: segurado <br> especial produz milho e com parte do milho industrializa fubá. Para a indústria de fubá poderá abrir MEI com limite de R$ 81 mil e poderá,<br> adicionalmente, vender sua produção rural sem observar esse limite? Em suma: a soma das receitas brutas das atividades do empreendedor <br> poderá superar R$ 81 mil?</h6>
                                                 </button>
                                             </h5>
                                         </div>
@@ -3106,9 +3105,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo20">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo20" aria-expanded="false" aria-controls="collapseTwo20">
-                                                    <h6 class="text">20.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
+                                            <h5 class="mb-0 flyiner">
+                                                <button class="btn btn-link text-justify collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo20" aria-expanded="false" aria-controls="collapseTwo20">
+                                                    <h6 class="text">20.2- O segurado especial, ao se formalizar como MEI, terá que pagar o carnê – valor fixo mensal. Quando vender sua produção rural, terá que <br> pagar as contribuições sobre a venda da produção? Incidirá também o SENAR na venda dessa produção? Há alguma diferença nesse tratamento <br> entre a venda do “objeto do MEI” (a exemplo do fubá industrializado) e a venda da produção rural “não objeto do MEI”?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
@@ -3121,9 +3120,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree20">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree20" aria-expanded="false" aria-controls="collapseThree20">
-                                                    <h6 class="text">20.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
+                                            <h5 class="mb-0 flyiner ">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseThree20" aria-expanded="false" aria-controls="collapseThree20">
+                                                    <h6 class="text">20.3- Há limites diferenciados quanto à contratação de empregado (s) entre o MEI e o segurado especial. O MEI pode contratar um empregado <br> permanente com remuneração de até 1 salário-mínimo (ou o piso da categoria).     a)	Ele poderá contratar o empregado como MEI e,<br> adicionalmente, os demais que a legislação da previdência permite ao segurado especial?  b) Ele poderá contratar o empregado como MEI para a <br> atividade “objeto do MEI” e, adicionalmente, outros como segurado especial na atividade “não objeto do MEI”?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
@@ -3136,7 +3135,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour20">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour20" aria-expanded="false" aria-controls="collapseFour20">
                                                     <h6 class="text">20.4- Poderá haver mais de 1 (um) MEI em um mesmo grupo familiar?</h5>  
                                                 </button>
@@ -3150,7 +3149,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive20">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive20" aria-expanded="false" aria-controls="collapseFive20">
                                                     <h6 class="text">20.5-  Um MEI prestador de serviços poderá manter a condição de segurado especial?</h5>  
                                                 </button>
@@ -3164,7 +3163,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix20">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix20" aria-expanded="false" aria-controls="collapseSix20">
                                                     <h6 class="text">20.6- Um MEI que industrialize seus produtos poderá ser segurado especial, mesmo que a industrialização não seja rudimentar?</h5>  
                                                 </button>
@@ -3178,7 +3177,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven20">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven20" aria-expanded="false" aria-controls="collapseSeven20">
                                                     <h6 class="text">20.7- Um MEI pode ser sócio de cooperativa de produção?</h5>  
                                                 </button>
@@ -3197,7 +3196,7 @@
                     <!-- ACCORDION 21 -->
                     <div class="mb-2">
                         <div class="" id="headingTwentyOne">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
                             <h5 class="text">21- SALÃO PARCEIRO-PROFISSIONAL PARCEIRO</h5>  
                             </button>
@@ -3205,11 +3204,11 @@
                         </div>
                         <div id="collapseTwentyOne" class="collapse" aria-labelledby="headingTwentyOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode21">
+                                <div class="accordion " id="accordionmode21">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne21" aria-expanded="true" aria-controls="collapseOne21">
                                                     <h6 class="text">21.1- Quais são os benefícios do novo sistema de trabalho e os maiores desafios no processo de transição?</h6>
                                                 </button>
@@ -3224,7 +3223,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo21" aria-expanded="false" aria-controls="collapseTwo21">
                                                     <h6 class="text">21.2- Quais ocupações estão previstas para profissional-parceiro?</h5>  
                                                 </button>
@@ -3238,7 +3237,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree21" aria-expanded="false" aria-controls="collapseThree21">
                                                     <h6 class="text">21.3- Em que situações a relação de parceria poderá ser interpretada como relação de emprego?</h5>  
                                                 </button>
@@ -3252,7 +3251,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour21" aria-expanded="false" aria-controls="collapseFour21">
                                                     <h6 class="text">21.4- Há modelos de contrato de parceria para salões de beleza?</h5>  
                                                 </button>
@@ -3266,7 +3265,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive21" aria-expanded="false" aria-controls="collapseFive21">
                                                     <h6 class="text">21.5- Quais são as cláusulas obrigatórias do contrato de parceria (parágrafo 10 - Lei nº 13.352/2016)?</h5>  
                                                 </button>
@@ -3281,7 +3280,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix21" aria-expanded="false" aria-controls="collapseSix21">
                                                     <h6 class="text">21.6- Quem é responsável pela centralização de pagamentos e recebimentos?</h5>  
                                                 </button>
@@ -3299,7 +3298,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven21" aria-expanded="false" aria-controls="collapseSeven21">
                                                     <h6 class="text">21.7- Quem é responsável pela preservação e manutenção das condições de trabalho?</h5>  
                                                 </button>
@@ -3313,7 +3312,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight21" aria-expanded="false" aria-controls="collapseEight21">
                                                     <h6 class="text">21.8- Como a lei é aplicada e deve ser seguida em caso de franquias?</h5>  
                                                 </button>
@@ -3327,7 +3326,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine21" aria-expanded="false" aria-controls="collapseNine21">
                                                     <h6 class="text">21.9- Quais os benefícios para quem é salão-parceiro?</h5>  
                                                 </button>
@@ -3341,7 +3340,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen21" aria-expanded="false" aria-controls="collapseTen21">
                                                     <h6 class="text">21.10- O salão-parceiro pode ser MEI?</h5>  
                                                 </button>
@@ -3355,7 +3354,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven21" aria-expanded="false" aria-controls="collapseEleven21">
                                                     <h6 class="text">21.11- O salão-parceiro pode ter uma relação de subordinação com o profissional-parceiro?</h5>  
                                                 </button>
@@ -3369,7 +3368,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve21" aria-expanded="false" aria-controls="collapseTwelve21">
                                                     <h6 class="text">21.12- Como se dá a emissão da nota fiscal pelo salão-parceiro?</h5>  
                                                 </button>
@@ -3383,7 +3382,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen21" aria-expanded="false" aria-controls="collapseThirteen21">
                                                     <h6 class="text">21.13- Como se dá o pagamento de comissão e impostos já que as máquinas de cartão são do salão-parceiro?</h5>  
                                                 </button>
@@ -3397,7 +3396,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFourteen21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen21" aria-expanded="false" aria-controls="collapseFourteen21">
                                                     <h6 class="text">21.14- O profissional-parceiro pode ser MEI?</h5>  
                                                 </button>
@@ -3411,7 +3410,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFifteen21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen21" aria-expanded="false" aria-controls="collapseFifteen21">
                                                     <h6 class="text">21.15- Quais os benefícios para quem é profissional-parceiro?</h5>  
                                                 </button>
@@ -3425,7 +3424,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSixteen21">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen21" aria-expanded="false" aria-controls="collapseSixteen21">
                                                     <h6 class="text">21.16- O profissional-parceiro tem assistência sindical?</h5>  
                                                 </button>
@@ -3444,7 +3443,7 @@
                     <!-- ACCORDION 22 -->
                     <div class="mb-2">
                         <div class="" id="headingTwentyTwo">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
                             <h5 class="text">22- Programa CREDMEI</h5>  
                             </button>
@@ -3452,11 +3451,11 @@
                         </div>
                         <div id="collapseTwentyTwo" class="collapse" aria-labelledby="headingTwentyTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                <div class="accordion ml-4" id="accordionmode22">
+                                <div class="accordion " id="accordionmode22">
 
                                     <div class="cardy">
                                         <div class="" id="headingOne22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne22" aria-expanded="true" aria-controls="collapseOne22">
                                                     <h6 class="text">22.1- O que é o Progrma CREDMEI?</h6>
                                                 </button>
@@ -3471,7 +3470,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwo22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo22" aria-expanded="false" aria-controls="collapseTwo22">
                                                     <h6 class="text">22.2- Como o empreendedor pode se beneficiar do Programa?</h5>  
                                                 </button>
@@ -3485,7 +3484,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThree22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree22" aria-expanded="false" aria-controls="collapseThree22">
                                                     <h6 class="text">22.3- Quais empreendedores podem se beneficiar do Programa CREDMEI?</h5>  
                                                 </button>
@@ -3499,7 +3498,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFour22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour22" aria-expanded="false" aria-controls="collapseFour22">
                                                     <h6 class="text">22.4- Como o Programa funciona?</h5>  
                                                 </button>
@@ -3513,7 +3512,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingFive22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive22" aria-expanded="false" aria-controls="collapseFive22">
                                                     <h6 class="text">22.5- Quais são instituições financeiras participantes do Programa?</h5>  
                                                 </button>
@@ -3529,7 +3528,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSix22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix22" aria-expanded="false" aria-controls="collapseSix22">
                                                     <h6 class="text">22.6- O que é a fase piloto do Programa?</h5>  
                                                 </button>
@@ -3543,7 +3542,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingSeven22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven22" aria-expanded="false" aria-controls="collapseSeven22">
                                                     <h6 class="text">22.7- O CREDMEI conta com alguma linha de crédito específica para o MEI?</h5>  
                                                 </button>
@@ -3557,7 +3556,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEight22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight22" aria-expanded="false" aria-controls="collapseEight22">
                                                     <h6 class="text">22.8- Preciso pagar alguma taxa para usar o CREDIMEI?</h5>  
                                                 </button>
@@ -3571,7 +3570,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingNine22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine22" aria-expanded="false" aria-controls="collapseNine22">
                                                     <h6 class="text">22.9- Preciso de algum documento para fazer minha solicitação?</h5>  
                                                 </button>
@@ -3585,9 +3584,9 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTen22">
-                                            <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen22" aria-expanded="false" aria-controls="collapseTen22">
-                                                    <h6 class="text">22.10- Ao clicar em CREDMEI no Portal do Empreendedor, fui direcionado para o site do Brasil Cidadão. O que é isso? Preciso me cadastrar neste site?</h5>  
+                                            <h5 class="mb-0 flyiner">
+                                                <button class="btn btn-link btn-mode collapsed" type="button" data-toggle="collapse" data-target="#collapseTen22" aria-expanded="false" aria-controls="collapseTen22">
+                                                    <h6 class="text">22.10- Ao clicar em CREDMEI no Portal do Empreendedor, fui direcionado para o site do Brasil Cidadão. <br> O que é isso? Preciso me cadastrar neste site?</h5>  
                                                 </button>
                                             </h5>
                                         </div>
@@ -3599,7 +3598,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingEleven22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven22" aria-expanded="false" aria-controls="collapseEleven22">
                                                     <h6 class="text">22.11- Qual o prazo para a instituição responder a solicitação?</h5>  
                                                 </button>
@@ -3613,7 +3612,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingTwelve22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve22" aria-expanded="false" aria-controls="collapseTwelve22">
                                                     <h6 class="text">22.12- O que devo fazer para acompanhar o andamento da solicitação?</h5>  
                                                 </button>
@@ -3627,7 +3626,7 @@
                                     </div>
                                     <div class="">
                                         <div class="" id="headingThirteen22">
-                                            <h5 class="mb-0">
+                                            <h5 class="mb-0 flyiner">
                                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen22" aria-expanded="false" aria-controls="collapseThirteen22">
                                                     <h6 class="text">22.13- Estou em uma cidade que não faz parte da fase piloto do Programa. Quando poderei utilizar o Programa?</h5>  
                                                 </button>
@@ -3645,7 +3644,7 @@
                     </div>
                     <div class="mb-2">
                         <div class="" id="headingGlossary">
-                        <h5 class="mb-0 flyiner">
+                        <h5 class="mb-0 flyiner flyiner">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGlossary" aria-expanded="false" aria-controls="collapseGlossary">
                             <h5 class="text">GLOSSÁRIO DAS SIGLAS E ABREVIAÇÕES</h5>  
                             </button>
@@ -3684,73 +3683,7 @@
             
             
         </div>
-        <div class="col-md-7 acorde ">
-                <!-----------ACCORDION------------->
-                <!-- <div class="accordion " id="accordionExample">
-                    <div class="cardy">
-                        <div class="" id="headingOne">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h5 class="text">1.1- O que é o MEI - Microempreendedor Individual?</h5>
-                                </button>
-                            </h5>
-                        </div>
-
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>
-                                <p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&idAto=92278" target="blank">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h5 class="text">1.2- Qual é a lei que instituiu o Microempreendedor individual?</h5>  
-                            </button>
-                        </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
-                            A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5>  
-                            </button>
-                        </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
-                            Sim, entrou em vigor em 01/07/2009.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="" id="headingFour">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <h5 class="text">1.4- Qual o faturamento anual  do Microempreendedor Individual?</h5>  
-                            </button>
-                        </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p>
-                                <p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p>
-                                <p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-----------ACCORDION------------->
-        </div>
-        </div>
+        
     </section>
     <footer id="footer" class="container-fluid">
         <div class="row justify-content-center aling-itens-center text-white ml-5">
@@ -3797,15 +3730,15 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
-                    </div>
+                    </div> 
                 </div>  
-                <form class="text-center primary-color-dark p-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
+                <form class="text-center primary-color-dark p-5" name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
                     <input type="text" required name="nomeEmpresa" class="z-depth-1  mb-3 input1 texto" placeholder="Nome da Empresa">
                     <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 input1 texto" placeholder="Nome do Responsavel">
                     <input type="email" required name="email" class="z-depth-1  mb-3 input1 texto" placeholder="E-mail">
                     <input type="password" required name="senha" class="z-depth-1  mb-3 input texto" placeholder="Senha">
                     <input type="text"  required name="estado" class="z-depth-1  mb-3 input texto" placeholder="Estado">
-                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" placeholder="CNPJ">
+                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" id="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);" placeholder="CNPJ" maxlength="18">
                     <input type="text" required name="CNAE" class="z-depth-1  mb-3 input texto" placeholder="CNAE">
                     <input type="submit" value="Confirmar" class="btn btn-success btn-lg col-7 mt-5">
                 </form>                               
@@ -3837,34 +3770,34 @@
         </div>
     </div>
 <!--------------------MODAL-LOGIN:FIM------------------->
-<!-- <div class=""><div class="" id="headingThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingFour"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingFive"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingSix"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingSeven"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingEight"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingNine"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingEleven"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTwelve"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingThirteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingFourteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingFifteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingSixteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingSeventeen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingEighteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingNineteen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTwenty"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTwentyOne"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyOne" class="collapse" aria-labelledby="headingTwentyOne" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTwentyTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyTwo" class="collapse" aria-labelledby="headingTwentyTwo" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
-<!-- <div class=""><div class="" id="headingTwentyThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyThree" class="collapse" aria-labelledby="headingTwentyThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingThree"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingFour"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingFive"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingSix"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingSeven"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingEight"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingNine"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingEleven"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTwelve"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingThirteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingFourteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingFifteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingSixteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingSeventeen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingEighteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingNineteen"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTwenty"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTwentyOne"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyOne" class="collapse" aria-labelledby="headingTwentyOne" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTwentyTwo"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyTwo" class="collapse" aria-labelledby="headingTwentyTwo" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
+<!-- <div class=""><div class="" id="headingTwentyThree"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseTwentyThree" class="collapse" aria-labelledby="headingTwentyThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div> -->
 
     <script>
         function funcao1() {
-            document.getElementById("accordionExample").innerHTML = '<div id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h5 class="text">1.1- O que é o MEI - Microempreendedor Individual?</h4></button></h5></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body"><p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.<p>  </div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5 class="text">1.2- Qual é a lei que instituiu o Microempreendedor individual?</h5></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body"><p>A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.</p></div></div><div class=""><div class="" id="headingThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div><div class=""><div class="" id="headingFour"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">1.4- Qual o faturamento anual  do Microempreendedor Individual?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p><p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p><p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p></div></div></div>';
+            document.getElementById("accordionExample").innerHTML = '<div id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0 flyiner"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h5 class="text">1.1- O que é o MEI - Microempreendedor Individual?</h4></button></h5></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body"><p>O MEI é o pequeno empresário individual que atende as condições abaixo relacionadas:</p>a) tenha faturamento limitado a R$ 81.000,00 por ano;<br>b) Que não participe como sócio, administrador ou titular de outra empresa;<br>c) Contrate no máximo um empregado;<br>d) Exerça uma das atividades econômicas previstas no Anexo XI, da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278">Resolução CGSN nº 140, de 2018</a>,o qual relaciona todas as atividades permitidas ao MEI.<p>  </div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5 class="text">1.2- Qual é a lei que instituiu o Microempreendedor individual?</h5></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body"><p>A Lei Complementar nº 128/2008 que alterou a Lei Geral da Micro e Pequena Empresa (Lei Complementar nº 123/2006) cria a figura do Microempreendedor Individual.</p></div></div><div class=""><div class="" id="headingThree"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">1.3- A legislação do Microempreendedor Individual já está em vigor?</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p>Sim, entrou em vigor em 01/07/2009.</p></div></div><div class=""><div class="" id="headingFour"><h5 class="mb-0 flyiner text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">1.4- Qual o faturamento anual  do Microempreendedor Individual?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>De até R$ 81.000,00 por ano, de janeiro a dezembro.</p><p>O Microempreendedor Individual que se formalizar durante o ano em curso, tem seu limite de faturamento proporcional a R$ 6.750,00, por mês, até 31 de dezembro do mesmo ano.</p><p><b>Exemplo:</b> O MEI que se formalizar em junho, terá o limite de faturamento de R$ 47.250,00 (7 meses x R$ 6.750,00), neste ano.</p></div></div></div>';
         }
         function funcao2() {
-            document.getElementById("accordionExample").innerHTML = '<div id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h5 class="text">2.1- Pontos de atenção antes da formalização:</h5></button></h5></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body"><p><b>1-</b> Verificar se recebe algum benefício previdenciário (Exemplo: Aposentadoria por invalidez, Auxílio Doença, Seguro Desemprego, etc).</p><p><b>2-</b> Procurar a prefeitura para verificar se a atividade pode ser exercida no local desejado. </p><p><b>3-</b> Verificar se as atividades escolhidas podem ser registradas como MEI. (Consultar questão 2.6)</p></div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5 class="text">2.2- Situações que NÃO permitem a formalização como MEI:</h5></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body"><p><b>1- Pensionista e Servidor Público</b> Federal em atividade. Servidores públicos estaduais e municipais devem observar os critérios da respectiva legislação, que podem variar conforme o estado ou município.<p><p><b>2-</b> Pessoa que seja <b>titular, sócio ou administrador de outra empresa</b>.<p> </div></div><div class=""><div class="" id="headingThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">2.3- Situações que permitem a formalização como MEI, com ressalvas:</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p><b>1-</b>  Pessoa que recebe o <strong>Seguro Desemprego</strong>: pode ser formalizada, mas poderá ter a suspensão do benefício. Em caso de suspensão deverá recorrer nos postos de atendimento do Ministério do Trabalho.</p><p><b>2 - </b>Pessoa que trabalha <strong>re</strong><strong>gistrada no regime CLT</strong>: pode ser formalizada, mas, em caso de demissão sem justa causa, não terá direito ao Seguro Desemprego.</p></div></div><div class=""><div class="" id="headingFour"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">2.4- O que é a Consulta Prévia de endereço e atividade? Onde fazer a consulta prévia?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>A consulta prévia é uma pesquisa realizada junto à Prefeitura (ou Administração Regional) para o cidadão verificar e confirmar se o endereço ou local desejado para estabelecer o seu negócio é passível de instalação de atividade da empresa ou não.</p><p>O órgão responsável para responder a consulta prévia é a prefeitura municipal ou Administração Regional, no caso do DF. É ela que determinará se o endereço indicado para estabelecer a sua empresa é passível ou não de instalação da atividade comercial. Para fazer a consulta prévia, consulte a página da Prefeitura na internet, se houver. Lembre-se: antes de efetuar a sua formalização no Portal do Empreendedor, procure se informar perante a Prefeitura ou Administração sobre o local e atividade que pretende exercer. Isso evita problemas na formalização, tais como o cancelamento do registro.</p></div></div><div class=""><div class="" id="headingFive"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><h5 class="text">2.5- Quais documentos ou dados são necessários para me formalizar como MEI? Após a formalização, o que devo fazer?</h5></button></h5></div><div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion"><div class="card-body"><p>Para se formalizar, se faz necessário informar o número do CPF e datade nascimento do titular, o número do título de eleitor ou o número doúltimo recibo de entrega da Declaração Anual de Imposto de RendaPessoa Física – DIRPF, caso esteja obrigado a entregar a DIRPF.</p><p>Lembre-se também, de que é necessário conhecer as normas daPrefeitura ou Administração para o funcionamento de seu negócio, sejaele qual for.</p><p><b>Após a formalização no Portal do Empreendedor,recomendamos:</b><br><b>a)</b><br><b>a)</b>Imprimir os <a href="" target="blank">DAS</a> para recolhimento das contribuições ao INSS,ISS e/ou ICMS para o ano;<br> <b>b)</b> Imprimir o <a class="internal-link" href="resolveuid/7661c73442db415c94034565b2030a57" target="_self" title="">Certificado de Microempreendedor Individual –CCMEI;</a> <br> <b>c) </b>Imprimir o <a href="http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/cnpjreva/Cnpjreva_Solicitacao.asp">Cartão do CNPJ</a> no site da Receita Federal;<br><strong>d)</strong> Imprimir e preencher todo mês o Relatório de Receitas Brutas, disponível no Portal do Empreendedor/Obrigações.</p></div></div><div class=""><div class="" id="headingSix"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><h5 class="text">2.6- O Microempreendedor Individual pode se formalizar no mesmo endereço de outro MEI? O Microempreendedor Individual pode dividir o mesmo espaço físico onde realiza a atividade com outro MEI?</h5></button></h5></div><div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion"><div class="card-body"><p>Como cada Prefeitura tem sua legislação, normas e procedimentos próprios conforme Códigos de Zoneamento Urbano e de Posturas Municipais,  recomendamos realizar uma consulta prévia junto à Prefeitura antes de efetuar a formalização no Portal do Empreendedor para que possa verificar a possibilidade de funcionamento de duas atividades em um mesmo endereço.</p></div></div><div class=""><div class="" id="headingSeven"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><h5 class="text">2.7- É possível solicitar a inscrição como MEI e manter vínculo empregatício com carteira assinada?</h5></button></h5></div><div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion"><div class="card-body"><p>Sim. Não há impedimento de um empregado, com carteira assinada exercer atividade econômica como MEI nas horas vagas.</p></div></div><div class=""><div class="" id="headingEight"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><h5 class="text">2.8- Quais atividades podem ser enquadradas como Microempreendedor Individual?</h5></button></h5></div><div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion"><div class="card-body"><p>As Atividades Permitidas ao MEI são aquelas determinadas segundo o Comitê Gestor do Simples Nacional - CGSN, anexo XI da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278" target="blank">Resolução CGSN n.140 2018</a>. Acesse o Portal do Empreendedor e consulte a listagem das ocupações permitidas para o MEI.</p></div></div><div class=""><div class="" id="headingNine"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><h5 class="text">2.9- Minha ocupação não consta no Portal. Como faço para me formalizar?</h5></button></h5></div><div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion"><div class="card-body"><p>Só pode se formalizar como MEI quem exerce ocupação descrita na lista de atividades permitidas constante do Anexo XI da <a class="external-link" href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278" target="_blank" title=""> Resolução CGSN nº 140, de 22 de maio de 2018.</a></p><p>Desta forma, recomenda-se que antes de iniciar o processo de formalização, o empreendedor verifique se sua atividade consta na lista do anexo citado acima ou no Portal do Empreendedor.</p></div></div><div class=""><div class="" id="headingTen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><h5 class="text">2.10- A pessoa física que possui débitos comerciais ou dívidas junto a instituições financeiras, bem como, restrição cadastral nos órgãos de proteção de crédito, poderá se formalizar como MEI?</h5></button></h5></div><div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion"><div class="card-body"><p>Sim. Não existem impedimentos para que a pessoa física com débitos, dívidas comerciais ou bancárias, bem como, com restrição cadastral junto às instituições de proteção ao crédito se formalize como MEI.</p></div></div></div>';
+            document.getElementById("accordionExample").innerHTML = '<div id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0 flyiner"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h5 class="text">2.1- Pontos de atenção antes da formalização:</h5></button></h5></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body"><p><b>1-</b> Verificar se recebe algum benefício previdenciário (Exemplo: Aposentadoria por invalidez, Auxílio Doença, Seguro Desemprego, etc).</p><p><b>2-</b> Procurar a prefeitura para verificar se a atividade pode ser exercida no local desejado. </p><p><b>3-</b> Verificar se as atividades escolhidas podem ser registradas como MEI. (Consultar questão 2.6)</p></div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5 class="text">2.2- Situações que NÃO permitem a formalização como MEI:</h5></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body"><p><b>1- Pensionista e Servidor Público</b> Federal em atividade. Servidores públicos estaduais e municipais devem observar os critérios da respectiva legislação, que podem variar conforme o estado ou município.<p><p><b>2-</b> Pessoa que seja <b>titular, sócio ou administrador de outra empresa</b>.<p> </div></div><div class=""><div class="" id="headingThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5 class="text">2.3- Situações que permitem a formalização como MEI, com ressalvas:</h5></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body"><p><b>1-</b>  Pessoa que recebe o <strong>Seguro Desemprego</strong>: pode ser formalizada, mas poderá ter a suspensão do benefício. Em caso de suspensão deverá recorrer nos postos de atendimento do Ministério do Trabalho.</p><p><b>2 - </b>Pessoa que trabalha <strong>re</strong><strong>gistrada no regime CLT</strong>: pode ser formalizada, mas, em caso de demissão sem justa causa, não terá direito ao Seguro Desemprego.</p></div></div><div class=""><div class="" id="headingFour"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5 class="text">2.4- O que é a Consulta Prévia de endereço e atividade? Onde fazer a consulta prévia?</h5></button></h5></div><div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion"><div class="card-body"><p>A consulta prévia é uma pesquisa realizada junto à Prefeitura (ou Administração Regional) para o cidadão verificar e confirmar se o endereço ou local desejado para estabelecer o seu negócio é passível de instalação de atividade da empresa ou não.</p><p>O órgão responsável para responder a consulta prévia é a prefeitura municipal ou Administração Regional, no caso do DF. É ela que determinará se o endereço indicado para estabelecer a sua empresa é passível ou não de instalação da atividade comercial. Para fazer a consulta prévia, consulte a página da Prefeitura na internet, se houver. Lembre-se: antes de efetuar a sua formalização no Portal do Empreendedor, procure se informar perante a Prefeitura ou Administração sobre o local e atividade que pretende exercer. Isso evita problemas na formalização, tais como o cancelamento do registro.</p></div></div><div class=""><div class="" id="headingFive"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><h5 class="text">2.5- Quais documentos ou dados são necessários para me formalizar como MEI? Após a formalização, o que devo fazer?</h5></button></h5></div><div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion"><div class="card-body"><p>Para se formalizar, se faz necessário informar o número do CPF e datade nascimento do titular, o número do título de eleitor ou o número doúltimo recibo de entrega da Declaração Anual de Imposto de RendaPessoa Física – DIRPF, caso esteja obrigado a entregar a DIRPF.</p><p>Lembre-se também, de que é necessário conhecer as normas daPrefeitura ou Administração para o funcionamento de seu negócio, sejaele qual for.</p><p><b>Após a formalização no Portal do Empreendedor,recomendamos:</b><br><b>a)</b><br><b>a)</b>Imprimir os <a href="" target="blank">DAS</a> para recolhimento das contribuições ao INSS,ISS e/ou ICMS para o ano;<br> <b>b)</b> Imprimir o <a class="internal-link" href="resolveuid/7661c73442db415c94034565b2030a57" target="_self" title="">Certificado de Microempreendedor Individual –CCMEI;</a> <br> <b>c) </b>Imprimir o <a href="http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/cnpjreva/Cnpjreva_Solicitacao.asp">Cartão do CNPJ</a> no site da Receita Federal;<br><strong>d)</strong> Imprimir e preencher todo mês o Relatório de Receitas Brutas, disponível no Portal do Empreendedor/Obrigações.</p></div></div><div class=""><div class="" id="headingSix"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><h5 class="text">2.6- O Microempreendedor Individual pode se formalizar no mesmo endereço de outro MEI? O Microempreendedor Individual pode dividir o mesmo espaço físico onde realiza a atividade com outro MEI?</h5></button></h5></div><div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion"><div class="card-body"><p>Como cada Prefeitura tem sua legislação, normas e procedimentos próprios conforme Códigos de Zoneamento Urbano e de Posturas Municipais,  recomendamos realizar uma consulta prévia junto à Prefeitura antes de efetuar a formalização no Portal do Empreendedor para que possa verificar a possibilidade de funcionamento de duas atividades em um mesmo endereço.</p></div></div><div class=""><div class="" id="headingSeven"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><h5 class="text">2.7- É possível solicitar a inscrição como MEI e manter vínculo empregatício com carteira assinada?</h5></button></h5></div><div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion"><div class="card-body"><p>Sim. Não há impedimento de um empregado, com carteira assinada exercer atividade econômica como MEI nas horas vagas.</p></div></div><div class=""><div class="" id="headingEight"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><h5 class="text">2.8- Quais atividades podem ser enquadradas como Microempreendedor Individual?</h5></button></h5></div><div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion"><div class="card-body"><p>As Atividades Permitidas ao MEI são aquelas determinadas segundo o Comitê Gestor do Simples Nacional - CGSN, anexo XI da <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278" target="blank">Resolução CGSN n.140 2018</a>. Acesse o Portal do Empreendedor e consulte a listagem das ocupações permitidas para o MEI.</p></div></div><div class=""><div class="" id="headingNine"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><h5 class="text">2.9- Minha ocupação não consta no Portal. Como faço para me formalizar?</h5></button></h5></div><div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion"><div class="card-body"><p>Só pode se formalizar como MEI quem exerce ocupação descrita na lista de atividades permitidas constante do Anexo XI da <a class="external-link" href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?visao=anotado&amp;idAto=92278" target="_blank" title=""> Resolução CGSN nº 140, de 22 de maio de 2018.</a></p><p>Desta forma, recomenda-se que antes de iniciar o processo de formalização, o empreendedor verifique se sua atividade consta na lista do anexo citado acima ou no Portal do Empreendedor.</p></div></div><div class=""><div class="" id="headingTen"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><h5 class="text">2.10- A pessoa física que possui débitos comerciais ou dívidas junto a instituições financeiras, bem como, restrição cadastral nos órgãos de proteção de crédito, poderá se formalizar como MEI?</h5></button></h5></div><div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion"><div class="card-body"><p>Sim. Não existem impedimentos para que a pessoa física com débitos, dívidas comerciais ou bancárias, bem como, com restrição cadastral junto às instituições de proteção ao crédito se formalize como MEI.</p></div></div></div>';
         }
         function funcao3() {
             document.getElementById("accordionExample").innerHTML = '<div id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h5 class="text">3.1- O que é, como, onde posso me formalizar e quais são as vantagens de me formalizar?</h4></button></h5></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body">  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably havent heard of them accusamus labore sustainable VHS.</div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5 class="text">Tem para todas as empresas?</h5></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body"> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably havent heard of them accusamus labore sustainable VHS.</div></div></div>';
@@ -3898,10 +3831,10 @@
             document.getElementById("faq-compra").innerHTML = '<div class="respon" id="accordion"><div class=""><div class="" id="headingOne"><h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h6 class="text">E os metodos de compra?</h6></button></h6></div><div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"><div class="card-body text-justify">  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably havent heard of them accusamus labore sustainable VHS.</div></div></div><div class=""><div class="" id="headingTwo"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h6 class="text">Tem para todas as empresas?</h6></button></h5></div><div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"><div class="card-body text-justify"> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably havent heard of them accusamus labore sustainable VHS.</div></div></div><div class=""><div class="" id="headingThree"><h5 class="mb-0 text"><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h6 class="text">Collapsible Group Item #3</h6></button></h5></div><div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"><div class="card-body text-justify"> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably havent heard of them accusamus labore sustainable VHS.</div></div></div></div>';
         }
     </script>
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <!-- <script src="js/app.js"></script> -->
+    <script type="text/javascript" src="Js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="Js/wow.min.js"></script>
+    <script type="text/javascript" src="Js/mascara.js"></script>
 </body>
 </html>

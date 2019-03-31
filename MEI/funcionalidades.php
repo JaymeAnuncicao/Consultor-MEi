@@ -93,17 +93,17 @@
     <link rel="icon" href="Media/img/logo-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-----PLUGINS CSS---->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link rel="stylesheet" href="css/teste.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
-    <link rel="stylesheet" type="text/css" href="css/linearicons.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"> 
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/teste.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="Css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="Css/linearicons.css">
+    <link rel="stylesheet" type="text/css" href="Css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="Css/owl.theme.default.min.css"> 
+	<link rel="stylesheet" type="text/css" href="Css/owl.theme.default.css">
 </head>
 <body>
 <header>
@@ -339,13 +339,13 @@
                         </button>
                     </div>
                 </div>  
-                <form class="text-center primary-color-dark p-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
+                <form class="text-center primary-color-dark p-5" name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
                     <input type="text" required name="nomeEmpresa" class="z-depth-1  mb-3 input1 texto" placeholder="Nome da Empresa">
                     <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 input1 texto" placeholder="Nome do Responsavel">
                     <input type="email" required name="email" class="z-depth-1  mb-3 input1 texto" placeholder="E-mail">
                     <input type="password" required name="senha" class="z-depth-1  mb-3 input texto" placeholder="Senha">
                     <input type="text"  required name="estado" class="z-depth-1  mb-3 input texto" placeholder="Estado">
-                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" placeholder="CNPJ">
+                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" id="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);" placeholder="CNPJ" maxlength="18">
                     <input type="text" required name="CNAE" class="z-depth-1  mb-3 input texto" placeholder="CNAE">
                     <input type="submit" value="Confirmar" class="btn btn-success btn-lg col-7 mt-5">
                 </form>                               
@@ -382,6 +382,7 @@
 	<script type="text/javascript" src="Js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="Js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="Js/wow.min.js"></script>
-    <script src="Js/owl.carousel.min.js"></script>
+    <script src="Js/owl.carousel.min.Js"></script>
+    <script type="text/javascript" src="Js/mascara.js"></script>
 </body>
 </html>

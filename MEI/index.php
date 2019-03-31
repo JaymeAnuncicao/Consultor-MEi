@@ -94,17 +94,16 @@
     <link rel="icon" href="Media/img/logo-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-----PLUGINS CSS---->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <!-- <link rel="stylesheet" href="css/teste.css"> -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
-    <link rel="stylesheet" type="text/css" href="css/linearicons.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="Css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="Css/linearicons.css">
+    <link rel="stylesheet" type="text/css" href="Css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="Css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/owl.theme.default.css">
 </head>
 <body>
     <!---------------------NAVBAR-------------->
@@ -138,7 +137,7 @@
                         <a class="nav-link text-white mt-3" href="#contatos">Contatos</a>
                     </li>
                     <li class="nav-item efect">
-                        <a class="nav-link text-white mt-3" href="https://praxisjr.com.br/" target="blank">Blog</a>
+                        <a class="nav-link text-white mt-3" href="#" target="blank">Blog</a>
                     </li>
                     <li class="nav-item move"></li>
                     <li class="nav-item efect ">
@@ -158,8 +157,8 @@
             
           <div class="col-md-4 box-blank margen">
                 <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
-                <h1 class="mt-1 text-center apoio">Apoiando você e seu negocio</h1>
-                <h4 class="mt-4 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas duvidas </h4> 
+                <h1 class="mt-1 text-center apoio">Apoiando você e seu negócio</h1>
+                <h4 class="mt-4 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas dúvidas </h4> 
                 <a href="funcionalidades.php"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
           </div>
         </div>
@@ -171,8 +170,8 @@
     <section id="nossaempresa" class="container-fluid">
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4">
-                <h2 class="texto ">Objetivo do consultor MEi </h2>
-                <p class="texto ipsum mt-5 text-justify">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas duvidas, orientar seus próximos passos , informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos Mei’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
+                <h2 class="texto mod-ez">Objetivo do consultor MEi </h2>
+                <p class="texto ipsum mt-5 text-justify">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas dúvidas, orientar seus próximos passos, informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos MEI’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
             </div>
             <div class="col-md-6 ">
                 <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -185,38 +184,38 @@
     <div class="anchors" id="anchorfunction"></div>                
     <!-----------------------------FUNCINALIDADES:INICIO--------------------------->
     <section id="funcionalidades" class="container-fluid">
-        <h3 class="texto text-center">FUNCIONALIDADES</h1>
+        <h3 class="texto text-center ml-func">FUNCIONALIDADES</h1>
         <hr noshade class="linha2  text-center">
      
         <div class="row justify-content-center ">
         <!--------------------------BLOCO 1:INICIO------------------------------>
             <div class="col-md-4 text-right ">
                 <div class="row justify-content-end">   
-                    <div class="col-md-10">
+                    <div class="col-md-10 m-func">
                         <a href="funcionalidades.php"><h5 class="texto ajust">Fiscal/tributário</h5></a>
                         <hr noshade class="func">
-                        <p class="ajust">Impostos, Obrigações acessórias e fiscalizações, aqui no <strong>Consultor MEi</strong> vamos juntos encontrar o melhor caminho.</p>
+                        <p class="ajust">Impostos, obrigações assessorias e fiscalizações, aqui no <strong>Consultor MEi</strong> vamos juntos encontrar o melhor caminho.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                <div class="col-md-10">
+                <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Pessoal/RH</h5></a>
                         <hr noshade class="func ">
-                        <p class="ajust">Aqui no <strong>consultor MEi</strong>, vamos descomplicar sua vida trabalhista e lhe ajudar a conseguir o melhor da sua equipe ou colaborador.</p>
+                        <p class="ajust">Aqui no <strong>Consultor MEi</strong>, vamos descomplicar sua vida trabalhista e lhe ajudar a conseguir o melhor da sua equipe ou colaborador.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                <div class="col-md-10">
+                <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Jurídico </h5></a>
                         <hr noshade class="func">
                         <p class="ajust">E agora? Aqui no <strong>Consultor MEi</strong> você terá apoio para entender o que fazer e informações para fazer certo.</p>
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                <div class="col-md-10">
+                <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Treinamentos (link/produção)</h5></a>
                         <hr noshade class="func">
-                        <p class="ajust">Nos do <strong>Consultor MEI</strong> vamos ajudar a lhe capacitar, para melhorar o desempenho e atender a expectativa cada vez maior do cliente.</p>
+                        <p class="ajust">Nós do <strong>Consultor MEi</strong> vamos ajudar a lhe capacitar, para melhorar o desempenho e atender a expectativa cada vez maior do cliente.</p>
                     </div>
                 </div>
             </div>
@@ -229,31 +228,31 @@
         <!--------------------------BLOCO 2:INICIO------------------------------>
             <div class="col-md-4 ">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-10 m-func">
                         <a href=""><h5 class="texto ajust">Financeiro</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Cartão de credito a receber, Caixa, Conta bancaria, contas a pagar e a receber, linha de credito, taxas. Ufa. Nos do <strong>Consultor MEi</strong> , junto com você , Vamos descomplicar.</p>
+                        <p class="ajust">Cartão de crédito a receber, Caixa, Conta bancária, contas a pagar e a receber, linha de crédito, taxas. Ufa. Nós do <strong>Consultor MEi</strong> , junto com você , vamos descomplicar.</p>
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Marketing/ Estratégia</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">A analise de mercado, a pesquisa e a ação vai ajudar o seu produto ou serviço ser conhecido, nos do <strong>Consultor MEi</strong> estamos aqui para orientar seu negocio para o caminho do sucesso.</p>
+                        <p class="ajust">A análise de mercado, a pesquisa e a ação vai ajudar o seu produto ou serviço ser conhecido, nós do <strong>Consultor MEi</strong> estamos aqui para orientar seu negócio para o caminho do sucesso.</p>
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-10">
-                        <a href="#"><h5 class="texto ajust">Inovação e criatividade</h5></a>
+                <div class="col-md-10 m-func">
+                        <a href="#"><h5 class="texto ajust">Inovação e Criatividade</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Você quer inovar, criar ou melhorar algo em seu negocio, vem com agente, nós do <strong>Consultor MEi</strong> vamos ajudar.</p>
+                        <p class="ajust">Você quer inovar, criar ou melhorar algo em seu negócio, vem com a gente, nós do <strong>Consultor MEi</strong> vamos ajudar.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Gestão e planejamento</h5></a>
                         <hr noshade class="func1">
-                        <p class="ajust">Sem metas sua empresa não vai pra lugar nenhum, saiba como planejar e gerir melhor o seu negocio, nós do <strong>Consultor MEi</strong> ajudamos.</p>
+                        <p class="ajust">Sem metas sua empresa não vai pra lugar nenhum, saiba como planejar e gerir melhor o seu negócio, nós do <strong>Consultor MEi</strong> ajudamos.</p>
                     </div>
                 </div>
             </div>
@@ -297,7 +296,7 @@
 							<div class="package-list">
 								<ul>
 									<li class="text-mody">+1 Funcionalidade</li>
-									<li class="text-mody">Plana de 6 meses</li>
+									<li class="text-mody">Plano de 6 meses</li>
 									<li class="text-mody">R$ 12,00 serão doados</li>
 								</ul>
 							</div>
@@ -356,13 +355,13 @@
             <div class="col-md-4 mt-5">
                 <div class="row justify-content-center"><img src="Media/img/card-mei.jpeg" id="img-card" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">
-                    O Cartão MEi vem com uma proposta de estimular negócios entre os MEIs e os Mês associados, você pode , se quiser, ganhar descontos e ao mesmo tempo pode , se quiser, dar descontos em seus produtos ou serviços.
+                    O Cartão MEi vem com uma proposta de estimular negócios entre os MEi’s e os ME’s associados, você pode, se quiser, ganhar descontos e ao mesmo tempo pode, se quiser, dar descontos em seus produtos ou serviços.
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="row justify-content-center"><img src="Media/img/faq-icon.png" id="img-faq" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">
-                    O Nosso FAQ, está preparado para lhe ajudar com as duvidas mais frequentes sobre ser MEI ou ME, obrigações, Benefícios, Direitos e Muito Mais.
+                    O Nosso FAQ está preparado para lhe ajudar com as dúvidas mais frequentes sobre ser MEi ou ME. Obrigações, benefícios, direitos e muito mais.
                 </div>
             </div>
         </div>
@@ -573,21 +572,19 @@
 
     <!--------------------CONTATOS:INICIO-------------------------------->                                       
     <section id="contatos" class="container-fluid">
-        <div class="row bg  align-itens-center">
+        <div class="row bg  align-itens-center"> 
             <div class="row justify-content-center container-fluid">
             <div class="col-12 col-md-6 col-lg-4 col-sm-12 mt-5 sendemail">
                 <h3 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
-                <form  action="PHP/sendmail.php" method="post" id="sendmail" class="text-center">
+                <form  action="PHP/sendmail.php" name="form1" method="post" id="sendmail" class="text-center">
                     <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1  texto" placeholder="Nome">                            
-                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta  texto" id="cemail"placeholder="E-email">
-                    <input type="text" name="telefone" class="z-depth-1  mb-3 conta  texto" placeholder="Telefone">
+                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta  texto" id="cemail"placeholder="E-mail">
+                    <input type="text" name="telefone" class="z-depth-1  mb-3 conta  texto" onKeyPress="MascaraTelefone(form1.tel);" maxlength="14"   placeholder="Telefone">
                     <input type="text" name="motivo" class="z-depth-1  mb-3 conta1  texto" placeholder="Motivo do contato">
                     <textarea name="mensagem" placeholder="Mensagem..." id="mensage" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar"  class="btn btn-success btn-lg btn-ctn mt-2 ">
                         
-                </form>    
-                <div class="row justify-content-center button-contatos">
-                    <input type="submit" value="Enviar"  class="btn btn-success btn-lg col-3 col-sm-4 mt-2 ">
-                </div>                      
+                </form>             
             </div>
             </div>
         </div>
@@ -599,12 +596,12 @@
             <div class="col-md-3 mt-2 box-foo1">
                 <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" download class="termos"><h6>Termo de uso</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Cadastre-se</h6></a></div>
+                <div class="row mt-3 "><a href="#" data-toggle="modal" data-target="#ModalCadastro" class="termos"><h6>Cadastre-se</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>CNPJ N. 11.063.128/0001-10</h6></a></div>
             </div>
             <div class="col-md-3 mt-2 box-foo2">
-                <div class="row mt-3 "><a href="#" class="termos" ><h6>FAQ</h6></a></div>
+                <div class="row mt-3 "><a href="FAQ.php" class="termos" ><h6>FAQ</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Planos</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Novidades</h6></a></div>
                 <div class="row mt-3 "><a href="#" class="termos"><h6>Politica de privacidade</h6></a></div>
@@ -633,13 +630,13 @@
                         </button>
                     </div>
                 </div>  
-                <form class="text-center primary-color-dark p-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
+                <form class="text-center primary-color-dark p-5" name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
                     <input type="text" required name="nomeEmpresa" class="z-depth-1  mb-3 input1 texto" placeholder="Nome da Empresa">
                     <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 input1 texto" placeholder="Nome do Responsavel">
                     <input type="email" required name="email" class="z-depth-1  mb-3 input1 texto" placeholder="E-mail">
                     <input type="password" required name="senha" class="z-depth-1  mb-3 input texto" placeholder="Senha">
                     <input type="text"  required name="estado" class="z-depth-1  mb-3 input texto" placeholder="Estado">
-                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" placeholder="CNPJ">
+                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" id="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);" placeholder="CNPJ" maxlength="18">
                     <input type="text" required name="CNAE" class="z-depth-1  mb-3 input texto" placeholder="CNAE">
                     <input type="submit" value="Confirmar" class="btn btn-success btn-lg col-7 mt-5">
                 </form>                               
@@ -672,11 +669,13 @@
     </div>
 <!--------------------MODAL-LOGIN:FIM------------------->
   
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="Js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="Js/wow.min.js"></script>
+    <script src="Js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="Js/app.js"></script>
+    <script type="text/javascript" src="Js/mascara.js"></script>
+
 </body>
 </html>

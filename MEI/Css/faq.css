@@ -10,7 +10,9 @@ ul{height: 12vh;}
 
 .respon{display: none;}
 .acorde{display: block;}
-#FAQ{padding: 90px 50px;background-color: #f9f9ff;}
+/* .common{margin-left: 30vw;margin-top: 50vh;} */
+.mt-6{margin-top: 15vh;}
+#FAQ{padding: 90px 50px;background-image: url('../Media/img/img-faq.jpg');background-position: top;background-repeat: no-repeat;background-size: 100% auto;}
 .faq-line{height: .5vh;width: 40vw;background-color: rgb(4,30,65);margin-left: 27vw !important;}
 .afast{margin-left: 3.4vw;margin-bottom: 5vh;}
 .text{color: rgb(4,30,65);}
@@ -48,4 +50,5 @@ table, th, td {
 /*  */
 .flyiner{border-bottom: 1px solid #041e41;}
 .flyiner:hover{background-color: rgba(1, 130, 202,0.1);}
+.accordion{background-color: white;}
 .btn-link:hover{text-decoration: none;}
