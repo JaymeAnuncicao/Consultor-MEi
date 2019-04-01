@@ -18,14 +18,17 @@
     .marge{height: 7.5vh;}
     .apoio{font-size: 40px;margin-top: 5vh !important;}
     #homeLogo{width: 20vw;height: 30vh;margin-top: 6vh;}
-    .dout{font-size: 20px;}
+    .dout{font-size: 20px;} 
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px){
     .move{display: block;}
+    #homeLogo{width: 15vw;height: 30vh;margin-left: 7.5vw;}
     #home{height: 100%;background-image: url('../Media/img/1366X1024.png')}
     .navbar{height: 12vh;}
+    .apoio{margin-left: 4vw;}
+    .dout{margin-left: 3.5vw;}
     .bg{height: 100%;}
-    .button1{width: 30vw;height: 8vh;margin-left: 0vw;margin-bottom: 8vh;}
+    .button1{width: 20vw;height: 8vh;margin-left: 4.5vw;margin-bottom: 8vh;}
     .margem{margin-top: 5%;}
     #nossaempresa{height: 100%;padding: 70px 0px;}
     .ipsum{padding: 0 0;}
@@ -34,15 +37,13 @@
     #funcionalidades{height: 100%;padding: 0px 50px 50px 50px;}
     .text-modi{padding: 0px 30px;}
     .bottom-part{margin-top: 3vh;}
-    .linha2{width: 50%;}
+    .linha2{width: 30%;}
     #cartao{height: 100%;padding: 40px 0px;}
     .text-modi{padding: 0 0;}
     .testimonial-area{height: 100%;}
     #noticias{height: 100%;}
     .backg{height: 30vh;}
     #contatos{height: 100%;}
-    .conta1{width: 29vw;height: 5vh;}
-    .conta{width: 16vw;height: 5vh;}
     #cemail{width: 12vw;}
     #mensage{width: 29vw;}
     .creditos{text-align: center;}

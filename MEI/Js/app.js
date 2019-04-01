@@ -21,6 +21,8 @@ $(window).scroll(function(){
 		$("#ourenterprise").css("background-color", "#0182ca");
 	}else{
 		$("#ourenterprise").css("background-color", "#041e41");
+		var element = document.getElementById("nossas");
+  		element.classList.add("animated");
 	}
 	// SCROLLSPY--FUNCIONALIDADES
 	if(scroll+( $('nav').innerHeight()) > $("#anchorfunction").offset().top && scroll < $("#anchorplanos").offset().top-( $('nav').innerHeight())){

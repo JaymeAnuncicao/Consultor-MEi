@@ -99,6 +99,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="Css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="Css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="Css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="Css/animate.css">
     <link rel="stylesheet" type="text/css" href="Css/linearicons.css">
     <link rel="stylesheet" type="text/css" href="Css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="Css/owl.carousel.css">
@@ -156,10 +157,10 @@
         <div class="row margem justify-content-center bg-luz">
             
           <div class="col-md-4 box-blank margen">
-                <img src="Media/img/logo.png" width="280" height="280" id="homeLogo">
-                <h1 class="mt-1 text-center apoio">Apoiando você e seu negócio</h1>
-                <h4 class="mt-4 text-center dout">Cadastre-se gratuitamente e tenha respostas para as suas dúvidas </h4> 
-                <a href="funcionalidades.php"><button class="button button1 mt-5 hvr-grow"><h4>SAIBA MAIS</h5></button></a>
+                <img src="Media/img/logo.png" width="280" height="280" class="animated fadeInLeft delay-2s" id="homeLogo">
+                <h1 class="mt-1 text-center apoio animated fadeInLeft delay-2s">Apoiando você e seu negócio</h1>
+                <h4 class="mt-4 text-center dout animated fadeInLeft delay-2s">Cadastre-se gratuitamente e tenha respostas para as suas dúvidas </h4> 
+                <a href="funcionalidades.php"><button class="button button1 mt-5 hvr-grow animated fadeInLeft delay-2s"><h4>SAIBA MAIS</h5></button></a>
           </div>
         </div>
     </section>
@@ -169,8 +170,8 @@
     <!--------------------------------------NOSSA EMPRESA:INICIO------------------------------------------------>
     <section id="nossaempresa" class="container-fluid">
         <div class="row container-fluid justify-content-center alin" >
-            <div class="col-md-4">
-                <h2 class="texto mod-ez">Objetivo do consultor MEi </h2>
+            <div class="col-md-4" >
+                <h2 class="texto mod-ez  fade fadeInLeft delay-2s" id="nossas">Objetivo do consultor MEi </h2>
                 <p class="texto ipsum mt-5 text-justify">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas dúvidas, orientar seus próximos passos, informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos MEI’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
             </div>
             <div class="col-md-6 ">
@@ -359,7 +360,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row justify-content-center"><img src="Media/img/faq-icon.png" id="img-faq" width="350" height="200"></div>
+                <div class="row justify-content-center"><img src="Media/img/FAQ-img.png" id="img-faq" width="350" height="200"></div>
                 <div class="row text-justify mt-4 text-modi">
                     O Nosso FAQ está preparado para lhe ajudar com as dúvidas mais frequentes sobre ser MEi ou ME. Obrigações, benefícios, direitos e muito mais.
                 </div>
@@ -567,6 +568,8 @@
     <!-------------------NOTICIAS:INICIO---------------------->
     
     <!--------------------NOTICIAS:FIM-------------------------------->
+                                               
+                    
 
     <div class="anchors" id="anchorcontatos"></div>
 
@@ -576,14 +579,65 @@
             <div class="row justify-content-center container-fluid">
             <div class="col-12 col-md-6 col-lg-4 col-sm-12 mt-5 sendemail">
                 <h3 class="text-white mt-5 mb-5 text-center">Entre em contato conosco</h1>
-                <form  action="PHP/sendmail.php" name="form1" method="post" id="sendmail" class="text-center">
-                    <input type="text" name="Contnome" class="z-depth-1  mb-3 conta1  texto" placeholder="Nome">                            
-                    <input type="email" name="Contemail" class="z-depth-1  mb-3 mr-1 conta  texto" id="cemail"placeholder="E-mail">
-                    <input type="text" name="telefone" class="z-depth-1  mb-3 conta  texto" onKeyPress="MascaraTelefone(form1.tel);" maxlength="14"   placeholder="Telefone">
-                    <input type="text" name="motivo" class="z-depth-1  mb-3 conta1  texto" placeholder="Motivo do contato">
-                    <textarea name="mensagem" placeholder="Mensagem..." id="mensage" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar"  class="btn btn-success btn-lg btn-ctn mt-2 ">
-                        
+                <form  action="PHP/sendmail.php" name="form2" method="post" id="sendmail" class="text-center needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <input type="text" name="Contnome" class="z-depth-1 form-control texto" id="validationTooltip01" required placeholder="Nome">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <input type="email" name="Contemail" class="z-depth-1 mr-1 form-control texto" id="validationTooltip02" required placeholder="E-mail">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" name="telefone" class="z-depth-1 form-control  texto" onKeyPress="MascaraTelefone(form2.telefone);" id="validationTooltip03" maxlength="15" required  placeholder="Telefone">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <input type="text" name="motivo" class="z-depth-1 form-control texto" id="validationTooltip04" required placeholder="Motivo do contato">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <textarea name="mensagem" placeholder="Mensagem..." class="form-control"  id="validationTooltip05" required ></textarea>
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-6 mb-3">
+                            <input type="submit" value="Enviar"  class="btn btn-success btn-lg btn-ctn mt-2 ">
+                        </div>
+                    </div>
                 </form>             
             </div>
             </div>
@@ -630,15 +684,75 @@
                         </button>
                     </div>
                 </div>  
-                <form class="text-center primary-color-dark p-5" name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
-                    <input type="text" required name="nomeEmpresa" class="z-depth-1  mb-3 input1 texto" placeholder="Nome da Empresa">
-                    <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 input1 texto" placeholder="Nome do Responsavel">
-                    <input type="email" required name="email" class="z-depth-1  mb-3 input1 texto" placeholder="E-mail">
-                    <input type="password" required name="senha" class="z-depth-1  mb-3 input texto" placeholder="Senha">
-                    <input type="text"  required name="estado" class="z-depth-1  mb-3 input texto" placeholder="Estado">
-                    <input type="text" required name="CNPJ" class="z-depth-1  mb-3 input texto" id="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);" placeholder="CNPJ" maxlength="18">
-                    <input type="text" required name="CNAE" class="z-depth-1  mb-3 input texto" placeholder="CNAE">
-                    <input type="submit" value="Confirmar" class="btn btn-success btn-lg col-7 mt-5">
+                <form class="text-center primary-color-dark p-5 needs-validation" novalidate name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-8">
+                            <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 form-control texto" id="validationTooltip06" placeholder="Nome do Responsavel">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-8">
+                            <input type="email" required name="email" class="z-depth-1  mb-3 form-control texto" id="validationTooltip07" placeholder="E-mail">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-4">
+                            <input type="password" required name="senha" class="z-depth-1  mb-3 form-control texto" placeholder="Senha">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text"  required name="estado" class="z-depth-1  mb-3 form-control texto" placeholder="Estado">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-4">
+                            <input type="text" required name="CNPJ" class="z-depth-1  mb-3 form-control texto" id="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);" placeholder="CNPJ" maxlength="18">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" required name="CNAE" class="z-depth-1  mb-3 form-control texto" placeholder="CNAE">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-10">
+                        <input type="submit" value="Confirmar" class="btn btn-success btn-lg col-7 mt-5">
+
+                        </div>
+                    </div>
                 </form>                               
             </div>
         </div>
@@ -650,7 +764,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-login">
                 <div class="row">
-                    <div class="col-md-7 col-sm-4 text-right ml-4">
+                    <div class="col-md-7 col-sm-4 text-right ml-2">
                         <h1 class="modal-title texto mt-3 login-margin" id="exampleModalCenterTitle">LOGIN</h1>
                     </div>
                     <div class="col-md-2 ml-5 mt-1">
@@ -659,16 +773,59 @@
                         </button>
                     </div>
                 </div>                                    
-                <form class="text-center primary-color-dark p-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <input type="email" required name="loginemail" class="z-depth-1  mb-5 input1 texto saiu" placeholder="Usuario">
-                    <input type="password" required name="loginsenha" class="z-depth-1  input1 texto saiu" placeholder="Senha"> 
-                    <input type="submit" value="Entrar" class="btn btn-success btn-lg col-6 mt-5">
+                <form class="text-center primary-color-dark p-5 needs-validation" novalidate method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-12 mb-3 ml-2">
+                            <input type="email" required name="loginemail" class="z-depth-1 form-control texto saiu" placeholder="E-mail">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-12 ml-2">
+                            <input type="password" required name="loginsenha" class="z-depth-1  form-control texto saiu" placeholder="Senha"> 
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
+                   <div class="form-row justify-content-center">
+                       <div class="col-md-10">
+                            <input type="submit" value="Entrar" class="btn btn-success btn-lg col-8 mt-5 mr-4">
+                       </div>
+                   </div>
                 </form>                               
             </div>
         </div>
     </div>
 <!--------------------MODAL-LOGIN:FIM------------------->
-  
+    <script>
+        // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+        (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+            var forms = document.getElementsByClassName('needs-validation');
+            // Faz um loop neles e evita o envio
+            var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+            });
+        }, false);
+        })();
+    </script>
     <script type="text/javascript" src="Js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="Js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="Js/jquery-latest.min.js"></script>

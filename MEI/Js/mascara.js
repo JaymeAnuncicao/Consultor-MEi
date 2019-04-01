@@ -16,6 +16,7 @@ function MascaraCNPJ(cnpj){
     return formataCampo(cnpj, '00.000.000/0000-00', event);
 }
 
+
 //adiciona mascara de cep
 function MascaraCep(cep){
             if(mascaraInteiro(cep)==false){
@@ -33,11 +34,11 @@ function MascaraData(data){
 }
 
 //adiciona mascara ao telefone
-function MascaraTelefone(tel){  
-    if(mascaraInteiro(tel)==false){
+function MascaraTelefone(telefone){  
+    if(mascaraInteiro(telefone)==false){
             event.returnValue = false;
     }       
-    return formataCampo(tel, '(00) 0000-0000', event);
+    return formataCampo(telefone, '(00) 0000-00000', event);
 }
 
 //adiciona mascara ao CPF
@@ -49,9 +50,9 @@ function MascaraCPF(cpf){
 }
 
 //valida telefone
-function ValidaTelefone(tel){
+function ValidaTelefone(telefone){
     exp = /\(\d{2}\)\ \d{4}\-\d{4}/
-    if(!exp.test(tel.value))
+    if(!exp.test(telefone.value))
             alert('Numero de Telefone Invalido!');
 }
 
