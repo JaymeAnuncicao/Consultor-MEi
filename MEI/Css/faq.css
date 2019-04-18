@@ -7,7 +7,6 @@ ul{height: 12vh;}
 .efect{background-color: rgb(4,30,65);}
 .efect:hover{background-color: rgb(1, 130, 202) !important;background-size: 100px;-webkit-transition: background-color .5s ease-out;-moz-transition: background-color .5s ease-out;-o-transition: background-color .5s ease-out;transition: background-color .5s ease-out;}
 /* --------------------------------NAVBAR:FIM------------------------- */
-
 .respon{display: none;}
 .acorde{display: block;}
 /* .common{margin-left: 30vw;margin-top: 50vh;} */
@@ -50,5 +49,5 @@ table, th, td {
 /*  */
 .flyiner{border-bottom: 1px solid #041e41;}
 .flyiner:hover{background-color: rgba(1, 130, 202,0.1);}
-.accordion{background-color: white;}
+.accordion{background-color: white;width: 100%;}
 .btn-link:hover{text-decoration: none;}

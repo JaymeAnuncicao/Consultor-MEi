@@ -19,10 +19,11 @@ $(window).scroll(function(){
 	// SCROLLSPY--NOSSA EMPRESA
 	if(scroll+( $('nav').innerHeight()) > $("#anchorempresa").offset().top && scroll < $("#anchorfunction").offset().top-( $('nav').innerHeight())){
 		$("#ourenterprise").css("background-color", "#0182ca");
+		var element = document.getElementById("nossas");
+  		element.classList.add("fadeInLeft");
 	}else{
 		$("#ourenterprise").css("background-color", "#041e41");
-		var element = document.getElementById("nossas");
-  		element.classList.add("animated");
+		
 	}
 	// SCROLLSPY--FUNCIONALIDADES
 	if(scroll+( $('nav').innerHeight()) > $("#anchorfunction").offset().top && scroll < $("#anchorplanos").offset().top-( $('nav').innerHeight())){
@@ -55,6 +56,27 @@ $(window).scroll(function(){
 $(window).scroll(function(){
 	$("#navLogo").css("opacity", 0 + $(window).scrollTop() / 200);
 });
+
+
+const target = document.querySelectorAll ('[data-anime]');
+const animationClass = 'animaty';
+
+function animeScroll(){
+	const windowTop = window.pageYOffset;
+	target.forEach(function(element){
+		if( (windowTop)  > element.offsetTop){
+			element.classList.add(animationClass);
+		}
+
+		console.log(element.offsetTop);
+	})
+}
+window.addEventListener('scroll',function(){
+	animeScroll();
+	
+})
+
+
 
  //------- Owl Carusel  js --------//  
 

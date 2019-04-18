@@ -144,3 +144,24 @@ textarea {width: 30vw;height: 150px;padding: 12px 20px;box-sizing: border-box;bo
 /* -----------------------AREA DO ADMINISTRADOR--------------- */
 .adm-place{width: 22vw;height: 4vh;border: 1px solid gray;border-radius: 2px;}
 .adm-placy{width: 5vw;height: 4vh;border: 1px solid gray;border-radius: 2px;}
+/* --------------ANIMAÇÕES---------- */
+[data-anime]{
+  opacity: 0;
+  transition: 1.8s;
+}
+[data-anime="left"]{
+  transform: translate3d(-100%, 0, 0);
+}
+[data-anime="right"]{
+  transform: translate3d(100%, 0, 0);
+}
+[data-anime="bottom"]{
+  transform: translate3d(0, 100%, 0);
+}
+[data-anime="opacity"]{
+  opacity: 1;
+}
+[data-anime].animaty{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

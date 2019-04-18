@@ -171,11 +171,11 @@
     <section id="nossaempresa" class="container-fluid">
         <div class="row container-fluid justify-content-center alin" >
             <div class="col-md-4" >
-                <h2 class="texto mod-ez  fade fadeInLeft delay-2s" id="nossas">Objetivo do consultor MEi </h2>
-                <p class="texto ipsum mt-5 text-justify">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas dúvidas, orientar seus próximos passos, informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos MEI’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
+                <h2 class="texto mod-ez  fade  delay-2s " id="nossas" data-anime="left">Objetivo do consultor MEi </h2>
+                <p class="texto ipsum mt-5 text-justify " data-anime="bottom">Com um projeto inovador, o Consultor MEi, chega aos Micro empreendedores individuais (MEi) e aos Micro empresários (ME) com uma proposta ousada de responder as suas dúvidas, orientar seus próximos passos, informar as novidades de suas áreas de atuação, criar uma economia paralela voltada aos MEI’s e as ME’s(Cartão MEi) e para os que desejarem, poderão contratar o Serviços Web de Consultoria, pois o conhecimento vai fazer sua empresa chegar onde você quer.</p>
             </div>
             <div class="col-md-6 ">
-                <iframe class="iframe"   src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="iframe" data-anime="opacity"  src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -191,7 +191,7 @@
         <div class="row justify-content-center ">
         <!--------------------------BLOCO 1:INICIO------------------------------>
             <div class="col-md-4 text-right ">
-                <div class="row justify-content-end">   
+                <div class="row justify-content-end" data-anime="left">   
                     <div class="col-md-10 m-func">
                         <a href="funcionalidades.php"><h5 class="texto ajust">Fiscal/tributário</h5></a>
                         <hr noshade class="func">
@@ -199,20 +199,20 @@
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                <div class="col-md-10 m-func">
+                <div class="col-md-10 m-func" data-anime="left">
                         <a href="#"><h5 class="texto ajust">Pessoal/RH</h5></a>
                         <hr noshade class="func ">
                         <p class="ajust">Aqui no <strong>Consultor MEi</strong>, vamos descomplicar sua vida trabalhista e lhe ajudar a conseguir o melhor da sua equipe ou colaborador.</p>
                     </div>
                 </div>
-                <div class="row justify-content-end">
+                <div class="row justify-content-end" data-anime="left">
                 <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Jurídico </h5></a>
                         <hr noshade class="func">
                         <p class="ajust">E agora? Aqui no <strong>Consultor MEi</strong> você terá apoio para entender o que fazer e informações para fazer certo.</p>
                     </div>
                 </div>
-                <div class="row justify-content-end">
+                <div class="row justify-content-end" data-anime="left" >
                 <div class="col-md-10 m-func">
                         <a href="#"><h5 class="texto ajust">Treinamentos (link/produção)</h5></a>
                         <hr noshade class="func">
@@ -229,28 +229,28 @@
         <!--------------------------BLOCO 2:INICIO------------------------------>
             <div class="col-md-4 ">
                 <div class="row">
-                    <div class="col-md-10 m-func">
+                    <div class="col-md-10 m-func" data-anime="right">
                         <a href=""><h5 class="texto ajust">Financeiro</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Cartão de crédito a receber, Caixa, Conta bancária, contas a pagar e a receber, linha de crédito, taxas. Ufa. Nós do <strong>Consultor MEi</strong> , junto com você , vamos descomplicar.</p>
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-10 m-func">
+                <div class="col-md-10 m-func " data-anime="right">
                         <a href="#"><h5 class="texto ajust">Marketing/ Estratégia</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">A análise de mercado, a pesquisa e a ação vai ajudar o seu produto ou serviço ser conhecido, nós do <strong>Consultor MEi</strong> estamos aqui para orientar seu negócio para o caminho do sucesso.</p>
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-md-10 m-func">
+                <div class="col-md-10 m-func" data-anime="right">
                         <a href="#"><h5 class="texto ajust">Inovação e Criatividade</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Você quer inovar, criar ou melhorar algo em seu negócio, vem com a gente, nós do <strong>Consultor MEi</strong> vamos ajudar.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 m-func">
+                    <div class="col-md-10 m-func" data-anime="right">
                         <a href="#"><h5 class="texto ajust">Gestão e planejamento</h5></a>
                         <hr noshade class="func1">
                         <p class="ajust">Sem metas sua empresa não vai pra lugar nenhum, saiba como planejar e gerir melhor o seu negócio, nós do <strong>Consultor MEi</strong> ajudamos.</p>
@@ -648,22 +648,22 @@
         <div class="row justify-content-center aling-itens-center text-white ml-5">
             <div class="com-md-3"><img class="mt-5 mr-5" src="Media/img/logo_new.png"width="125" ></div>
             <div class="col-md-3 mt-2 box-foo1">
-                <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" download class="termos"><h6>Termo de uso</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Consultor MEi</h6></a></div>
-                <div class="row mt-3 "><a href="#" data-toggle="modal" data-target="#ModalCadastro" class="termos"><h6>Cadastre-se</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>CNPJ N. 11.063.128/0001-10</h6></a></div>
+                <div class="row mt-3 "><a href="Consultor_MEi_Termos_De_Uso.pdf" download class="termos hvr-grow"><h6>Termo de uso</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>Consultor MEi</h6></a></div>
+                <div class="row mt-3 "><a href="#" data-toggle="modal" data-target="#ModalCadastro" class="termos hvr-grow"><h6>Cadastre-se</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>Maximo´s Tecnologia Ltda</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>CNPJ N. 11.063.128/0001-10</h6></a></div>
             </div>
             <div class="col-md-3 mt-2 box-foo2">
-                <div class="row mt-3 "><a href="FAQ.php" class="termos" ><h6>FAQ</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Planos</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Novidades</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>Politica de privacidade</h6></a></div>
-                <div class="row mt-3 "><a href="#" class="termos"><h6>contato@consultormei.com.br</h6></a></div>
+                <div class="row mt-3 "><a href="FAQ.php" class="termos hvr-grow" ><h6>FAQ</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>Planos</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>Novidades</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>Politica de privacidade</h6></a></div>
+                <div class="row mt-3 "><a href="#" class="termos hvr-grow"><h6>contato@consultormei.com.br</h6></a></div>
             </div>
             <div class="col-md-3">
-                <div class="row  "><a href="#" class="termos"><h6>Rede socias</h6></a></div>
-                <div class="row"><a href="#" class="termos"><img src="Media/img/face-icon.png" alt="Facebook" width="35" id="face-icon"></a><a href="#"><img class="ml-4" src="Media/img/insta-icon.png" alt="Instagram" id="insta-icon" width="35"></a></div>
+                <div class="row  "><a href="#" class="termos hvr-grow"><h6>Rede socias</h6></a></div>
+                <div class="row"><a href="#" class="termos hvr-grow"><img src="Media/img/face-icon.png" alt="Facebook" width="35" id="face-icon"></a><a href="#" class="termos hvr-grow"><img class="ml-4" src="Media/img/insta-icon.png" alt="Instagram" id="insta-icon" width="35"></a></div>
             </div>
         </div>
         <div class="row justify-content-center creditos mt-5 text-white"><h6 class="mt-3">© Desenvolvido por Praxis - Empresa Jr.2019.Todos os direitos reservados</h6> </div>
@@ -685,6 +685,17 @@
                     </div>
                 </div>  
                 <form class="text-center primary-color-dark p-5 needs-validation" novalidate name="form1" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">                  
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-8">
+                            <input type="text" required name="nomeEmpresa" class="z-depth-1  mb-3 form-control texto" id="validationTooltip08" placeholder="Nome da Empresa">
+                            <div class="valid-feedback">
+                                Tudo certo!
+                            </div>
+                            <div class="invalid-feedback">
+                                Tudo Errado!
+                            </div>
+                        </div>
+                    </div>
                     <div class="form-row justify-content-center">
                         <div class="col-md-8">
                             <input type="text" required name="nomeResponsavel" class="z-depth-1  mb-3 form-control texto" id="validationTooltip06" placeholder="Nome do Responsavel">
